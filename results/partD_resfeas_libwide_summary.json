@@ -1,0 +1,298 @@
+{
+  "library": "CELLxGENE Discover (curation API v1)",
+  "n_collections_total": 397,
+  "n_collections_with_detail": 397,
+  "n_datasets_total": 2238,
+  "n_datasets_scanned_cells": 2238,
+  "cells_total": 292800864.0,
+  "cells_primary": 171799273.0,
+  "library_reused_cell_share": 0.41325558042069166,
+  "frac_primary_quantiles": {
+    "0.05": 0.0,
+    "0.25": 0.0,
+    "0.5": 1.0,
+    "0.75": 1.0,
+    "0.95": 1.0
+  },
+  "frac_primary_mean": 0.6179461572123364,
+  "n_datasets_fully_reused": 812,
+  "share_datasets_fully_reused": 0.36282394995531725,
+  "n_datasets_fully_primary": 1316,
+  "share_datasets_fully_primary": 0.5880250223413762,
+  "human_cells_total": 211152075.0,
+  "human_library_reused_cell_share": 0.3745364472501632,
+  "n_datasets_total_with_armclass": 2238,
+  "n_datasets_ctl_only": 1537,
+  "n_datasets_dis_only": 355,
+  "n_datasets_mixed_contrast": 346,
+  "share_datasets_mixed_contrast": 0.1546023235031278,
+  "median_frac_primary_mixed_ds": 0.06232883835407495,
+  "n_arm_contrast_collections": 15,
+  "n_mixed_contrast_collections": 130,
+  "n_any_contrast_collections": 140,
+  "share_contrast_collections_arm_separable": 0.10714285714285714,
+  "share_contrast_collections_not_arm_separable": 0.8928571428571429,
+  "median_frac_primary_contrast_bearing_ds": 0.06232883835407495,
+  "share_contrast_bearing_ds_fully_reused": 0.5,
+  "n_contrast_collections": 15,
+  "share_contrast_control_reuse_gt50": 0.06666666666666667,
+  "n_contrast_control_fully_reused": 1,
+  "share_contrast_control_fully_reused": 0.06666666666666667,
+  "median_contrast_control_reuse_frac": 0.0,
+  "median_contrast_case_reuse_frac": 0.0,
+  "n_contrast_asymmetric_ctrl_worse": 4,
+  "share_contrast_asymmetric_ctrl_worse": 0.26666666666666666,
+  "median_depth_ratio_ctrl_over_case": 0.8641431581210959,
+  "share_depth_ratio_outside_0.8_1.25": 0.7142857142857143,
+  "n_contrast_depth_computable": 14,
+  "median_depth_ratio_ctrl_same_study_over_case": 0.8641431581210959,
+  "n_contrast_depth_same_study_computable": 14,
+  "by_tissue_system": [
+    {
+      "tissue_system": "blood / immune",
+      "n_contrast_collections": 47,
+      "share_not_arm_separable": 0.9148936170212766,
+      "n_not_arm_separable": 43
+    },
+    {
+      "tissue_system": "brain / CNS",
+      "n_contrast_collections": 30,
+      "share_not_arm_separable": 0.9666666666666667,
+      "n_not_arm_separable": 29
+    },
+    {
+      "tissue_system": "lung / airway",
+      "n_contrast_collections": 22,
+      "share_not_arm_separable": 0.9090909090909091,
+      "n_not_arm_separable": 20
+    },
+    {
+      "tissue_system": "unmapped / other",
+      "n_contrast_collections": 22,
+      "share_not_arm_separable": 0.8636363636363636,
+      "n_not_arm_separable": 19
+    },
+    {
+      "tissue_system": "liver / biliary",
+      "n_contrast_collections": 15,
+      "share_not_arm_separable": 0.8,
+      "n_not_arm_separable": 12
+    },
+    {
+      "tissue_system": "gut / intestine",
+      "n_contrast_collections": 12,
+      "share_not_arm_separable": 1.0,
+      "n_not_arm_separable": 12
+    },
+    {
+      "tissue_system": "kidney / urinary",
+      "n_contrast_collections": 12,
+      "share_not_arm_separable": 0.6666666666666666,
+      "n_not_arm_separable": 8
+    },
+    {
+      "tissue_system": "heart / vascular",
+      "n_contrast_collections": 9,
+      "share_not_arm_separable": 0.8888888888888888,
+      "n_not_arm_separable": 8
+    },
+    {
+      "tissue_system": "reproductive",
+      "n_contrast_collections": 9,
+      "share_not_arm_separable": 0.7777777777777778,
+      "n_not_arm_separable": 7
+    },
+    {
+      "tissue_system": "bone / joint",
+      "n_contrast_collections": 7,
+      "share_not_arm_separable": 0.7142857142857143,
+      "n_not_arm_separable": 5
+    },
+    {
+      "tissue_system": "skin",
+      "n_contrast_collections": 7,
+      "share_not_arm_separable": 0.8571428571428571,
+      "n_not_arm_separable": 6
+    },
+    {
+      "tissue_system": "muscle / adipose",
+      "n_contrast_collections": 5,
+      "share_not_arm_separable": 0.8,
+      "n_not_arm_separable": 4
+    },
+    {
+      "tissue_system": "pancreas",
+      "n_contrast_collections": 5,
+      "share_not_arm_separable": 1.0,
+      "n_not_arm_separable": 5
+    }
+  ],
+  "top_contaminated_collections": [
+    {
+      "collection_name": "Single cell derived mRNA signals across human kidney tumors",
+      "tissue_systems": "kidney / urinary",
+      "diseases_union": "Wilms tumor;normal",
+      "n_control_ds": 1,
+      "n_disease_ds": 1,
+      "control_cells": 27197,
+      "control_reuse_frac": 1.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Spatial proteogenomics reveals distinct and evolutionarily conserved hepatic macrophage niches",
+      "tissue_systems": "liver / biliary",
+      "diseases_union": "metabolic dysfunction-associated steatotic liver disease;normal",
+      "n_control_ds": 17,
+      "n_disease_ds": 3,
+      "control_cells": 394797,
+      "control_reuse_frac": 0.43639389357061986,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "High Resolution Slide-seqV2 Spatial Transcriptomics Enables Discovery of Disease-Specific Cell Neighborhoods and Pathways",
+      "tissue_systems": "brain / CNS;kidney / urinary",
+      "diseases_union": "autosomal dominant polycystic kidney disease;diabetic kidney disease;normal",
+      "n_control_ds": 79,
+      "n_disease_ds": 50,
+      "control_cells": 2483607,
+      "control_reuse_frac": 0.2726904860551609,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Single-cell and spatial transcriptomics characterisation of the immunological landscape in the healthy and PSC human liver",
+      "tissue_systems": "liver / biliary",
+      "diseases_union": "normal;primary biliary cholangitis;primary sclerosing cholangitis",
+      "n_control_ds": 12,
+      "n_disease_ds": 4,
+      "control_cells": 127510,
+      "control_reuse_frac": 0.11123833424829425,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Blood and immune development in human fetal bone marrow and Down syndrome",
+      "tissue_systems": "blood / immune;bone / joint;liver / biliary",
+      "diseases_union": "Down syndrome;normal",
+      "n_control_ds": 3,
+      "n_disease_ds": 1,
+      "control_cells": 140204,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Multi-omic profiling reveals age-related immune dynamics in healthy adults",
+      "tissue_systems": "blood / immune",
+      "diseases_union": "cytomegalovirus infection;normal",
+      "n_control_ds": 4,
+      "n_disease_ds": 4,
+      "control_cells": 7430381,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Spatial Transcriptomics Reveal Pitfalls and Opportunities for the Detection of Rare High-Plasticity Breast Cancer Subtypes",
+      "tissue_systems": "reproductive",
+      "diseases_union": "normal;triple-negative breast carcinoma",
+      "n_control_ds": 4,
+      "n_disease_ds": 11,
+      "control_cells": 19968,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Spatial multi-omic map of human myocardial infarction",
+      "tissue_systems": "heart / vascular",
+      "diseases_union": "myocardial infarction;normal",
+      "n_control_ds": 4,
+      "n_disease_ds": 25,
+      "control_cells": 19968,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Spatially mapping T cell receptors and transcriptomes",
+      "tissue_systems": "blood / immune;kidney / urinary;lung / airway;mouth / oropharynx",
+      "diseases_union": "metastatic melanoma;normal;renal cell carcinoma",
+      "n_control_ds": 3,
+      "n_disease_ds": 16,
+      "control_cells": 64454,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Unraveling the spatial landscape of Dystrophinopathies: a transcriptomic approach to Becker and Duchenne muscular dystrophies",
+      "tissue_systems": "muscle / adipose;unmapped / other",
+      "diseases_union": "DMD-related muscular dystrophy;normal",
+      "n_control_ds": 4,
+      "n_disease_ds": 8,
+      "control_cells": 19968,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Single-cell analyses of renal cell cancers reveal insights into tumor microenvironment, cell of origin, and therapy response",
+      "tissue_systems": "kidney / urinary",
+      "diseases_union": "chromophobe renal cell carcinoma;clear cell renal carcinoma;normal",
+      "n_control_ds": 1,
+      "n_disease_ds": 2,
+      "control_cells": 6044,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Single-cell proteo-genomic reference maps of the hematopoietic system enable the purification and massive profiling of precisely defined cell states",
+      "tissue_systems": "blood / immune;bone / joint",
+      "diseases_union": "acute myeloid leukemia;acute promyelocytic leukemia;normal",
+      "n_control_ds": 3,
+      "n_disease_ds": 1,
+      "control_cells": 77724,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Multi-scale spatial mapping of cell populations across anatomical sites in healthy human skin and basal cell carcinoma",
+      "tissue_systems": "reproductive;skin;unmapped / other",
+      "diseases_union": "basal cell carcinoma;normal",
+      "n_control_ds": 22,
+      "n_disease_ds": 8,
+      "control_cells": 109824,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "HTAN MSK - Transcriptional connectivity of regulatory T cells in the tumor microenvironment informs novel combination cancer therapy strategies",
+      "tissue_systems": "lung / airway",
+      "diseases_union": "lung adenocarcinoma;normal",
+      "n_control_ds": 8,
+      "n_disease_ds": 1,
+      "control_cells": 39936,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    },
+    {
+      "collection_name": "Single cell and spatial transcriptomics in Sjögren’s Disease-affected Human Salivary Glands",
+      "tissue_systems": "unmapped / other",
+      "diseases_union": "Sjogren syndrome;immune system disorder;normal",
+      "n_control_ds": 10,
+      "n_disease_ds": 10,
+      "control_cells": 49920,
+      "control_reuse_frac": 0.0,
+      "case_reuse_frac": 0.0
+    }
+  ],
+  "metric_definitions": {
+    "frac_primary": "primary_cell_count / cell_count（该数据集有多少细胞是本研究原产）",
+    "library_reused_cell_share": "全库 1 - Σprimary/Σcells，即非原产（复用）细胞占比",
+    "control_reuse_frac": "集合对照臂细胞中非本数据集原产的占比（对照组标签 = normal/healthy/control 等）",
+    "case_reuse_frac": "同一集合病例臂的对应比例（作为对照，避免把 atlas 聚合误判成对照污染）",
+    "reuse_asymmetry": "control_reuse_frac - case_reuse_frac，>0 才说明对照比病例更依赖外来数据",
+    "depth_ratio": "加权 mean_genes_per_cell，对照臂 / 病例臂；仅用 frac_primary≈1 的数据集",
+    "arm_class": "数据集按疾病标签划分：ctl_only（仅对照标签）/ dis_only（仅疾病标签）/ mixed（同一数据集同时含对照与疾病标签）。mixed 的对比存在于数据集内部，臂无法在元数据层拆分，故整体单独计数、不并入病例臂。",
+    "has_arm_contrast": "集合同时有 ctl_only 与 dis_only 数据集 → 对照臂/病例臂可分别审计",
+    "has_mixed_contrast": "集合含 mixed 数据集（有对比但臂不可分）",
+    "n_any_contrast_collections": "has_arm_contrast 或 has_mixed_contrast 的集合总数",
+    "share_contrast_collections_not_arm_separable": "含对比集合中，臂无法在元数据层分开的比例",
+    "median_frac_primary_contrast_bearing_ds": "携带病例-对照对比的数据集（mixed）的 frac_primary 中位",
+    "share_contrast_bearing_ds_fully_reused": "mixed 数据集中 frac_primary = 0（全部复用）的比例"
+  },
+  "caveat": "is_primary_data=False 本身不构成错误，atlas 型集合合法地聚合外部数据；本审计的结论落在**不对称性**（对照臂比病例臂更依赖外来细胞）与**对照臂完全复用**的比例上，而非复用率的绝对值。mean_genes_per_cell 为数据集级均值，仅作深度代理。★ 本审计最重要的局限是审计可行性本身被数据质量筛选：全库 140 个含对比集合里只有 10.7% 的臂可在元数据层分开，而在这 15 个可审计集合中对照臂几乎都是本研究原产——即「可审计」的子集恰好是「对照干净」的子集，对 89.3% 的集合我们无法判断，而不是判断为干净。"
+}

@@ -1,0 +1,23 @@
+{
+  "GSE19738": {
+    "major depressive disorder (MDD) || None": 66,
+    "healthy || None": 66
+  },
+  "GSE80655": {
+    "Major Depression || nAcc": 22,
+    "Control || nAcc": 22,
+    "Major Depression || DLPFC": 23,
+    "Schizophrenia || AnCg": 24,
+    "Schizophrenia || DLPFC": 24,
+    "Control || DLPFC": 24,
+    "Control || AnCg": 24,
+    "Bipolar Disorder || nAcc": 24,
+    "Major Depression || AnCg": 24,
+    "Schizophrenia || nAcc": 23,
+    "Bipolar Disorder || DLPFC": 23,
+    "Bipolar Disorder || AnCg": 24
+  },
+  "GSE53987": {
+    "None || None": 205
+  }
+}

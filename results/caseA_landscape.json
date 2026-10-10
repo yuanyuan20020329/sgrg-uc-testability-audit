@@ -1,0 +1,76 @@
+{
+  "query": "hepatocellular carcinoma",
+  "n_datasets_total": 400,
+  "n_human": 327,
+  "annot_dist": {
+    "批次伪影": 151,
+    "信息不足": 58,
+    "已校正": 38,
+    "单批次": 53,
+    "无问题": 27
+  },
+  "n_problem_or_unjudgeable": 209,
+  "share_problem_or_unjudgeable": 0.6391,
+  "n_batchconfound_disease": 41,
+  "confound_word_freq_top15": {
+    "disease": 25,
+    "><br": 12,
+    "diseasestate": 9,
+    "cell line": 8,
+    "genotype": 8,
+    "treatment": 8,
+    "cell type": 3,
+    "disease staging": 3,
+    "disease<br": 2,
+    "environmental history": 2,
+    "diseasestate<br": 2,
+    "disease_1": 1,
+    "disease_2": 1,
+    "individual<br": 1,
+    "celltype": 1
+  },
+  "n_with_confound_factors_parsed": 72,
+  "annot_map": {
+    "BATCH_EFFECT_FAILURE": [
+      "batch_artifact",
+      "批次伪影"
+    ],
+    "PROBLEMATIC_BATCH_INFO_FAILURE": [
+      "batch_artifact",
+      "批次伪影"
+    ],
+    "BATCH_EFFECT_UNDETERMINED_FAILURE": [
+      "batch_artifact",
+      "批次伪影"
+    ],
+    "SINGLETON_BATCHES_FAILURE": [
+      "batch_artifact",
+      "批次伪影"
+    ],
+    "UNINFORMATIVE_HEADERS_FAILURE": [
+      "insufficient",
+      "信息不足"
+    ],
+    "NO_BATCH_INFO": [
+      "insufficient",
+      "信息不足"
+    ],
+    "BATCH_CORRECTED_SUCCESS": [
+      "corrected",
+      "已校正"
+    ],
+    "NO_BATCH_EFFECT_SUCCESS": [
+      "clean",
+      "无问题"
+    ],
+    "SINGLE_BATCH_SUCCESS": [
+      "single_batch",
+      "单批次"
+    ]
+  },
+  "source": "Gemma REST /datasets 列表条目（list endpoint 自带策展字段）",
+  "fixes_applied": [
+    "batchConfound 不截断（关键信息在句末 'Factor(s) confounded were: ...'）",
+    "geeq 取嵌套字典的 publicQualityScore（非扁平键）"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+ "train_pooled_AUC": 0.6432410086812732,
+ "val_GSE49036_AUC": 0.625,
+ "single_gene_AUC": {
+  "POLR2K": {
+   "train": 0.413393964448119,
+   "val": 0.3666666666666667,
+   "paper_train": 0.742
+  },
+  "TIMM8B": {
+   "train": 0.38218272013228605,
+   "val": 0.35,
+   "paper_train": 0.777
+  }
+ },
+ "refit_coef": {
+  "POLR2K": -0.062286927835375254,
+  "TIMM8B": -0.08088772616544165
+ },
+ "refit_train_AUC": 0.6362133112856553,
+ "refit_val_AUC": 0.6166666666666667,
+ "per_dataset_AUC": {
+  "GSE7621": 0.48611111111111116,
+  "GSE20164": 0.7000000000000001,
+  "GSE20163": 0.7222222222222223,
+  "GSE8397": 0.7164750957854407,
+  "GSE49036": 0.625
+ },
+ "rho_score_globalmean": -0.6913170215784654,
+ "rho_score_globalmean_within_dataset": -0.1644567979259909,
+ "global_mean_AUC_train": 0.4427449359239355,
+ "global_mean_AUC_val": 0.49999999999999994,
+ "L4": {
+  "panel_insample_AUC": 0.6362133112856553,
+  "rand_median": 0.6010748243075651,
+  "rand_q95": 0.7361513021909877,
+  "rand_max": 0.8573790822653988,
+  "emp_p": 0.28542914171656686,
+  "n_rand": 500
+ },
+ "L5": {
+  "train_n": 100,
+  "train_pd": 59,
+  "val_n": 23,
+  "val_pd": 15,
+  "panel_size": 2,
+  "gain_train_to_val": 0.018241008681273208
+ },
+ "sc_arm_confound": {
+  "chi2": 11.313131313131313,
+  "p": 0.0034944976184341807,
+  "cramers_v": 0.5945883900105632,
+  "ctl_from_casefree_datasets": 0.7777777777777778
+ },
+ "replication": {
+  "train_pooled": 0.6432410086812732,
+  "val": 0.625
+ }
+}

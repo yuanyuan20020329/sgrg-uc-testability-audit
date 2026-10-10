@@ -1,0 +1,11 @@
+# R dependencies for the colocalisation step (Part B / Part C).
+# R version used: R 4.6.0 (Windows x86-64)
+#
+# Install with:
+#   install.packages(c("data.table", "coloc", "susieR"))
+#
+# Versions pinned to the environment in which partB_ogfod1_coloc_susie.R
+# and the Part C LD-audit tables were produced.
+data.table  == 1.18.6.1
+coloc       == 5.2.3
+susieR      == 0.14.2

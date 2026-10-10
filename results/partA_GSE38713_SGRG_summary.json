@@ -1,0 +1,173 @@
+{
+  "dataset": "Gemma:5873 / GSE38713",
+  "tissue": "human colonic mucosal biopsy",
+  "platform": "Affymetrix HG-U133 Plus 2.0",
+  "sgrg_source": "GO:0010494 U GO:0035061 (Homo sapiens), HGNC-validated",
+  "sgrg_total": 104,
+  "sgrg_measured": 97,
+  "sgrg_not_measured": 7,
+  "sgrg_not_measured_symbols": [
+    "ENDOV",
+    "L1RE1",
+    "NANOS3",
+    "PABPC1L2A",
+    "PABPC4L",
+    "PABPC5",
+    "RBPMS2"
+  ],
+  "group_counts": {
+    "Control": 13,
+    "UC_remission": 8,
+    "UC_active_inflamed": 15,
+    "UC_active_noninflamed": 7
+  },
+  "contrast_main": "UC_active_inflamed (n=15) vs Control (n=13)",
+  "contrast_secondary": "all-UC (n=30) vs Control (n=13)",
+  "method": "Welch t-test on log2 expression; BH-FDR within SGRG panel",
+  "main_nominal_p05": 53,
+  "main_FDR05": 44,
+  "main_up": 24,
+  "main_down": 20,
+  "top20": [
+    {
+      "gene": "RBPMS",
+      "log2FC": 1.767,
+      "p": 8.72e-12,
+      "FDR": 8.458e-10,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "VCP",
+      "log2FC": 0.64,
+      "p": 1.89e-09,
+      "FDR": 9.166e-08,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "EIF4A1",
+      "log2FC": 0.533,
+      "p": 4.15e-08,
+      "FDR": 1.342e-06,
+      "evidence": "IEA"
+    },
+    {
+      "gene": "DAZAP2",
+      "log2FC": -0.514,
+      "p": 5.618e-08,
+      "FDR": 1.362e-06,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "HECA",
+      "log2FC": -0.491,
+      "p": 1.921e-06,
+      "FDR": 3.727e-05,
+      "evidence": "IDA"
+    },
+    {
+      "gene": "MCRIP2",
+      "log2FC": -0.751,
+      "p": 2.44e-06,
+      "FDR": 3.945e-05,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "RNF135",
+      "log2FC": -0.554,
+      "p": 3.279e-06,
+      "FDR": 4.544e-05,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "EIF2S1",
+      "log2FC": 0.426,
+      "p": 6.043e-06,
+      "FDR": 7.327e-05,
+      "evidence": "IEA,ISS"
+    },
+    {
+      "gene": "KPNB1",
+      "log2FC": 0.313,
+      "p": 7.632e-06,
+      "FDR": 8.225e-05,
+      "evidence": "IEA,ISS"
+    },
+    {
+      "gene": "PUM2",
+      "log2FC": -0.374,
+      "p": 1.231e-05,
+      "FDR": 0.0001098,
+      "evidence": "IDA,IEA,ISS"
+    },
+    {
+      "gene": "YTHDF1",
+      "log2FC": 0.277,
+      "p": 1.318e-05,
+      "FDR": 0.0001098,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "ATXN2",
+      "log2FC": -0.35,
+      "p": 1.358e-05,
+      "FDR": 0.0001098,
+      "evidence": "IBA,IDA"
+    },
+    {
+      "gene": "MBNL1",
+      "log2FC": -0.524,
+      "p": 1.604e-05,
+      "FDR": 0.0001197,
+      "evidence": "IDA"
+    },
+    {
+      "gene": "EIF3B",
+      "log2FC": 0.364,
+      "p": 2.425e-05,
+      "FDR": 0.000168,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "QKI",
+      "log2FC": 0.686,
+      "p": 2.741e-05,
+      "FDR": 0.0001772,
+      "evidence": "IEA"
+    },
+    {
+      "gene": "ZNFX1",
+      "log2FC": 0.616,
+      "p": 4.034e-05,
+      "FDR": 0.0002446,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "LSM14A",
+      "log2FC": -0.188,
+      "p": 7.526e-05,
+      "FDR": 0.0004294,
+      "evidence": "IDA,IEA"
+    },
+    {
+      "gene": "GRB7",
+      "log2FC": -0.556,
+      "p": 9.283e-05,
+      "FDR": 0.0005002,
+      "evidence": "IEA,ISS"
+    },
+    {
+      "gene": "FMR1",
+      "log2FC": -0.495,
+      "p": 0.0001455,
+      "FDR": 0.0007366,
+      "evidence": "IBA,IDA,IEA"
+    },
+    {
+      "gene": "CSDE1",
+      "log2FC": -0.223,
+      "p": 0.0001519,
+      "FDR": 0.0007366,
+      "evidence": "IEA"
+    }
+  ]
+}

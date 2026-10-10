@@ -1,0 +1,55 @@
+{
+  "GSE38713": {
+    "dataset": "GSE38713",
+    "n_genes": 37958,
+    "n_samples": 43,
+    "n_uc": 30,
+    "n_ctrl": 13,
+    "pc1_var": 0.1783,
+    "pc_auc_vs_disease": [
+      0.9179,
+      0.5154,
+      0.6359,
+      0.7179,
+      0.5231
+    ],
+    "pc1_order_spearman": 0.3214,
+    "batch_cramers_v": 0.7118,
+    "batch_chi2": 21.78,
+    "batch_dof": 6,
+    "batch_chi2_p": 0.0013250147029886079,
+    "batch_cats": {
+      "Batch_01_7/24/07": {
+        "UC": 3,
+        "Control": 0
+      },
+      "Batch_02_9/13/07": {
+        "UC": 4,
+        "Control": 0
+      },
+      "Batch_03_10/8/08": {
+        "UC": 4,
+        "Control": 2
+      },
+      "Batch_04_10/10/08": {
+        "UC": 9,
+        "Control": 0
+      },
+      "Batch_05_10/22/08": {
+        "UC": 1,
+        "Control": 2
+      },
+      "Batch_06_2/20/09": {
+        "UC": 1,
+        "Control": 7
+      },
+      "Batch_07_5/13/09": {
+        "UC": 8,
+        "Control": 2
+      }
+    },
+    "batch_only_auc": 0.7718,
+    "batch_fig": "fig_batch_confound_GSE38713.png",
+    "global_fig": "fig_global_structure_GSE38713.png"
+  }
+}

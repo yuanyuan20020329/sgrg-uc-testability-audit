@@ -1,0 +1,8 @@
+# Normalise line endings: text files are stored with LF in the repository.
+* text=auto eol=lf
+
+# Binary-ish payloads that must never be re-encoded.
+*.png  binary
+*.pdf  binary
+*.h5ad binary
+*.pkl  binary

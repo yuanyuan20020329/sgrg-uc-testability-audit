@@ -1,0 +1,23 @@
+{
+  "dataset": "GSE38713",
+  "n_samples": 43,
+  "n_uc": 30,
+  "n_ctrl": 13,
+  "n_sgrg": 97,
+  "gene_pool": 18630,
+  "raw": {
+    "tag": "raw",
+    "auc_sgrg": 0.9359,
+    "rand_median": 0.909,
+    "rand_p95": 0.9513,
+    "percentile": 85.0
+  },
+  "batch_centered": {
+    "tag": "batch_centered",
+    "auc_sgrg": 0.5795,
+    "rand_median": 0.5051,
+    "rand_p95": 0.5615,
+    "percentile": 98.5
+  },
+  "note": "batch centering 在疾病-批次混杂时会一并移除被混杂的疾病信号，故为下界"
+}

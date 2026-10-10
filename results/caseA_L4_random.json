@@ -1,0 +1,32 @@
+{
+ "dataset": "GSE36376 (Gemma 7673)",
+ "n": 433,
+ "n_tumor": 240,
+ "n_normal": 193,
+ "n_genes": 62,
+ "panel": {
+  "n_de": 44,
+  "auc_insample": 0.9993955094991365,
+  "auc_cv7": 0.9898125917033481
+ },
+ "all_genes": {
+  "auc_insample": 0.999740932642487,
+  "auc_cv7": 0.9866457694188787
+ },
+ "random": {
+  "n_sets": 500,
+  "k": 44,
+  "in_auc_median": 0.9977871329879102,
+  "in_auc_q95": 0.9988341968911917,
+  "in_auc_max": 0.9993091537132988,
+  "cv_auc_median": 0.9905434395980615,
+  "cv_auc_q95": 0.993887666177582,
+  "cv_auc_max": 0.9949935529767463,
+  "de_median": 28.0,
+  "frac_random_in_auc_ge_panel": 0.0,
+  "frac_random_in_auc_ge_099": 1.0,
+  "frac_random_in_auc_ge_095": 1.0,
+  "emp_p_panel_insample": 0.001996007984031936,
+  "emp_p_panel_cv": 0.6107784431137725
+ }
+}

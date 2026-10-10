@@ -1,0 +1,17 @@
+{
+  "GSE38713": {
+    "dataset": "GSE38713",
+    "n_samples": 43,
+    "n_uc": 30,
+    "n_ctrl": 13,
+    "n_features": 97,
+    "gene_pool": 18630,
+    "auc_sgrg": 0.9359,
+    "rand_median": 0.9103,
+    "rand_p95": 0.9487,
+    "rand_max": 0.9692,
+    "n_random": 200,
+    "sgrg_percentile": 84.5,
+    "model": "L2 C=0.01"
+  }
+}

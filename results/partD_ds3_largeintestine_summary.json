@@ -1,0 +1,112 @@
+{
+  "tag": "ds3_largeintestine",
+  "label": "Oliver2024 Nature 大肠",
+  "path": "data/raw/sc/CxG_Oliver2024_LargeIntestine.h5ad",
+  "n_cells_used": 87621,
+  "n_genes": 35461,
+  "tissue_keep": "colon,mucosa,rectum,caecum,appendix,intestine",
+  "disease_keep": "ulcerative colitis,Crohn disease,normal,inflammatory bowel disease",
+  "min_cells": 20,
+  "min_donors": 3,
+  "cell_types_tested": [
+    "colonocyte",
+    "intestine goblet cell",
+    "transit amplifying cell"
+  ],
+  "n_donors_by_disease": {
+    "inflammatory bowel disease": 7,
+    "normal": 44,
+    "ulcerative colitis": 8
+  },
+  "baseline_by_celltype": [
+    {
+      "cell_type": "enteroendocrine cell",
+      "mean": 0.1827471405,
+      "median": 0.1797564626,
+      "count": 483
+    },
+    {
+      "cell_type": "intestinal crypt stem cell",
+      "mean": 0.1712853014,
+      "median": 0.1765084714,
+      "count": 2426
+    },
+    {
+      "cell_type": "transit amplifying cell",
+      "mean": 0.1642365009,
+      "median": 0.167688176,
+      "count": 11002
+    },
+    {
+      "cell_type": "intestine goblet cell",
+      "mean": 0.1318976283,
+      "median": 0.1293962747,
+      "count": 12520
+    },
+    {
+      "cell_type": "tuft cell of small intestine",
+      "mean": 0.1266644895,
+      "median": 0.1213054582,
+      "count": 1005
+    },
+    {
+      "cell_type": "BEST4+ enterocyte",
+      "mean": 0.1226405874,
+      "median": 0.1199538559,
+      "count": 8970
+    },
+    {
+      "cell_type": "colonocyte",
+      "mean": 0.1044130102,
+      "median": 0.0965614095,
+      "count": 51118
+    },
+    {
+      "cell_type": "enterocyte",
+      "mean": 0.099573046,
+      "median": 0.1060798988,
+      "count": 87
+    },
+    {
+      "cell_type": "paneth cell",
+      "mean": 0.0809613913,
+      "median": 0.0364803746,
+      "count": 10
+    }
+  ],
+  "composition": {
+    "inflammatory bowel disease": {
+      "BEST4+ enterocyte": 101,
+      "colonocyte": 485,
+      "enterocyte": 0,
+      "enteroendocrine cell": 5,
+      "intestinal crypt stem cell": 18,
+      "intestine goblet cell": 115,
+      "paneth cell": 2,
+      "transit amplifying cell": 173,
+      "tuft cell of small intestine": 36
+    },
+    "normal": {
+      "BEST4+ enterocyte": 8771,
+      "colonocyte": 47947,
+      "enterocyte": 87,
+      "enteroendocrine cell": 434,
+      "intestinal crypt stem cell": 2277,
+      "intestine goblet cell": 11382,
+      "paneth cell": 0,
+      "transit amplifying cell": 9802,
+      "tuft cell of small intestine": 948
+    },
+    "ulcerative colitis": {
+      "BEST4+ enterocyte": 98,
+      "colonocyte": 2686,
+      "enterocyte": 0,
+      "enteroendocrine cell": 44,
+      "intestinal crypt stem cell": 131,
+      "intestine goblet cell": 1023,
+      "paneth cell": 8,
+      "transit amplifying cell": 1027,
+      "tuft cell of small intestine": 21
+    }
+  }
+}

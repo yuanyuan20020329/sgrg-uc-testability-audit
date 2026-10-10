@@ -1,0 +1,28 @@
+# ---- primary data (never redistributed) ----
+data/
+*.h5ad
+*.tar
+*.tar.gz
+*.tgz
+
+# ---- heavy intermediate outputs (code + key tables only) ----
+results/*_cell_scores.tsv
+results/*_prov_pseudobulk.tsv
+results/*.pkl
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- R ----
+.Rhistory
+.RData
+.Rproj.user
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp

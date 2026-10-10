@@ -1,0 +1,13 @@
+# Python environment for the testability-audit analysis
+# Interpreter used: CPython 3.13.12 (Windows x86-64)
+#
+# Pins reflect the environment in which every shipped result table was produced.
+# Install with:  python -m pip install -r requirements_frozen.txt
+#
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+h5py==3.16.0
+anndata==0.13.4

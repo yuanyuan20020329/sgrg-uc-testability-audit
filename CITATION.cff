@@ -1,0 +1,52 @@
+# CITATION.cff — Citation File Format 1.2.0
+#
+# Remaining before release: the Zenodo DOI under `identifiers:` once it is
+# minted (GitHub owner and author ORCIDs are filled in).
+#
+cff-version: 1.2.0
+message: "If you use this code or these result tables, please cite the manuscript and the archived release."
+title: "A five-rung testability audit for public omics resources: code and key results"
+type: software
+version: "v1.0.0"
+date-released: "2026-10-10"
+license: MIT
+repository-code: "https://github.com/yuanyuan20020329/sgrg-uc-testability-audit"
+
+authors:
+  - family-names: "Yuan"
+    given-names: "Yike"
+    email: "yyk20020329@126.com"
+    orcid: "https://orcid.org/0009-0009-8391-4134"
+    affiliation: "Hubei University of Chinese Medicine, Wuhan, Hubei, China"
+  - family-names: "Chen"
+    given-names: "Hongci"
+    email: "chenhongci@hbhtcm.com"                      # corresponding author
+    orcid: "https://orcid.org/0009-0000-3335-8998"
+    affiliation: "Hubei Provincial Hospital of Traditional Chinese Medicine, Wuhan, Hubei, China"
+
+keywords:
+  - testability
+  - reproducibility
+  - data provenance
+  - batch confounding
+  - pseudoreplication
+  - single-cell genomics
+  - Mendelian randomisation
+  - ulcerative colitis
+  - stress granules
+
+abstract: >-
+  Analysis code and key result tables for an ordered five-rung audit of whether
+  public omics resources can support the claims made from them: rung 1 control
+  provenance, rung 2 batch-disease nesting, rung 2' instrument independence,
+  rung 3 technical-load confounding, rung 4 null-distribution calibration and
+  rung 5 the power floor. The ladder is applied to a stress-granule-related gene
+  set x ulcerative colitis claim and validated on two independent published
+  claims (ferroptosis x hepatocellular carcinoma; pyroptosis x Parkinson's
+  disease). No primary data are redistributed; accessions and retrieval scripts
+  are provided.
+
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+#     description: "Zenodo archival DOI"

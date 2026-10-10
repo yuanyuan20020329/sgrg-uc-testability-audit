@@ -1,0 +1,193 @@
+{
+ "n_human_datasets": 356,
+ "n_mixed": 100,
+ "n_dis_only": 6,
+ "n_ctl_only": 241,
+ "total_cells": 73559425,
+ "non_primary_cells": 28534639,
+ "share_non_primary": 0.3879,
+ "mixed_frac_primary_median": 0.0,
+ "mixed_frac_primary_mean": 0.28360799999999997,
+ "mixed_share_fully_reused": 0.68,
+ "mixed_cells": 36363033,
+ "mixed_nonprimary_cells": 10383858,
+ "n_compare_carrying": 100,
+ "arm_indistinguishable_share": 1.0,
+ "by_disease": {
+  "Alzheimer disease;Parkinson disease;normal": {
+   "cells": 4028275,
+   "primary": 4028275,
+   "frac_primary": 1.0
+  },
+  "Alzheimer disease;Pick disease;normal;progressive supranuclear palsy": {
+   "cells": 432555,
+   "primary": 432555,
+   "frac_primary": 1.0
+  },
+  "Alzheimer disease;cognitive disorder;normal": {
+   "cells": 65479,
+   "primary": 65479,
+   "frac_primary": 1.0
+  },
+  "Alzheimer disease;leukoencephalopathy, diffuse hereditary, with spheroids 1;normal": {
+   "cells": 109924,
+   "primary": 61747,
+   "frac_primary": 0.5617
+  },
+  "Alzheimer disease;normal": {
+   "cells": 1094027,
+   "primary": 643058,
+   "frac_primary": 0.5878
+  },
+  "Alzheimer disease;temporal lobe epilepsy": {
+   "cells": 16245,
+   "primary": 16245,
+   "frac_primary": 1.0
+  },
+  "COVID-19;breast cancer;cardiomyopathy;chronic obstructive pulmonary disease;heart disorder;influenza;myocardial infarction;small cell lung carcinoma;tongue cancer": {
+   "cells": 38217,
+   "primary": 38217,
+   "frac_primary": 1.0
+  },
+  "HER2 positive breast carcinoma;basal cell carcinoma;estrogen-receptor positive breast cancer;hepatocellular carcinoma;intrahepatic cholangiocarcinoma;melanoma;metastatic melanoma;nonpapillary renal cell carcinoma;squamous cell carcinoma;triple-negative breast carcinoma": {
+   "cells": 355941,
+   "primary": 343316,
+   "frac_primary": 0.9645
+  },
+  "Lewy body dementia;Parkinson disease;amyotrophic lateral sclerosis;argyrophilic grain disease;brain neoplasm;dementia;dementia || Alzheimer disease;dementia || Alzheimer disease || Lewy body dementia;dementia || Alzheimer disease || Parkinson disease;dementia || Alzheimer disease || amyotrophic lateral sclerosis;dementia || Alzheimer disease || brain neoplasm;dementia || Alzheimer disease || frontotemporal dementia;dementia || Alzheimer disease || normal pressure hydrocephalus;dementia || Alzheimer disease || schizophrenia;dementia || Alzheimer disease || schizophrenia || Lewy body dementia;dementia || Lewy body dementia;dementia || Parkinson disease;dementia || Parkinson disease || progressive supranuclear palsy;dementia || amyotrophic lateral sclerosis;dementia || argyrophilic grain disease;dementia || brain neoplasm;dementia || frontotemporal dementia;dementia || head injury;dementia || major depressive disorder || Alzheimer disease || Lewy body dementia;dementia || multiple sclerosis;dementia || normal pressure hydrocephalus;dementia || post-traumatic stress disorder;dementia || progressive supranuclear palsy;dementia || schizophrenia;dementia || schizophrenia || Parkinson disease;dementia || schizophrenia || head injury;dementia || tauopathy;dementia || vascular dementia;dementia || vascular dementia || Alzheimer disease;dementia || vascular dementia || Alzheimer disease || schizophrenia;dementia || vascular dementia || argyrophilic grain disease;dementia || vascular dementia || head injury;dementia || vascular dementia || schizophrenia;frontotemporal dementia;head injury;major depressive disorder || tauopathy;multiple sclerosis;normal;normal pressure hydrocephalus;progressive supranuclear palsy;schizophrenia;schizophrenia || brain neoplasm;tauopathy;vascular dementia;vascular dementia || Lewy body dementia;vascular dementia || progressive supranuclear palsy": {
+   "cells": 4140453,
+   "primary": 4140453,
+   "frac_primary": 1.0
+  },
+  "Lewy body dementia;Parkinson disease;normal": {
+   "cells": 387483,
+   "primary": 202810,
+   "frac_primary": 0.5234
+  },
+  "Parkinson disease;normal": {
+   "cells": 10898723,
+   "primary": 6598723,
+   "frac_primary": 0.6055
+  },
+  "acute kidney injury;chronic kidney disease;normal": {
+   "cells": 2171131,
+   "primary": 1388643,
+   "frac_primary": 0.6396
+  },
+  "acute myocardial infarction;congenital heart disease;heart failure;normal": {
+   "cells": 180956,
+   "primary": 180956,
+   "frac_primary": 1.0
+  },
+  "amyotrophic lateral sclerosis;amyotrophic lateral sclerosis 26 with or without frontotemporal dementia;normal": {
+   "cells": 281465,
+   "primary": 281465,
+   "frac_primary": 1.0
+  },
+  "amyotrophic lateral sclerosis;dementia;dementia || Alzheimer disease;dementia || Alzheimer disease || Lewy body dementia;dementia || Alzheimer disease || Parkinson disease;dementia || Alzheimer disease || Parkinson disease || Lewy body dementia;dementia || Alzheimer disease || diabetes mellitus;dementia || Alzheimer disease || diabetes mellitus || Parkinson disease || head injury;dementia || Parkinson disease;dementia || Parkinson disease || Lewy body dementia || head injury;dementia || diabetes mellitus || Parkinson disease;dementia || frontotemporal dementia;dementia || tauopathy;dementia || vascular dementia;dementia || vascular dementia || Alzheimer disease;dementia || vascular dementia || Alzheimer disease || Parkinson disease;dementia || vascular dementia || Alzheimer disease || diabetes mellitus;dementia || vascular dementia || diabetes mellitus;diabetes mellitus;diabetes mellitus || head injury;head injury;normal;tauopathy;vascular dementia;vascular dementia || diabetes mellitus;vascular dementia || diabetes mellitus || Parkinson disease": {
+   "cells": 693682,
+   "primary": 693682,
+   "frac_primary": 1.0
+  },
+  "amyotrophic lateral sclerosis;normal": {
+   "cells": 138294,
+   "primary": 138294,
+   "frac_primary": 1.0
+  },
+  "atherosclerosis;atherosclerosis || tardive dyskinesia || schizoaffective bipolar disorder;bipolar I disorder;bipolar I disorder || anorexia nervosa;bipolar I disorder || anorexia nervosa || obsessive-compulsive disorder;bipolar I disorder || atherosclerosis;bipolar I disorder || attention deficit-hyperactivity disorder;bipolar I disorder || brain neoplasm;bipolar I disorder || bulimia nervosa;bipolar I disorder || bulimia nervosa || obsessive-compulsive disorder;bipolar I disorder || obsessive-compulsive disorder;bipolar I disorder || post-traumatic stress disorder;bipolar I disorder || type 1 diabetes mellitus;bipolar I disorder || type 2 diabetes mellitus;bipolar II disorder;bipolar II disorder || type 1 diabetes mellitus;bipolar II disorder || type 2 diabetes mellitus;bipolar disorder;bipolar disorder || attention deficit-hyperactivity disorder;bipolar disorder || schizoaffective bipolar disorder;bipolar disorder || type 2 diabetes mellitus || schizoaffective bipolar disorder;diabetes mellitus || schizophrenia;epilepsy || schizophrenia;epilepsy || schizophrenia || tardive dyskinesia;major depressive disorder || schizophrenia || atherosclerosis;normal;schizoaffective depressive disorder;schizophrenia;schizophrenia || atherosclerosis;schizophrenia || tardive dyskinesia;schizophrenia || type 1 diabetes mellitus;schizophrenia || type 1 diabetes mellitus || atherosclerosis;schizophrenia || type 1 diabetes mellitus || tardive dyskinesia;schizophrenia || type 2 diabetes mellitus;schizophrenia || type 2 diabetes mellitus || tardive dyskinesia;type 1 diabetes mellitus;type 1 diabetes mellitus || atherosclerosis;type 1 diabetes mellitus || schizoaffective depressive disorder;type 2 diabetes mellitus;type 2 diabetes mellitus || atherosclerosis": {
+   "cells": 1486324,
+   "primary": 1486324,
+   "frac_primary": 1.0
+  },
+  "atherosclerosis;normal;type 1 diabetes mellitus;type 1 diabetes mellitus || atherosclerosis;type 2 diabetes mellitus;type 2 diabetes mellitus || atherosclerosis": {
+   "cells": 1332155,
+   "primary": 0,
+   "frac_primary": 0.0
+  },
+  "brain neoplasm;encephalomyelitis;epilepsy;hydrocephalus": {
+   "cells": 385,
+   "primary": 385,
+   "frac_primary": 1.0
+  },
+  "breast cancer": {
+   "cells": 394534,
+   "primary": 394534,
+   "frac_primary": 1.0
+  },
+  "chronic obstructive pulmonary disease;lung adenocarcinoma;non-small cell lung carcinoma;normal;squamous cell lung carcinoma": {
+   "cells": 2176268,
+   "primary": 923130,
+   "frac_primary": 0.4242
+  },
+  "complete trisomy 21;normal": {
+   "cells": 464678,
+   "primary": 248998,
+   "frac_primary": 0.5359
+  },
+  "dementia;normal": {
+   "cells": 5547624,
+   "primary": 2696708,
+   "frac_primary": 0.4861
+  },
+  "epilepsy": {
+   "cells": 129905,
+   "primary": 129905,
+   "frac_primary": 1.0
+  },
+  "essential tremor;normal": {
+   "cells": 1004112,
+   "primary": 1004112,
+   "frac_primary": 1.0
+  },
+  "frontotemporal dementia;normal": {
+   "cells": 179825,
+   "primary": 179825,
+   "frac_primary": 1.0
+  },
+  "glioblastoma": {
+   "cells": 1736548,
+   "primary": 1355096,
+   "frac_primary": 0.7803
+  },
+  "isolated focal cortical dysplasia type II": {
+   "cells": 61525,
+   "primary": 61525,
+   "frac_primary": 1.0
+  },
+  "lung adenocarcinoma;normal;small cell lung carcinoma": {
+   "cells": 362295,
+   "primary": 147137,
+   "frac_primary": 0.4061
+  },
+  "multiple sclerosis;normal": {
+   "cells": 17799,
+   "primary": 17799,
+   "frac_primary": 1.0
+  },
+  "normal": {
+   "cells": 27927905,
+   "primary": 12567558,
+   "frac_primary": 0.45
+  },
+  "normal;pilocytic astrocytoma": {
+   "cells": 35637,
+   "primary": 35637,
+   "frac_primary": 1.0
+  },
+  "normal;trisomy 18": {
+   "cells": 5064268,
+   "primary": 4062980,
+   "frac_primary": 0.8023
+  },
+  "normal;type 2 diabetes mellitus": {
+   "cells": 76923,
+   "primary": 57962,
+   "frac_primary": 0.7535
+  },
+  "pediatric high-grade glioma": {
+   "cells": 527865,
+   "primary": 401253,
+   "frac_primary": 0.7601
+  }
+ }
+}

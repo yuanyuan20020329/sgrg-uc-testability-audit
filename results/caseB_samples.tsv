@@ -1,0 +1,129 @@
+dataset	did	expr_key	gsm	label	platform
+GSE7621	549	Substantia nigra PD rep16	GSM184378	PD	GPL570
+GSE7621	549	Substantia nigra PD rep15	GSM184377	PD	GPL570
+GSE7621	549	Substantia nigra PD rep14	GSM184376	PD	GPL570
+GSE7621	549	Substantia nigra PD rep13	GSM184375	PD	GPL570
+GSE7621	549	Substantia nigra PD rep12	GSM184374	PD	GPL570
+GSE7621	549	Substantia nigra PD rep11	GSM184373	PD	GPL570
+GSE7621	549	Substantia nigra PD rep10	GSM184372	PD	GPL570
+GSE7621	549	Substantia nigra PD rep9	GSM184371	PD	GPL570
+GSE7621	549	Substantia nigra PD rep8	GSM184370	PD	GPL570
+GSE7621	549	Substantia nigra PD rep7	GSM184369	PD	GPL570
+GSE7621	549	Substantia nigra PD rep6	GSM184368	PD	GPL570
+GSE7621	549	Substantia nigra PD rep5	GSM184367	PD	GPL570
+GSE7621	549	Substantia nigra PD rep4	GSM184366	PD	GPL570
+GSE7621	549	Substantia nigra PD rep3	GSM184365	PD	GPL570
+GSE7621	549	Substantia nigra PD rep2	GSM184364	PD	GPL570
+GSE7621	549	Substantia nigra PD rep1	GSM184363	PD	GPL570
+GSE7621	549	Substantia nigra normal rep9	GSM184362	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep8	GSM184361	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep7	GSM184360	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep6	GSM184359	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep5	GSM184358	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep4	GSM184357	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep3	GSM184356	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep2	GSM184355	CTL	GPL570
+GSE7621	549	Substantia nigra normal rep1	GSM184354	CTL	GPL570
+GSE20164	3887	HS911	GSM506023	CTL	GPL96
+GSE20164	3887	HS872	GSM506022	PD	GPL96
+GSE20164	3887	HS81A	GSM506021	PD	GPL96
+GSE20164	3887	HS673	GSM506020	CTL	GPL96
+GSE20164	3887	HS543B	GSM506019	CTL	GPL96
+GSE20164	3887	HS258	GSM506018	PD	GPL96
+GSE20164	3887	HS214	GSM506017	PD	GPL96
+GSE20164	3887	HS185	GSM506016	PD	GPL96
+GSE20164	3887	HS154	GSM506015	PD	GPL96
+GSE20164	3887	HS1037	GSM506014	CTL	GPL96
+GSE20164	3887	HS1035	GSM506013	CTL	GPL96
+GSE20163	3886	14_U133A	GSM506012	PD	GPL96
+GSE20163	3886	5164_U133A	GSM506011	PD	GPL96
+GSE20163	3886	4831_U133A	GSM506010	PD	GPL96
+GSE20163	3886	3059_U133A	GSM506009	PD	GPL96
+GSE20163	3886	290_U133A	GSM506008	CTL	GPL96
+GSE20163	3886	287_U133A	GSM506007	CTL	GPL96
+GSE20163	3886	2729_U133A	GSM506006	PD	GPL96
+GSE20163	3886	2721_U133A	GSM506005	PD	GPL96
+GSE20163	3886	2525_U133A	GSM506004	PD	GPL96
+GSE20163	3886	252_U133A	GSM506003	CTL	GPL96
+GSE20163	3886	2515_U133A	GSM506002	PD	GPL96
+GSE20163	3886	238_U133A	GSM506001	CTL	GPL96
+GSE20163	3886	223_U133A	GSM506000	CTL	GPL96
+GSE20163	3886	222_U133A	GSM505999	CTL	GPL96
+GSE20163	3886	204_U133A	GSM505998	CTL	GPL96
+GSE20163	3886	178_U133A	GSM505997	CTL	GPL96
+GSE20163	3886	114_U133A	GSM505996	CTL	GPL96
+GSE8397	873	Medial substantia nigra control case PDC1 - A chip	GSM208668	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 36 -A chip	GSM208667	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 34 - A chip	GSM208666	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 32 - A chip	GSM208665	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 29 - A chip	GSM208664	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 28 - A chip	GSM208663	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 22 - A chip	GSM208662	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 21 - A chip	GSM208661	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 20 - A chip	GSM208660	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 16 - A chip	GSM208659	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 10 - A chip	GSM208658	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 09 - A chip	GSM208657	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 07 - A chip	GSM208656	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 04 - A chip	GSM208655	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 02 - A chip	GSM208654	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra Parkinson's disease case 01 - A chip	GSM208653	PD	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra disease-control case MS155 - A chip	GSM208652	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra control case 9 - A chip	GSM208651	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra control case 8 - A chip	GSM208650	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra control case 4 - A chip	GSM208649	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra control case 3 - A chip	GSM208648	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra control case 2  - A chip	GSM208647	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Medial substantia nigra control case 10 - A chip	GSM208646	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra control case PDC1 - A chip	GSM208645	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 29 - A chip	GSM208644	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 28 - A chip	GSM208643	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 16 - A chip	GSM208642	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 10 - A chip	GSM208641	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 09 - A chip	GSM208640	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 07 - A chip	GSM208639	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 04 - A chip	GSM208638	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 02 - A chip	GSM208637	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra Parkinson's disease case 01 - A chip	GSM208636	PD	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra disease-control case MS155 - A chip	GSM208635	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra control case 9 - A chip	GSM208634	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra control case 8 - A chip	GSM208633	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra control case 4 - A chip	GSM208632	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra control case 2 - A chip	GSM208631	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Lateral substantia nigra control case 10 - A chip	GSM208630	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus Parkinson's disease case 36 - A chip	GSM208629	PD	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus Parkinson's disease case 34 - A chip	GSM208628	PD	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus Parkinson's disease case 29 - A chip	GSM208627	PD	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus Parkinson's disease case 04 - A chip	GSM208626	PD	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus Parkinson's disease case 01 - A chip	GSM208625	PD	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus control case 9 - A chip	GSM208624	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus control case 3 - A chip	GSM208623	CTL	HG-U133A/B/Plus_2
+GSE8397	873	Superior frontal gyrus control case 2 - A chip	GSM208622	CTL	HG-U133A/B/Plus_2
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_8SN	GSM1192718	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_7SN	GSM1192717	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_6SN	GSM1192716	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_5SN	GSM1192715	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_4SN	GSM1192714	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_3SN	GSM1192713	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_2SN	GSM1192712	PD	GPL570
+GSE49036	11617	Braak α-synuclein stages 5-6  BR56_1SN	GSM1192711	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_7SN	GSM1192710	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_6SN	GSM1192709	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_5SN	GSM1192708	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_4SN	GSM1192707	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_3SN	GSM1192706	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_2SN	GSM1192705	PD	GPL570
+GSE49036	11617	Braak α-synuclein 3-4 BR34_1SN	GSM1192704	PD	GPL570
+GSE49036	11617	Braak α-synuclein stage 1-2 BR12_5SN	GSM1192703	ILBD	GPL570
+GSE49036	11617	Braak α-synuclein stage 1-2 BR12_4SN	GSM1192702	ILBD	GPL570
+GSE49036	11617	Braak α-synuclein stage 1-2 BR12_3SN	GSM1192701	ILBD	GPL570
+GSE49036	11617	Braak α-synuclein stage 1-2 BR12_2SN	GSM1192700	ILBD	GPL570
+GSE49036	11617	Braak α-synuclein stage 1-2 BR12_1SN	GSM1192699	ILBD	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C8SN	GSM1192698	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C7SN	GSM1192697	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C6SN	GSM1192696	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C5SN	GSM1192695	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C4SN	GSM1192694	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C3SN	GSM1192693	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C2SN	GSM1192692	CTL	GPL570
+GSE49036	11617	Control Braak α- synuclein Stage 0 C1SN	GSM1192691	CTL	GPL570

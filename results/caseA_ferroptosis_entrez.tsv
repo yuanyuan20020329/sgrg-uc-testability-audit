@@ -1,0 +1,65 @@
+query_symbol	entrez_id	matched_symbol	name
+PHKG2	5261	PHKG2	phosphorylase kinase catalytic subunit gamma 2
+NOX4	50507	NOX4	NADPH oxidase 4
+MAP1LC3C	440738	MAP1LC3C	microtubule associated protein 1 light chain 3 gamma
+SLC11A2	4891	SLC11A2	solute carrier family 11 member 2
+SLC1A5	6510	SLC1A5	solute carrier family 1 member 5
+SLC39A8	64116	SLC39A8	solute carrier family 39 member 8
+SLC40A1	30061	SLC40A1	solute carrier family 40 member 1
+STEAP3	55240	STEAP3	STEAP3 metalloreductase
+HMOX1	3162	HMOX1	heme oxygenase 1
+CYBB	1536	CYBB	cytochrome b-245 beta chain
+HSPB1	3315	HSPB1	heat shock protein family B (small) member 1
+CBS	875	CBS	cystathionine beta-synthase
+FDFT1	2222	FDFT1	farnesyl-diphosphate farnesyltransferase 1
+CISD1	55847	CISD1	CDGSH iron sulfur domain 1
+SAT1	6303	SAT1	spermidine/spermine N1-acetyltransferase 1
+AIFM2	84883	AIFM2	AIF family member 2, ferroptosis suppressor
+ATG7	10533	ATG7	autophagy related 7
+TXNRD1	7296	TXNRD1	thioredoxin reductase 1
+ATG5	9474	ATG5	autophagy related 5
+SLC3A2	6520	SLC3A2	solute carrier family 3 member 2
+FTMT	94033	FTMT	ferritin mitochondrial
+SLC7A11	23657	SLC7A11	solute carrier family 7 member 11
+CHMP6	79643	CHMP6	charged multivesicular body protein 6
+FTL	2512	FTL	ferritin light chain
+ALOX15	246	ALOX15	arachidonate 15-lipoxygenase
+MAP1LC3A	84557	MAP1LC3A	microtubule associated protein 1 light chain 3 alpha
+PRNP	5621	PRNP	prion protein (Kanno blood group)
+SAT2	112483	SAT2	spermidine/spermine N1-acetyltransferase family member 2
+GPX4	2879	GPX4	glutathione peroxidase 4
+FTH1	2495	FTH1	ferritin heavy chain 1
+NCOA4	8031	NCOA4	nuclear receptor coactivator 4
+BACH1	571	BACH1	BTB domain and CNC homolog 1
+ACSL6	23305	ACSL6	acyl-CoA synthetase long chain family member 6
+GCH1	2643	GCH1	GTP cyclohydrolase 1
+CP	1356	CP	ceruloplasmin
+MAP1LC3B	81631	MAP1LC3B	microtubule associated protein 1 light chain 3 beta
+TF	7018	TF	transferrin
+VDAC2	7417	VDAC2	voltage dependent anion channel 2
+GCLC	2729	GCLC	glutamate-cysteine ligase catalytic subunit
+VDAC3	7419	VDAC3	voltage dependent anion channel 3
+IREB2	3658	IREB2	iron responsive element binding protein 2
+ACSL5	51703	ACSL5	acyl-CoA synthetase long chain family member 5
+ACSL1	2180	ACSL1	acyl-CoA synthetase long chain family member 1
+SLC39A14	23516	SLC39A14	solute carrier family 39 member 14
+AKR1C3	8644	AKR1C3	aldo-keto reductase family 1 member C3
+TFRC	7037	TFRC	transferrin receptor
+TP53	7157	TP53	tumor protein p53
+LPCAT3	10162	LPCAT3	lysophosphatidylcholine acyltransferase 3
+HMGCR	3156	HMGCR	3-hydroxy-3-methylglutaryl-CoA reductase
+CTH	1491	CTH	cystathionine gamma-lyase
+PCBP1	5093	PCBP1	poly(rC) binding protein 1
+PCBP2	5094	PCBP2	poly(rC) binding protein 2
+ACSL4	2182	ACSL4	acyl-CoA synthetase long chain family member 4
+SLC38A1	81539	SLC38A1	solute carrier family 38 member 1
+ACSL3	2181	ACSL3	acyl-CoA synthetase long chain family member 3
+AKR1C2	1646	AKR1C2	aldo-keto reductase family 1 member C2
+AKR1C1	1645	AKR1C1	aldo-keto reductase family 1 member C1
+COQ2	27235	COQ2	coenzyme Q2, polyprenyltransferase
+GCLM	2730	GCLM	glutamate-cysteine ligase modifier subunit
+NOX1	27035	NOX1	NADPH oxidase 1
+CHMP5	51510	CHMP5	charged multivesicular body protein 5
+POR	5447	POR	cytochrome p450 oxidoreductase
+GSS	2937	GSS	glutathione synthetase
+DPP4	1803	DPP4	dipeptidyl peptidase 4

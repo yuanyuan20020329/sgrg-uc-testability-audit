@@ -1,0 +1,37 @@
+{
+  "cxg_total_collections": 397,
+  "cxg_collections_with_UC": 3,
+  "cxg_usable_controlled_resource": 1,
+  "geo_human_gse": 521,
+  "geo_mrna_scorable_series": 376,
+  "geo_singlecell_spatial_mrna": 130,
+  "geo_series_with_any_pairing": 13,
+  "geo_mrna_ge6_pairs": 4,
+  "geo_mrna_ge15_pairs": 0,
+  "geo_singlecell_pairs_max": 5,
+  "geo_spatial_pairs_max": 4,
+  "geo_spatial_samesite_pairs": 0,
+  "geo_max_pairs_any_assay": 43,
+  "geo_max_pairs_mirna_example": "GSE272890（43 对，但测 miRNA）",
+  "usable_resources": [
+    {
+      "source": "GEO",
+      "resource": "GSE133060",
+      "resolution": "bulk-array",
+      "disease": "UC",
+      "n_case": "",
+      "n_ctrl": "",
+      "n_pairs": 8
+    },
+    {
+      "source": "CELLxGENE",
+      "resource": "Human inflammatory bowel disease (IBD) and healthy control 10x Single-cell transcriptomics data",
+      "resolution": "single-cell",
+      "disease": "UC",
+      "n_case": 6,
+      "n_ctrl": 6,
+      "n_pairs": ""
+    }
+  ],
+  "verdict_text": "全库枚举后，可用于「有检验力且受控地检验 SGRG 面板」的公共资源总计 2 个；单细胞与空间转录组里 **同供体配对 ≥6 对的 UC 数据为 0 个**。唯一达标的单细胞资源是 CELLxGENE 的 ds1（6v6、100% 原产、但仅 46.7k 细胞）；唯一达标的 UC 配对设计是 GEO 的 GSE133060（8 对，bulk 芯片）。故原判定「公共单细胞资源在结构上无法做出有检验力、批次受控的检验」成立，但需补一句：**在 bulk 层面存在一个达标的配对设计，而它尚未被检验**。"
+}

@@ -1,0 +1,29 @@
+{
+ "bulk_auc_before_artifact": 0.828125,
+ "bulk_auc_after_corrected": 0.5675,
+ "bulk_auc_noproblem": 0.6111505681818181,
+ "bulk_nom_before": 0.022775705819004954,
+ "bulk_nom_after": -0.2410923753665689,
+ "bulk_nom_noproblem": -0.18939393939393934,
+ "n_artifact": 37,
+ "n_corrected": 15,
+ "n_noproblem": 8,
+ "sc_depth_ratio_raw": 1.6473173275771331,
+ "sc_depth_ratio_ds1k": 1.0,
+ "sc_nsig_raw": 13,
+ "sc_nsig_q_raw": 1,
+ "sc_nsig_raw_total": 26,
+ "sc_nsig_ds1k": 2,
+ "sc_nsig_q_ds1k": 0,
+ "sc_nsig_ds1k_total": 25,
+ "dose_response_bulk": {
+  "rho": -0.33526337271210993,
+  "p": 0.008260350052100601,
+  "n": 61
+ },
+ "dose_response_sc": {
+  "rho": 0.4930769230769231,
+  "p": 0.012263960333497644,
+  "n": 25
+ }
+}

@@ -1,0 +1,41 @@
+{
+  "GSE38713": {
+    "train": "GSE38713",
+    "n_train": 43,
+    "n_pos": 30,
+    "best_C": 0.01,
+    "penalty": "l2",
+    "cv_auc": 0.9358974358974359,
+    "cv_acc": 0.8837209302325582,
+    "cv_sens": 0.8333333333333334,
+    "cv_spec": 1.0,
+    "permutation_p": 0.004975124378109453,
+    "cv_auc_l1": 0.9,
+    "cv_auc_l2": 0.9359,
+    "signature": [
+      {
+        "gene": "HECA",
+        "coef": -0.4378522707929255
+      },
+      {
+        "gene": "DAZAP2",
+        "coef": -0.3872195784550927
+      },
+      {
+        "gene": "EIF4A1",
+        "coef": 0.2103089288932022
+      },
+      {
+        "gene": "GRB7",
+        "coef": -0.09828024480572246
+      },
+      {
+        "gene": "KPNB1",
+        "coef": 0.07516854813395024
+      }
+    ],
+    "signature_penalty": "l1",
+    "signature_C": 0.2,
+    "signature_n": 5
+  }
+}

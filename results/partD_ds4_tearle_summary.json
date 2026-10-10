@@ -1,0 +1,361 @@
+{
+  "tag": "ds4_tearle",
+  "label": "Tearle2026 NatCommun UC/PSC 黏膜",
+  "path": "data/raw/sc/CxG_Tearle2026_PSC_UC.h5ad",
+  "n_cells_used": 320979,
+  "n_genes": 37490,
+  "matrix": "raw/X",
+  "tissue_keep": "",
+  "disease_keep": "ulcerative colitis,normal,primary sclerosing cholangitis",
+  "min_cells": 20,
+  "min_donors": 3,
+  "cell_types_tested": [
+    "CD4-positive, alpha-beta T cell",
+    "CD8-positive, alpha-beta T cell",
+    "CD8-positive, alpha-beta memory T cell",
+    "T follicular helper cell",
+    "T-helper 17 cell",
+    "capillary endothelial cell",
+    "conventional dendritic cell",
+    "cycling B cell",
+    "endothelial cell of artery",
+    "epithelial cell of large intestine",
+    "fibroblast",
+    "gamma-delta T cell",
+    "group 3 innate lymphoid cell",
+    "intestinal crypt stem cell of large intestine",
+    "intestine goblet cell",
+    "macrophage",
+    "mast cell",
+    "memory B cell",
+    "myofibroblast cell",
+    "naive B cell",
+    "pericyte",
+    "plasma cell",
+    "regulatory T cell",
+    "tuft cell of colon",
+    "type I enteric glial cell",
+    "vein endothelial cell"
+  ],
+  "n_donors_by_disease": {
+    "normal": 7,
+    "primary sclerosing cholangitis": 7,
+    "ulcerative colitis": 8
+  },
+  "baseline_by_celltype": [
+    {
+      "cell_type": "endothelial cell",
+      "mean": 0.3143234253,
+      "median": 0.3423179388,
+      "count": 637
+    },
+    {
+      "cell_type": "cycling T cell",
+      "mean": 0.3085260391,
+      "median": 0.313801229,
+      "count": 237
+    },
+    {
+      "cell_type": "group 3 innate lymphoid cell",
+      "mean": 0.2996298671,
+      "median": 0.3065757453,
+      "count": 639
+    },
+    {
+      "cell_type": "T follicular helper cell",
+      "mean": 0.2934013009,
+      "median": 0.3007299304,
+      "count": 2016
+    },
+    {
+      "cell_type": "gamma-delta T cell",
+      "mean": 0.2833761871,
+      "median": 0.2901446819,
+      "count": 5543
+    },
+    {
+      "cell_type": "plasmacytoid dendritic cell",
+      "mean": 0.2827618122,
+      "median": 0.3151390254,
+      "count": 35
+    },
+    {
+      "cell_type": "T-helper 17 cell",
+      "mean": 0.27727741,
+      "median": 0.2844662666,
+      "count": 3334
+    },
+    {
+      "cell_type": "regulatory T cell",
+      "mean": 0.2743975222,
+      "median": 0.2751938403,
+      "count": 2481
+    },
+    {
+      "cell_type": "CD8-positive, alpha-beta T cell",
+      "mean": 0.2741853893,
+      "median": 0.280623734,
+      "count": 6229
+    },
+    {
+      "cell_type": "natural killer cell",
+      "mean": 0.2711066008,
+      "median": 0.2739048004,
+      "count": 593
+    },
+    {
+      "cell_type": "CD4-positive, alpha-beta T cell",
+      "mean": 0.2694981098,
+      "median": 0.2732313573,
+      "count": 11249
+    },
+    {
+      "cell_type": "intestinal crypt stem cell of large intestine",
+      "mean": 0.2636270523,
+      "median": 0.2691844106,
+      "count": 7734
+    },
+    {
+      "cell_type": "fibroblastic reticular cell",
+      "mean": 0.2622999251,
+      "median": 0.2702646554,
+      "count": 1183
+    },
+    {
+      "cell_type": "myofibroblast cell",
+      "mean": 0.2612288296,
+      "median": 0.2804495692,
+      "count": 4663
+    },
+    {
+      "cell_type": "capillary endothelial cell",
+      "mean": 0.2598646879,
+      "median": 0.2776361704,
+      "count": 3376
+    },
+    {
+      "cell_type": "CD8-positive, alpha-beta memory T cell",
+      "mean": 0.2575514913,
+      "median": 0.2633448243,
+      "count": 2430
+    },
+    {
+      "cell_type": "mast cell",
+      "mean": 0.2400365621,
+      "median": 0.2469649613,
+      "count": 5882
+    },
+    {
+      "cell_type": "naive B cell",
+      "mean": 0.2382070273,
+      "median": 0.2379673123,
+      "count": 1923
+    },
+    {
+      "cell_type": "memory B cell",
+      "mean": 0.2371945679,
+      "median": 0.241934672,
+      "count": 5262
+    },
+    {
+      "cell_type": "pericyte",
+      "mean": 0.2338332981,
+      "median": 0.2502896786,
+      "count": 5311
+    },
+    {
+      "cell_type": "fibroblast",
+      "mean": 0.2241684496,
+      "median": 0.2406074852,
+      "count": 18848
+    },
+    {
+      "cell_type": "vein endothelial cell",
+      "mean": 0.2172250152,
+      "median": 0.2218144238,
+      "count": 3535
+    },
+    {
+      "cell_type": "endothelial cell of artery",
+      "mean": 0.2169436514,
+      "median": 0.2184185386,
+      "count": 1455
+    },
+    {
+      "cell_type": "endothelial cell of lymphatic vessel",
+      "mean": 0.2148418576,
+      "median": 0.2213135213,
+      "count": 326
+    },
+    {
+      "cell_type": "tuft cell of colon",
+      "mean": 0.2130406052,
+      "median": 0.2191554159,
+      "count": 3529
+    },
+    {
+      "cell_type": "intestine goblet cell",
+      "mean": 0.2116689831,
+      "median": 0.2183758616,
+      "count": 6925
+    },
+    {
+      "cell_type": "cycling mononuclear phagocyte",
+      "mean": 0.189413771,
+      "median": 0.1903391182,
+      "count": 284
+    },
+    {
+      "cell_type": "type I enteric glial cell",
+      "mean": 0.1877719313,
+      "median": 0.194015637,
+      "count": 2836
+    },
+    {
+      "cell_type": "conventional dendritic cell",
+      "mean": 0.1839737594,
+      "median": 0.1610162258,
+      "count": 1698
+    },
+    {
+      "cell_type": "macrophage",
+      "mean": 0.1806668639,
+      "median": 0.1632134616,
+      "count": 4866
+    },
+    {
+      "cell_type": "cycling B cell",
+      "mean": 0.1684184074,
+      "median": 0.1360969543,
+      "count": 1535
+    },
+    {
+      "cell_type": "epithelial cell of large intestine",
+      "mean": 0.1590191722,
+      "median": 0.1546408683,
+      "count": 171233
+    },
+    {
+      "cell_type": "dendritic cell",
+      "mean": 0.1431545615,
+      "median": 0.1264440119,
+      "count": 306
+    },
+    {
+      "cell_type": "plasma cell",
+      "mean": 0.1270002276,
+      "median": 0.1216789335,
+      "count": 32846
+    }
+  ],
+  "composition": {
+    "normal": {
+      "CD4-positive, alpha-beta T cell": 1725,
+      "CD8-positive, alpha-beta T cell": 1489,
+      "CD8-positive, alpha-beta memory T cell": 387,
+      "T follicular helper cell": 416,
+      "T-helper 17 cell": 413,
+      "capillary endothelial cell": 519,
+      "conventional dendritic cell": 157,
+      "cycling B cell": 374,
+      "cycling T cell": 104,
+      "cycling mononuclear phagocyte": 47,
+      "dendritic cell": 45,
+      "endothelial cell": 104,
+      "endothelial cell of artery": 1019,
+      "endothelial cell of lymphatic vessel": 264,
+      "epithelial cell of large intestine": 139858,
+      "fibroblast": 6282,
+      "fibroblastic reticular cell": 52,
+      "gamma-delta T cell": 2593,
+      "group 3 innate lymphoid cell": 136,
+      "intestinal crypt stem cell of large intestine": 3277,
+      "intestine goblet cell": 2440,
+      "macrophage": 1352,
+      "mast cell": 235,
+      "memory B cell": 1996,
+      "myofibroblast cell": 530,
+      "naive B cell": 630,
+      "natural killer cell": 73,
+      "pericyte": 1456,
+      "plasma cell": 16840,
+      "plasmacytoid dendritic cell": 0,
+      "regulatory T cell": 296,
+      "tuft cell of colon": 963,
+      "type I enteric glial cell": 508,
+      "vein endothelial cell": 1921
+    },
+    "primary sclerosing cholangitis": {
+      "CD4-positive, alpha-beta T cell": 4687,
+      "CD8-positive, alpha-beta T cell": 2879,
+      "CD8-positive, alpha-beta memory T cell": 925,
+      "T follicular helper cell": 456,
+      "T-helper 17 cell": 1348,
+      "capillary endothelial cell": 1326,
+      "conventional dendritic cell": 757,
+      "cycling B cell": 497,
+      "cycling T cell": 87,
+      "cycling mononuclear phagocyte": 115,
+      "dendritic cell": 84,
+      "endothelial cell": 228,
+      "endothelial cell of artery": 193,
+      "endothelial cell of lymphatic vessel": 29,
+      "epithelial cell of large intestine": 13250,
+      "fibroblast": 8360,
+      "fibroblastic reticular cell": 797,
+      "gamma-delta T cell": 1796,
+      "group 3 innate lymphoid cell": 236,
+      "intestinal crypt stem cell of large intestine": 2298,
+      "intestine goblet cell": 1756,
+      "macrophage": 1893,
+      "mast cell": 3739,
+      "memory B cell": 1913,
+      "myofibroblast cell": 1970,
+      "naive B cell": 797,
+      "natural killer cell": 342,
+      "pericyte": 1757,
+      "plasma cell": 11216,
+      "plasmacytoid dendritic cell": 8,
+      "regulatory T cell": 1220,
+      "tuft cell of colon": 894,
+      "type I enteric glial cell": 1063,
+      "vein endothelial cell": 594
+    },
+    "ulcerative colitis": {
+      "CD4-positive, alpha-beta T cell": 4837,
+      "CD8-positive, alpha-beta T cell": 1861,
+      "CD8-positive, alpha-beta memory T cell": 1118,
+      "T follicular helper cell": 1144,
+      "T-helper 17 cell": 1573,
+      "capillary endothelial cell": 1531,
+      "conventional dendritic cell": 784,
+      "cycling B cell": 664,
+      "cycling T cell": 46,
+      "cycling mononuclear phagocyte": 122,
+      "dendritic cell": 177,
+      "endothelial cell": 305,
+      "endothelial cell of artery": 243,
+      "endothelial cell of lymphatic vessel": 33,
+      "epithelial cell of large intestine": 18125,
+      "fibroblast": 4206,
+      "fibroblastic reticular cell": 334,
+      "gamma-delta T cell": 1154,
+      "group 3 innate lymphoid cell": 267,
+      "intestinal crypt stem cell of large intestine": 2159,
+      "intestine goblet cell": 2729,
+      "macrophage": 1621,
+      "mast cell": 1908,
+      "memory B cell": 1353,
+      "myofibroblast cell": 2163,
+      "naive B cell": 496,
+      "natural killer cell": 178,
+      "pericyte": 2098,
+      "plasma cell": 4790,
+      "plasmacytoid dendritic cell": 27,
+      "regulatory T cell": 965,
+      "tuft cell of colon": 1672,
+      "type I enteric glial cell": 1265,
+      "vein endothelial cell": 1020
+    }
+  }
+}

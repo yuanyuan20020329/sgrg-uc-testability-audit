@@ -1,0 +1,31 @@
+{
+  "resource": "GSE133060 (GEO, Agilent GPL4133, 8 paired UC patients, inflamed vs non-inflamed mucosa)",
+  "why": "全库枚举后唯一「UC + ≥6 对同供体配对 + mRNA」的公共资源",
+  "n_pairs": 8,
+  "panel_genes_in_panel": 104,
+  "panel_genes_mapped": 91,
+  "panel_mean_paired_z": 0.20812196722604864,
+  "panel_n_up": 7,
+  "wilcoxon_p_nominal": 0.015625,
+  "global_mean_delta_z": -0.10110670240970741,
+  "random_median_paired_z": -0.09988856284836925,
+  "random_5_95": [
+    -0.2646421454328305,
+    0.06868245612641172
+  ],
+  "empirical_p_one_sided_up": 0.001996007984031936,
+  "sgrg_rank_among_random": 1,
+  "empirical_p_two_sided": 0.1497005988023952,
+  "empirical_p_two_sided_global_adjusted": 0.005988023952095809,
+  "global_adjusted_delta_z": 0.30922866963575607,
+  "random_sets_nominal_sig_frac": 0.5,
+  "random_sets_nominal_sig_n": 250,
+  "random_sets_total": 500,
+  "positive_controls_significant": 5,
+  "positive_controls_total": 5,
+  "positive_control_delta_z_range": [
+    0.26688065174303893,
+    0.815191875247822
+  ],
+  "power_note": "8 对 → 双侧符号秩最小 p = 2/256 = 0.0078；本设计有真实效力（5/5 炎症通路阳性对照 8/8 同向、p=0.0078）"
+}

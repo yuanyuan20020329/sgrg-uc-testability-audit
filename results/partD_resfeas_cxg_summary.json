@@ -1,0 +1,25 @@
+{
+  "n_collections_total": 397,
+  "n_collections_scan_detail": 40,
+  "n_collections_with_gut_data": 40,
+  "n_datasets_gut": 159,
+  "n_datasets_gut_has_UC": 12,
+  "n_datasets_gut_has_CD": 21,
+  "n_datasets_gut_has_normal": 137,
+  "n_collections_with_UC": 3,
+  "n_collections_UC_and_normal": 3,
+  "n_collections_UC_and_normal_and_spatial": 0,
+  "n_datasets_spatial_gut": 26,
+  "note_primary_cell_count": "primary_cell_count / donor_id / is_primary_data 均来自 CELLxGENE 集合详情端点，可在元数据层面复现来源审计，无需下载 h5ad",
+  "power_floors": {
+    "paired_signed_flip_min_p_at_n": {
+      "4": 0.125,
+      "6": 0.03125,
+      "7": 0.015625,
+      "8": 0.0078125,
+      "10": 0.001953125,
+      "15": 6.103515625e-05
+    },
+    "independent_two_group_rule_of_thumb": 10
+  }
+}

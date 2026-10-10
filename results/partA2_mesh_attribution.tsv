@@ -1,0 +1,161 @@
+gid	acc	gds_uid	pmids	n_pmid	taxon_gds	verdict	uc_major	uc_any	ibd_any	is_review	years	mesh_uc_major_n	n_uc	n_ctrl	arms_ok
+735	GSE8025	200008025		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+799	GSE9785	200009785	18354217	1	Mus musculus	无UC/IBD归因	False	False	False	False	2008	0	0	0	False
+982	GSE9297	200009297		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+983	GSE9293	200009293		0	Rattus norvegicus	无法核验-无PMID	False	False	False	False		0	0	0	False
+1031	GSE14842	200014842		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	0	False
+1127	GSE10616	200010616	18758464	1	Homo sapiens	IBD但非UC	False	False	True	False	2008	0	10	16	True
+1148	GSE10191	200010191	18981162	1	Homo sapiens	UC确认-次要	False	True	True	False	2008	0	8	15	True
+1161	GSE12223	200012223	20630110	1	Mus musculus	IBD但非UC	False	False	True	False	2010	0	0	0	False
+1312	GSE12503	200012503	19359471	1	Mus musculus	IBD但非UC	False	False	True	False	2009	0	0	0	False
+1314	GSE11499	200011499		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	6	0	False
+1412	GSE11022	200011022	19535420	1	Rattus norvegicus	IBD但非UC	False	False	True	False	2009	0	0	0	False
+1591	GSE9281	200009281		0	Rattus norvegicus	无法核验-无PMID	False	False	False	False		0	0	0	False
+1819	GSE9686	200009686	18069684	1	Homo sapiens	IBD但非UC	False	False	True	False	2008	0	5	8	True
+2079	GSE9452	200009452	19177426	1	Homo sapiens	UC确认-主要主题	True	True	True	False	2009	1	21	5	True
+2084	GSE14580	200014580	19700435	1	Homo sapiens	UC确认-次要	False	True	True	False	2009	0	24	6	True
+2240	GSE4183	200004183	19461970;18776587;23155391	3	Homo sapiens	IBD但非UC	False	False	True	False	2008;2009;2012	0	0	8	False
+2328	GSE19793	200019793	20624890	1	Mus musculus	IBD但非UC	False	False	True	False	2010	0	0	0	False
+2420	GSE12251	200012251	19700435	1	Homo sapiens	UC确认-次要	False	True	True	False	2009	0	0	0	False
+2429	GSE15318	200015318	19856416	1	Mus musculus	IBD但非UC	False	False	True	False	2010	0	0	0	False
+2432	GSE21231	200021231	20941359	1	Homo sapiens	UC确认-次要	False	True	True	False	2010	0	0	0	False
+2573	GSE20621	200020621	20422041	1	Mus musculus	IBD但非UC	False	False	True	False	2010	0	0	0	False
+2790	GSE10867	200010867	19711126;20186427	2	Homo sapiens	无UC/IBD归因	False	False	False	False	2009;2010	0	0	0	False
+2865	GSE16879	200016879	19956723	1	Homo sapiens	IBD但非UC	False	False	True	False	2009	0	24	6	True
+2932	GSE18859	200018859	20709292	1	Mus musculus	IBD但非UC	False	False	True	False	2010	0	0	0	False
+3046	GSE20881	200020881	20848455	1	Homo sapiens	IBD但非UC	False	False	True	False	2010	0	0	73	False
+3109	GSE22307	200022307	20923862	1	Mus musculus	UC确认-次要	False	True	True	False	2011	0	0	0	False
+3160	GSE23597	200023597	21448149;31039157	2	Homo sapiens	UC确认-次要	False	True	True	False	2011;2019	0	0	0	False
+3199	GSE24287	200024287	22719822;22606341	2	Homo sapiens	UC确认-次要	False	True	True	False	2012	0	27	25	True
+3231	GSE25029	200025029	21893119	1	Mus musculus	UC确认-次要	False	True	True	False	2011	0	0	0	False
+3241	GSE25220	200025220	21669488	1	Homo sapiens	IBD但非UC	False	False	True	False	2011	0	0	0	False
+4076	GSE3629	200003629	17255260	1	Homo sapiens	UC确认-次要	False	True	True	False	2007	0	53	0	False
+4649	GSE10714	200010714	18843029;20087348;25723531;23155391	4	Homo sapiens	IBD但非UC	False	False	True	False	2008;2010;2012;2015	0	3	0	False
+4833	GSE13367	200013367	19834973	1	Homo sapiens	UC确认-次要	False	True	True	False	2010	0	0	0	False
+4858	GSE14415	200014415	19265124	1	Mus musculus	IBD但非UC	False	False	True	False	2009	0	0	0	False
+4870	GSE15636	200015636	21831765	1	Homo sapiens	无UC/IBD归因	False	False	False	False	2010	0	0	0	False
+5359	GSE31906	200031906	22044934	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	0	False
+5509	GSE36701	200036701	22684480	1	Homo sapiens	无UC/IBD归因	False	False	False	False	2013	0	0	77	False
+5737	GSE18123	200018123	23227143	1	Homo sapiens	无UC/IBD归因	False	False	False	False	2012	0	0	33	False
+5828	GSE39681	200039681	24412613	1	Homo sapiens	IBD但非UC	False	False	True	False	2014	0	0	0	False
+5873	GSE38713	200038713	23135761	1	Homo sapiens	UC确认-次要	False	True	True	False	2013	0	30	13	True
+6399	GSE44904	200044904	23615396	1	Mus musculus	IBD但非UC	False	False	True	False	2013	0	0	0	False
+6560	GSE36806	200036806	23462911	1	Mus musculus	IBD但非UC	False	False	True	False	2013	0	0	0	False
+6663	GSE35609	200035609	23226271	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	4	False
+6730				0		无法核验-无PMID	False	False	False	False		0	6	3	False
+6731	GSE22619	200022619	21621540;22826509	2	Homo sapiens	UC确认-次要	False	True	True	False	2011;2012	0	10	10	True
+6937	GSE42768	200042768	23894361;31296924	2	Mus musculus	IBD但非UC	False	False	True	False	2013;2019	0	0	0	False
+6991	GSE46006	200046006	24670427	1	Mus musculus	IBD但非UC	False	False	True	False	2014	0	0	0	False
+7024	GSE36807	200036807	24155895	1	Homo sapiens	UC确认-次要	False	True	True	False	2013	0	15	7	True
+7128	GSE36882	200036882	22520852	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	0	False
+7540	GSE3365	200003365	16436634	1	Homo sapiens	UC确认-次要	False	True	True	False	2006	0	26	42	True
+7580	GSE34492	200034492	22318495	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	0	False
+7643	GSE35808	200035808	23321674	1	Mus musculus	无UC/IBD归因	False	False	False	False	2013	0	0	0	False
+7847	GSE39859	200039859	23700416	1	Mus musculus	IBD但非UC	False	False	True	False	2013	0	0	0	False
+8089	GSE4607	200004607	17374846;18460642;23107287;18511707	4	Homo sapiens	无UC/IBD归因	False	False	False	False	2007;2008;2012	0	0	14	False
+8164	GSE50628	200050628	24464411	1	Homo sapiens	无UC/IBD归因	False	False	False	False	2014	0	0	0	False
+8215	GSE6731	200006731	17262812	1	Homo sapiens	UC确认-次要	False	True	True	False	2007	0	9	19	True
+8310	GSE46451	200046451		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	6	False
+8385	GSE11223	200011223	18523026	1	Homo sapiens	UC确认-次要	False	True	True	False	2008	0	129	73	True
+8414	GSE26409	200026409		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	55	False
+8420	GSE27905	200027905		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	0	False
+8454	GSE34630	200034630	22865203	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	0	False
+8641	GSE49877	200049877	24799394	1	Homo sapiens	UC确认-次要	False	True	True	False	2015	0	0	0	False
+8658	GSE50788	200050788		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	28	3	False
+8733	GSE53835	200053835	25022957	1	Mus musculus	IBD但非UC	False	False	True	False	2014	0	0	0	False
+8826	GSE56789	200056789	25766683	1	Homo sapiens	IBD但非UC	False	False	True	False	2015	0	0	0	False
+9033	GSE57945	200057945	25003194;31700112	2	Homo sapiens	UC确认-次要	False	True	True	False	2014;2019	0	62	184	True
+9649	GSE71997	200071997	27079612	1	Mus musculus	UC确认-次要	False	True	True	False	2016	0	0	0	False
+9653	GSE72212	200072212	26431947	1	Mus musculus	IBD但非UC	False	False	True	False	2015	0	0	6	False
+9667	GSE73424	200073424	27194531	1	Mus musculus	IBD但非UC	False	False	True	False	2016	0	0	0	False
+9697	GSE32697	200032697	22509329	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	0	False
+9716	GSE40207	200040207	23851121	1	Mus musculus	无UC/IBD归因	False	False	False	False	2013	0	0	0	False
+9831	GSE64779	200064779	25691468	1	Mus musculus	无UC/IBD归因	False	False	False	False	2015	0	0	0	False
+10133	GSE67577	200067577	27158904	1	Mus musculus	IBD但非UC	False	False	True	False	2016	0	0	0	False
+10424	GSE64658	200064658		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+10595	GSE83091	200083091	27417541	1	Homo sapiens	无UC/IBD归因	False	False	False	False	2016	0	0	0	False
+11624	GSE51381	200051381	25202975	1	Rattus norvegicus	无UC/IBD归因	False	False	False	False	2014	0	0	0	False
+13266	GSE92858	200092858	29540811	1	Rattus norvegicus	UC确认-次要	False	True	True	False	2018	0	4	0	False
+14321	GSE15955	200015955	19564350	1	Mus musculus	IBD但非UC	False	False	True	False	2009	0	0	0	False
+14344	GSE20523	200020523	20537136	1	Mus musculus	IBD但非UC	False	False	True	False	2010	0	0	0	False
+14456	GSE54785	200054785	24525021	1	Mus musculus	IBD但非UC	False	False	True	False	2014	0	0	0	False
+14579	GSE43738	200043738	23680148	1	Homo sapiens	IBD但非UC	False	False	True	False	2013	0	0	0	False
+14712	GSE11533	200011533	18663125;19265543	2	Mus musculus	UC确认-次要	False	True	True	False	2008;2009	0	0	0	False
+14728	GSE11534	200011534	18663125;19265543	2	Mus musculus	UC确认-次要	False	True	True	False	2008;2009	0	0	0	False
+15540	GSE88994	200088994	27815529	1	Mus musculus	IBD但非UC	False	False	True	False	2016	0	0	0	False
+16609	GSE126366	200126366	31657630	1	Mus musculus	无UC/IBD归因	False	False	False	False	2019	0	0	0	False
+17455	GSE140422	200140422	32615085	1	Mus musculus	无UC/IBD归因	False	False	False	False	2020	0	0	0	False
+18798	GSE54356	200054356	24808906	1	Rattus norvegicus	无UC/IBD归因	False	False	False	False	2014	0	0	0	False
+18828	GSE87847	200087847	27767057;41504861	2	Homo sapiens	UC确认-次要	False	True	True	False	2016;2026	0	0	48	False
+19534	GSE101316	200101316	29626115	1	Mus musculus	IBD但非UC	False	False	True	False	2018	0	0	0	False
+19987	GSE84391	200084391	30831321	1	Mus musculus	无UC/IBD归因	False	False	False	False	2019	0	0	0	False
+20001	GSE118524	200118524	30215718	1	Mus musculus	IBD但非UC	False	False	True	False	2019	0	0	0	False
+20017	GSE113665	200113665	29760193	1	Mus musculus	IBD但非UC	False	False	True	False	2018	0	0	0	False
+20056	GSE25544	200025544	29018440	1	Mus musculus	无UC/IBD归因	False	False	False	False	2017	0	0	0	False
+20058	GSE63455	200063455	26013006	1	Mus musculus	IBD但非UC	False	False	True	False	2016	0	0	0	False
+21077	GSE178750	200178750	34672740	1	Mus musculus	UC确认-次要	False	True	True	False	2021	0	0	0	False
+24017	GSE165693	200165693	34879222	1	Mus musculus	无UC/IBD归因	False	False	False	False	2022	0	0	4	False
+24791	GSE135733	200135733	33149302	1	Mus musculus	无UC/IBD归因	False	False	False	False	2020	0	0	0	False
+25181	GSE199221	200199221	35655748	1	Rattus norvegicus	无UC/IBD归因	False	False	False	False	2022	0	0	0	False
+25208	GSE133180	200133180	31866067	1	Mus musculus	无UC/IBD归因	False	False	False	False	2020	0	0	0	False
+25246	GSE112715	200112715	30952607	1	Mus musculus	无UC/IBD归因	False	False	False	False	2019	0	0	0	False
+25600	GSE114780	200114780	30116771	1	Mus musculus	IBD但非UC	False	False	True	False	2018	0	0	0	False
+25966	GSE197466	200197466	35784337	1	Rattus norvegicus	无UC/IBD归因	False	False	False	False	2022	0	0	0	False
+27405	GSE216587	200216587	37061616	1	Mus musculus	无UC/IBD归因	False	False	False	False	2023	0	0	0	False
+27805	GSE229320	200229320		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+27999	GSE207676	200207676	37153611	1	Mus musculus	IBD但非UC	False	False	True	False	2023	0	0	0	False
+28298	GSE144830	200144830		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+30252	GSE36888	200036888	22520852	1	Mus musculus	IBD但非UC	False	False	True	False	2012	0	0	0	False
+32017	GSE206868	200206868	36795486	1	Mus musculus	IBD但非UC	False	False	True	False	2023	0	0	0	False
+32041	GSE242559	200242559	38280896	1	Rattus norvegicus	IBD但非UC	False	False	True	False	2024	0	0	0	False
+32294	GSE239820	200239820	38341052	1	Mus musculus	IBD但非UC	False	False	True	False	2024	0	0	0	False
+32747	GSE158703	200158703	33238123	1	Mus musculus	无UC/IBD归因	False	False	False	False	2020	0	0	0	False
+33311	GSE135383	200135383		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	0	False
+33419	GSE205721	200205721	35727638	1	Homo sapiens	无UC/IBD归因	False	False	False	False	2022	0	0	0	False
+34150	GSE158750	200158750	33238123	1	Mus musculus	无UC/IBD归因	False	False	False	False	2020	0	0	0	False
+34358	GSE68852	200068852	26442658;28947679	2	Homo sapiens	IBD但非UC	False	False	True	False	2016;2017	0	0	0	False
+34590	GSE37283	200037283	23388545;23945234	2	Homo sapiens	UC确认-次要	False	True	True	False	2013	0	15	5	True
+34893	GSE262087	200262087	38990656	1	Mus musculus	无UC/IBD归因	False	False	False	False	2024	0	0	0	False
+34913	GSE254602	200254602	38657065	1	Mus musculus	IBD但非UC	False	False	True	False	2024	0	0	0	False
+35321	GSE239475	200239475	38679799	1	Mus musculus	IBD但非UC	False	False	True	False	2024	0	0	0	False
+36266	GSE168525	200168525	37296911	1	Mus musculus	无UC/IBD归因	False	False	False	False	2023	0	0	0	False
+36400	GSE183564	200183564	35401533	1	Mus musculus	IBD但非UC	False	False	True	False	2022	0	0	0	False
+36542	GSE70700	200070700	27371534	1	Mus musculus	IBD但非UC	False	False	True	False	2017	0	0	0	False
+36669	GSE159207	200159207	33238123	1	Mus musculus	无UC/IBD归因	False	False	False	False	2020	0	0	0	False
+37347	GSE227993	200227993	38750899	1	Mus musculus	IBD但非UC	False	False	True	False	2024	0	0	0	False
+37422	GSE183748	200183748		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	7	False
+37423	GSE183747	200183747	35688320	1	Mus musculus	无UC/IBD归因	False	False	False	False	2022	0	0	6	False
+37444	GSE151400	200151400	34869528	1	Mus musculus	无UC/IBD归因	False	False	False	False	2021	0	0	0	False
+37569	GSE234340	200234340	37889976	1	Mus musculus	无UC/IBD归因	False	False	False	False	2023	0	0	0	False
+37649	GSE138237	200138237		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	0	False
+37735	GSE178571	200178571		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+38043	GSE248348	200248348	38986617	1	Mus musculus	无UC/IBD归因	False	False	False	False	2024	0	0	0	False
+38225	GSE264317	200264317	39015786;41013553	2	Mus musculus	IBD但非UC	False	False	True	False	2024;2025	0	0	10	False
+40067	GSE242543	200242543		0	Homo sapiens	无法核验-无PMID	False	False	False	False		0	0	0	False
+40665	GSE214695	200214695	37495570;42707297	2	Homo sapiens	UC确认-主要主题	True	True	True	False	2023;2026	1	0	0	False
+47445	GSE264408	200264408	38879692	1	Mus musculus	UC确认-主要主题	True	True	True	False	2024	1	0	0	False
+47449	GSE182767	200182767	35668320	1	Mus musculus	IBD但非UC	False	False	True	False	2022	0			False
+49233	GSE163314	200163314	34022940	1	Homo sapiens	IBD但非UC	False	False	True	False	2021	0	0	0	False
+49234	GSE163314	200163314	34022940	1	Homo sapiens	IBD但非UC	False	False	True	False	2021	0	0	0	False
+50176	GSE279702	200279702	39987261	1	Mus musculus	IBD但非UC	False	False	True	False	2025	0	0	0	False
+50572	GSE279700	200279700	39987261	1	Mus musculus	IBD但非UC	False	False	True	False	2025	0	0	0	False
+50611	GSE248478	200248478		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+50678	GSE279034	200279034	39987261	1	Mus musculus	IBD但非UC	False	False	True	False	2025	0	0	0	False
+57708	GSE269846	200269846	40720256	1	Mus musculus	无UC/IBD归因	False	False	False	False	2025	0	0	0	False
+57990	GSE294447	200294447	40268933	1	Mus musculus	IBD但非UC	False	False	True	False	2025	0	0	0	False
+66608	GSE246987	200246987	39084267	1	Homo sapiens	UC确认-主要主题	True	True	True	False	2024	1	0	0	False
+66610	GSE246987	200246987	39084267	1	Homo sapiens	UC确认-主要主题	True	True	True	False	2024	1	0	0	False
+77572	GSE172261	200172261	35085231	1	Mus musculus	IBD但非UC	False	False	True	False	2022	0	0	0	False
+77573	GSE172261	200172261	35085231	1	Mus musculus	IBD但非UC	False	False	True	False	2022	0	0	0	False
+79379	GSE253421	200253421	40307620	1	Mus musculus	IBD但非UC	False	False	True	False	2025	0	0	0	False
+85591	GSE307870	200307870		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+85595	GSE294757	200294757	40903878	1	Mus musculus	无UC/IBD归因	False	False	False	False	2025	0	0	4	False
+85909	GSE302394	200302394		0	Mus musculus	无法核验-无PMID	False	False	False	False		0	0	0	False
+86267	GSE111318	200111318	30273559	1	Mus musculus	IBD但非UC	False	False	True	False	2019	0	0	0	False
+86268	GSE111318	200111318	30273559	1	Mus musculus	IBD但非UC	False	False	True	False	2019	0	0	0	False
+86269	GSE111318	200111318	30273559	1	Mus musculus	IBD但非UC	False	False	True	False	2019	0	0	0	False
+91179	GSE308833	200308833	41857191	1	Homo sapiens	IBD但非UC	False	False	True	False	2026	0	0	0	False
+91239	GSE299569	200299569	41698889	1	Mus musculus; Homo sapiens	无UC/IBD归因	False	False	False	False	2026	0	0	0	False
+91240	GSE299569	200299569	41698889	1	Mus musculus; Homo sapiens	无UC/IBD归因	False	False	False	False	2026	0	0	0	False
+91410	GSE247166	200247166	41912870	1	Mus musculus	无UC/IBD归因	False	False	False	False	2026	0	0	0	False
+91928	GSE278270	200278270	41507168	1	Mus musculus	IBD但非UC	False	False	True	False	2026	0	0	0	False

@@ -1,0 +1,65 @@
+{
+  "dataset": "ds1",
+  "path": "data/raw/sc/CxG_IBD_HC_10x.h5ad",
+  "n_cells": 46700,
+  "n_genes": 32354,
+  "panel": 104,
+  "cyto": 100,
+  "nuc": 5,
+  "min_cells": 20,
+  "baseline_by_celltype": [
+    {
+      "cell_type": "stromal cell of lamina propria of colon",
+      "mean": 0.1804881245,
+      "median": 0.1846996695,
+      "count": 2821
+    },
+    {
+      "cell_type": "T cell of anorectum",
+      "mean": 0.1700163931,
+      "median": 0.1698471308,
+      "count": 12128
+    },
+    {
+      "cell_type": "myeloid cell",
+      "mean": 0.1368428022,
+      "median": 0.1262415946,
+      "count": 3771
+    },
+    {
+      "cell_type": "colon epithelial cell",
+      "mean": 0.0986716971,
+      "median": 0.0894219503,
+      "count": 12347
+    },
+    {
+      "cell_type": "plasma cell",
+      "mean": 0.0720909908,
+      "median": 0.0563776754,
+      "count": 15633
+    }
+  ],
+  "composition": {
+    "Crohn disease": {
+      "T cell of anorectum": 4609,
+      "colon epithelial cell": 4701,
+      "myeloid cell": 1933,
+      "plasma cell": 4610,
+      "stromal cell of lamina propria of colon": 779
+    },
+    "normal": {
+      "T cell of anorectum": 3249,
+      "colon epithelial cell": 6713,
+      "myeloid cell": 677,
+      "plasma cell": 3359,
+      "stromal cell of lamina propria of colon": 1172
+    },
+    "ulcerative colitis": {
+      "T cell of anorectum": 4270,
+      "colon epithelial cell": 933,
+      "myeloid cell": 1161,
+      "plasma cell": 7664,
+      "stromal cell of lamina propria of colon": 870
+    }
+  }
+}

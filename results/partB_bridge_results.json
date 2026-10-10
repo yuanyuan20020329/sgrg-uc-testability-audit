@@ -1,0 +1,84 @@
+{
+  "universe_size": 13835,
+  "mdd_de_genes": 678,
+  "sgrg_panel_size": 104,
+  "sgrg_in_19738": 90,
+  "enrichment": {
+    "N": 13835,
+    "K": 678,
+    "n": 90,
+    "k": 5,
+    "expected": 4.410552945428262,
+    "OR": 1.1425574687527313,
+    "p": 0.45303301924533745,
+    "panel_de_genes": [
+      "CIRBP",
+      "DDX19B",
+      "HIPK2",
+      "PQBP1",
+      "STAU1"
+    ],
+    "null_median": 4.0,
+    "null_p95": 8.0,
+    "percentile": 55.1
+  },
+  "concordance": {
+    "n": 88,
+    "same_sign": 41,
+    "spearman_rho": -0.06760124336533588,
+    "spearman_p": 0.5314428226515372,
+    "binom_p": 0.5942882951469399,
+    "nominal_both_n": 16,
+    "nominal_both_same": 7,
+    "nominal_genes": [
+      "OGFOD1",
+      "CTSG",
+      "ROCK1",
+      "CASC3",
+      "YTHDF3",
+      "CPSF6",
+      "G3BP1",
+      "KPNB1",
+      "ELAVL1",
+      "YBX1",
+      "HABP4",
+      "DDX6",
+      "RC3H1",
+      "EIF4A1",
+      "CSDE1",
+      "ATXN2"
+    ]
+  },
+  "triple": {
+    "strict": [],
+    "nominal": [],
+    "uc_de_n": 44,
+    "mdd_de_panel_n": 5
+  },
+  "brain_replication_concordance": {
+    "GSE53987:dorsolateral prefrontal cortex": {
+      "n": 5,
+      "same": 4
+    },
+    "GSE53987:hippocampal formation": {
+      "n": 5,
+      "same": 5
+    },
+    "GSE53987:striatum": {
+      "n": 5,
+      "same": 2
+    },
+    "GSE80655:anterior cingulate cortex": {
+      "n": 5,
+      "same": 2
+    },
+    "GSE80655:dorsolateral prefrontal cortex": {
+      "n": 5,
+      "same": 3
+    },
+    "GSE80655:nucleus accumbens": {
+      "n": 5,
+      "same": 2
+    }
+  }
+}

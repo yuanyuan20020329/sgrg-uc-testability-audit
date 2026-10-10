@@ -1,0 +1,128 @@
+{
+  "tag": "ds2_myeloid",
+  "label": "Oliver2024 Nature 髓系",
+  "path": "data/raw/sc/CxG_Oliver2024_Myeloid.h5ad",
+  "n_cells_used": 11720,
+  "n_genes": 35461,
+  "tissue_keep": "colon,mucosa,rectum,caecum,appendix",
+  "disease_keep": "ulcerative colitis,Crohn disease,normal,inflammatory bowel disease",
+  "min_cells": 20,
+  "min_donors": 3,
+  "cell_types_tested": [
+    "monocyte"
+  ],
+  "n_donors_by_disease": {
+    "inflammatory bowel disease": 7,
+    "normal": 65,
+    "ulcerative colitis": 9
+  },
+  "baseline_by_celltype": [
+    {
+      "cell_type": "eosinophil",
+      "mean": 0.2316474617,
+      "median": 0.2405633926,
+      "count": 13
+    },
+    {
+      "cell_type": "neutrophil progenitor cell",
+      "mean": 0.224562943,
+      "median": 0.2366962433,
+      "count": 17
+    },
+    {
+      "cell_type": "Langerhans cell",
+      "mean": 0.2133716941,
+      "median": 0.2147793323,
+      "count": 72
+    },
+    {
+      "cell_type": "plasmacytoid dendritic cell, human",
+      "mean": 0.2111540437,
+      "median": 0.2086692452,
+      "count": 92
+    },
+    {
+      "cell_type": "conventional dendritic cell",
+      "mean": 0.1914946884,
+      "median": 0.1959071904,
+      "count": 2804
+    },
+    {
+      "cell_type": "macrophage",
+      "mean": 0.1821862161,
+      "median": 0.1854225993,
+      "count": 3403
+    },
+    {
+      "cell_type": "monocyte",
+      "mean": 0.1806881428,
+      "median": 0.183878541,
+      "count": 1727
+    },
+    {
+      "cell_type": "TREM2-positive macrophage",
+      "mean": 0.1715381294,
+      "median": 0.1727976352,
+      "count": 520
+    },
+    {
+      "cell_type": "dendritic cell, human",
+      "mean": 0.1674879789,
+      "median": 0.1681486368,
+      "count": 220
+    },
+    {
+      "cell_type": "mast cell",
+      "mean": 0.1496273428,
+      "median": 0.1498647481,
+      "count": 2820
+    },
+    {
+      "cell_type": "erythrocyte",
+      "mean": 0.1154400259,
+      "median": 0.1179467738,
+      "count": 32
+    }
+  ],
+  "composition": {
+    "inflammatory bowel disease": {
+      "Langerhans cell": 6,
+      "TREM2-positive macrophage": 10,
+      "conventional dendritic cell": 299,
+      "dendritic cell, human": 4,
+      "eosinophil": 5,
+      "erythrocyte": 0,
+      "macrophage": 95,
+      "mast cell": 514,
+      "monocyte": 224,
+      "neutrophil progenitor cell": 0,
+      "plasmacytoid dendritic cell, human": 27
+    },
+    "normal": {
+      "Langerhans cell": 46,
+      "TREM2-positive macrophage": 443,
+      "conventional dendritic cell": 2350,
+      "dendritic cell, human": 137,
+      "eosinophil": 8,
+      "erythrocyte": 30,
+      "macrophage": 3184,
+      "mast cell": 2217,
+      "monocyte": 1228,
+      "neutrophil progenitor cell": 17,
+      "plasmacytoid dendritic cell, human": 20
+    },
+    "ulcerative colitis": {
+      "Langerhans cell": 20,
+      "TREM2-positive macrophage": 67,
+      "conventional dendritic cell": 155,
+      "dendritic cell, human": 79,
+      "eosinophil": 0,
+      "erythrocyte": 2,
+      "macrophage": 124,
+      "mast cell": 89,
+      "monocyte": 275,
+      "neutrophil progenitor cell": 0,
+      "plasmacytoid dendritic cell, human": 45
+    }
+  }
+}

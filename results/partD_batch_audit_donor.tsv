@@ -1,0 +1,357 @@
+donor	_grp	n_cells	med_nUMI	mean_nUMI	assay	dataset	study	sample_retrieval	batch_condition
+CD_1	OTHER	2485	4826	11002.6	10x 3' v3	ds1_garrido			
+CD_2	OTHER	1542	3948.5	8876.73	10x 3' v3	ds1_garrido			
+CD_3	OTHER	3300	3560.5	7679.44	10x 3' v3	ds1_garrido			
+CD_4	OTHER	2800	2643	5747.97	10x 3' v3	ds1_garrido			
+CD_5	OTHER	1544	3012	6512.49	10x 3' v3	ds1_garrido			
+CD_6	OTHER	4961	2770	5643.97	10x 3' v3	ds1_garrido			
+HC_1	CTRL	1531	3317	5624.11	10x 3' v2	ds1_garrido			
+HC_2	CTRL	2555	4971	12385.5	10x 3' v3	ds1_garrido			
+HC_3	CTRL	3603	3205	6592.63	10x 3' v3	ds1_garrido			
+HC_4	CTRL	2258	3580	7316.88	10x 3' v3	ds1_garrido			
+HC_5	CTRL	3325	3930	7972.73	10x 3' v3	ds1_garrido			
+HC_6	CTRL	1898	4359.5	9152.89	10x 3' v3	ds1_garrido			
+UC_1	UC	1413	3053	8156.6	10x 3' v3	ds1_garrido			
+UC_2	UC	2597	10218	13012.6	10x 3' v3	ds1_garrido			
+UC_3	UC	2104	6459	12092.7	10x 3' v3	ds1_garrido			
+UC_4	UC	3001	4540	9959.73	10x 3' v3	ds1_garrido			
+UC_5	UC	2818	13537	18527	10x 3' v3	ds1_garrido			
+UC_6	UC	2965	4196	9957.96	10x 3' v3	ds1_garrido			
+198	UC	221	2247	3205.83	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+200	UC	254	3820	4488.7	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+202	UC	181	2611	3082.88	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+204	CTRL	40	4290	5411.88	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+206	CTRL	161	4048	5129.24	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+219	CTRL	78	6677.5	6674.29	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+221	CTRL	95	5602	5426.76	10x 3' v2	ds2_myeloid	Uzzan2022	Colonoscopy	
+237	CTRL	72	5642.5	6906.18	10x 3' v3	ds2_myeloid	Uzzan2022	Colonoscopy	
+238	UC	132	4648	4727.23	10x 3' v3	ds2_myeloid	Uzzan2022	Colonoscopy	
+290b	CTRL	1195	3194	5318.9	10x 3' v2	ds2_myeloid	James2020	DBD	
+298c	CTRL	219	3943	5024.15	10x 3' v2	ds2_myeloid	James2020	DCD	
+302c	CTRL	655	1899	2535.91	10x 5' v2	ds2_myeloid	James2020	DCD	
+390C	CTRL	33	3296	3796.73	10x 5' v2	ds2_myeloid	James2020	DCD	
+398B	CTRL	190	2759	3446.25	10x 3' v2	ds2_myeloid	Elmentaite2021	DBD	
+403C	CTRL	20	2581	3405.75	10x 5' v1	ds2_myeloid	Dominguez2022	DCD	
+412C	CTRL	13	767	2109	10x 5' v1	ds2_myeloid	Dominguez2022	DCD	
+414C	CTRL	42	998.5	1183.38	10x 3' v2	ds2_myeloid	Elmentaite2021	DCD	
+423C	CTRL	33	822	1211.36	10x 5' v1	ds2_myeloid	Dominguez2022	DCD	
+A12	CTRL	79	4148	4597.35	10x 3' v2	ds2_myeloid	Madissoon2019	DCD	
+A15	CTRL	59	1637	1665.03	10x 3' v2	ds2_myeloid	Madissoon2019	DCD	
+A1_healthy	CTRL	1	9965	9965	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+A21	CTRL	117	3668	3996.38	10x 3' v2	ds2_myeloid	Madissoon2019	DCD	
+A23	CTRL	62	1970.5	2986.4	10x 3' v2	ds2_myeloid	Madissoon2019	DCD	
+A25	CTRL	56	2022.5	2403.07	10x 3' v2	ds2_myeloid	Madissoon2019	DCD	
+A26 (386C)	CTRL	190	3507.5	4295.64	10x 5' v2	ds2_myeloid	Elmentaite2021	DCD	
+A2_non_inflamed	CTRL	6	4602.5	3682.67	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+A32 (411C)	CTRL	856	3353	4649.52	10x 5' v2	ds2_myeloid	Elmentaite2021	DCD	
+A34 (417C)	CTRL	482	1973	2833.43	10x 5' v2	ds2_myeloid	Elmentaite2021	DCD	
+A38 (432C)	CTRL	192	2578	3959.25	10x 5' v2	ds2_myeloid	Elmentaite2021	DCD	
+A39 (440C)	CTRL	165	4167	6802.17	10x 5' v2	ds2_myeloid	Elmentaite2021	DCD	
+A3_inflamed	UC	39	5164	9186.1	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+A6	CTRL	122	2558	3397.48	10x 3' v2	ds2_myeloid	Madissoon2019	DCD	
+A66_759B	CTRL	917	5928	8641.5	10x 5' v2	ds2_myeloid	Adult_unpublished	DBD	
+A68_770C	CTRL	687	4671	5879.81	10x 5' v2	ds2_myeloid	Adult_unpublished	DCD	
+B1_healthy	CTRL	11	2386	5512	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+B3_inflamed	UC	9	4540	7654	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+BM150	CTRL	326	8316.5	7641.22	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM152	CTRL	37	8360	8336.68	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM156	CTRL	159	7070	7242.99	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM157	CTRL	614	2208.5	2336.28	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM158	CTRL	246	7850	8063.74	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM165	CTRL	23	11471	11893.3	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM168	CTRL	535	3028	3064.79	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BM169	CTRL	185	5639	5332.14	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+BRC2026	CTRL	198	6775.5	7918.34	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2029	CTRL	74	7434.5	10000.9	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2043	CTRL	81	3074	3830.02	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2046	CTRL	5	2324	3212.6	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2049	CTRL	60	4549	4843.87	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2119	CTRL	24	6603.5	8132	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2121	CTRL	112	5704.5	6875.89	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2133	CTRL	288	7289	8598.51	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2134	CTRL	378	7618.5	9173.93	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2258	CTRL	416	4783.5	5734.36	10x 5' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+BRC2259	CTRL	298	9230	10394.5	10x 5' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+C1_healthy	CTRL	19	4506	4468.26	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+C2_non_inflamed	CTRL	5	8720	7331.8	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+C3_inflamed	UC	17	7075	6835.71	10x 3' v2	ds2_myeloid	Parikh2019	Colonoscopy	
+F66	CTRL	423	4645	6018.18	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+F67	CTRL	10	4557.5	5750.3	10x 3' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+F72	CTRL	2206	5129	6256.99	10x 5' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+F73	CTRL	510	3905	5014.2	10x 5' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+F78	CTRL	425	4397	7869.89	10x 5' v2	ds2_myeloid	Elmentaite2021	Medical_termination	
+GM136	CTRL	228	2961.5	3316.71	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM143	CTRL	159	2998	3736.01	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM144	CTRL	140	2400	2628.11	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM147	CTRL	91	1203	1420.49	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM148	CTRL	222	2379	2580.81	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM169	CTRL	198	2601	3747.16	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+GM183	CTRL	120	2434	2578.6	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM184a	CTRL	75	4899	5132.2	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM238	CTRL	709	3483	3637.7	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM241	CTRL	96	1845.5	2056.93	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM242	CTRL	259	1831	1980.55	10x 3' v2	ds2_myeloid	Williams2021	Oral sample	
+GM283	CTRL	243	4887	6105.38	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+GM289	CTRL	143	2265	3398.98	10x 3' v3	ds2_myeloid	Williams2021	Oral sample	
+GSM5683602	CTRL	85	5006	6575.33	10x 3' v3	ds2_myeloid	Chen2021	Surgery	
+HT-158	CTRL	1206	6460	7517.8	10x 3' v2	ds2_myeloid	Holloway2021	Unspecified	
+HT-172	CTRL	644	6129.5	6508.03	10x 3' v2	ds2_myeloid	Holloway2021	Unspecified	
+HT-184	CTRL	318	5684.5	6417.81	10x 3' v2	ds2_myeloid	Holloway2021	Unspecified	
+HT-185	CTRL	186	3216	3810.87	10x 3' v2	ds2_myeloid	Yu2021	Endoscopy	
+HT-188	CTRL	356	2547.5	3008.64	10x 3' v2	ds2_myeloid	Yu2021	Endoscopy	
+HT-228	CTRL	1491	7125	7525.54	10x 3' v2	ds2_myeloid	Yu2021	Unspecified	
+HT-231	CTRL	51	9080	10830.1	10x 3' v2	ds2_myeloid	Yu2021	Unspecified	
+HT-232	CTRL	165	8729	10032.1	10x 3' v2	ds2_myeloid	Yu2021	Unspecified	
+HT-234	CTRL	531	10104	10912.6	10x 3' v2	ds2_myeloid	Yu2021	Unspecified	
+HT-236	CTRL	1497	5956	6516.8	10x 3' v2	ds2_myeloid	Holloway2021	Unspecified	
+HT-243	CTRL	55	6741	8299.07	10x 3' v2	ds2_myeloid	Holloway2021	Unspecified	
+HT-260	CTRL	140	24097	25740	10x 3' v3	ds2_myeloid	Holloway2021	Unspecified	
+HT-274	CTRL	196	15104	16556.5	10x 3' v3	ds2_myeloid	Holloway2021	Unspecified	
+Healthy 1	CTRL	260	12313.5	13768.7	10x 3' v3	ds2_myeloid	Caetano2021	Surgery	
+Healthy 2	CTRL	311	5798	6552.72	10x 3' v3	ds2_myeloid	Caetano2021	Surgery	
+Ileum-1	CTRL	2	1775	1775	10x 3' v2	ds2_myeloid	Wang2020	Surgery	
+MSG11	CTRL	155	1836	1950.68	10x 3' v3	ds2_myeloid	CostaDaSilva2022	Oral sample	
+MSG15	CTRL	152	1636.5	1841.49	10x 3' v3	ds2_myeloid	CostaDaSilva2022	Oral sample	
+MSG18	CTRL	43	2592	2995.6	10x 3' v3	ds2_myeloid	CostaDaSilva2022	Oral sample	
+MSG21	CTRL	125	1838	1905.3	10x 3' v3	ds2_myeloid	CostaDaSilva2022	Oral sample	
+PT-61_1	CTRL	158	4677	6965.51	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+PT-61_2	CTRL	189	5009	7269	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+PT-62_1	CTRL	48	8187.5	10383.1	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+PT-62_2	CTRL	52	4365	5497.38	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+PT-64_1	CTRL	39	3096	5622.56	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+PT-64_2	CTRL	23	6506	6775.61	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+PTG65_1	CTRL	25	3438	4697	10x 5' v2	ds2_myeloid	Preterm_unpublished	Surgery	
+Pat01	CTRL	83	992	1415.39	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat01-B	OTHER	52	1420	2036.19	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat02	CTRL	83	1051	1480.46	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat02-B	OTHER	312	1150	1346.71	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat03	CTRL	206	1617.5	2026.36	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat03-B	OTHER	430	1411.5	1848.4	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat04	CTRL	45	1182	1322.82	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat04-B	OTHER	156	1406	1733.31	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat05	CTRL	83	820	2012.61	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat05-B	OTHER	70	2281	2510.49	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat06	CTRL	358	1232	1601.59	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat06-B	OTHER	165	1989	2425.18	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat07	CTRL	60	2378	2719.1	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat07-B	OTHER	146	2685.5	3136.25	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat08	CTRL	169	1984	2427.72	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat08-B	OTHER	811	2454	3161.02	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat09	CTRL	7	1840	2600.86	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat09-B	OTHER	504	2292	2632.11	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat10	CTRL	118	1152	1603.27	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat10-B	OTHER	89	2149	2682.97	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat11	CTRL	85	1052	1627.73	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat11-B	OTHER	56	3652.5	3714.36	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat12	CTRL	124	2663	3075.23	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat12-B	OTHER	353	2011	2488.86	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat13	CTRL	330	1231.5	1851.87	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat13-B	OTHER	227	1295	2094.28	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat14	CTRL	25	1662	2148.96	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat14-B	OTHER	1373	1693	1842.32	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat15	CTRL	30	1682	3470.5	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat15-B	OTHER	133	1936	2859.84	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat16	CTRL	147	2083	2820.78	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat16-B	OTHER	141	2552	3689.57	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat17	CTRL	61	1957	2836.08	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat17-B	OTHER	224	4223.5	5926.56	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat18	CTRL	67	1668	2532.4	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat18-B	OTHER	94	1282	2059.33	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat19	CTRL	1	2707	2707	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat19-B	OTHER	21	2351	2542.24	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat20	CTRL	74	2265	3035.82	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat20-B	OTHER	241	1563	2198.64	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat21	CTRL	2	1657.5	1657.5	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat22	CTRL	160	1125	2166.46	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat22-B	OTHER	147	2236	3146.18	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat23	CTRL	93	1024	1827.65	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat23-B	OTHER	32	2377.5	2570.78	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat24	CTRL	12	1830.5	2213.67	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat24-B	OTHER	80	2017	2362.76	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat25	CTRL	52	814.5	929.904	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat26	CTRL	21	2026	1938.38	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat28	CTRL	37	1265	2224.3	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Pat29	CTRL	3	1994	2277.33	10x 3' v2	ds2_myeloid	Kim2022	Endoscopy	
+Perio2	CTRL	2	2902	2902	10x 3' v2	ds2_myeloid	Pagella2021	Oral sample	
+Perio3	CTRL	12	6578	7298.83	10x 3' v2	ds2_myeloid	Pagella2021	Oral sample	
+Perio4	CTRL	27	3864	4312.3	10x 3' v2	ds2_myeloid	Pagella2021	Oral sample	
+Perio5	CTRL	24	5011	6687.58	10x 3' v2	ds2_myeloid	Pagella2021	Oral sample	
+Rectum-2	CTRL	5	12443	11481	10x 3' v2	ds2_myeloid	Wang2020	Surgery	
+S10 (S54)	UC	2	1294.5	1294.5	10x 3' v2	ds2_myeloid	Kinchen2018	Endoscopy	
+S279	OTHER	8	3081.5	3782.5	10x 3' v2	ds2_myeloid	Huang2019	Colonoscopy	
+S280	OTHER	29	2108	2267.52	10x 3' v2	ds2_myeloid	Huang2019	Colonoscopy	
+S8 (S66)	CTRL	1	1626	1626	10x 3' v2	ds2_myeloid	Kinchen2018	Endoscopy	
+S9 (S78)	UC	1	961	961	10x 3' v2	ds2_myeloid	Kinchen2018	Endoscopy	
+SC001 (KUL01)	CTRL	330	4539	5257.16	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC001 (KUL01)	OTHER	723	6787	7737.58	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC019 (KUL19)	CTRL	241	5066	6181.05	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC019 (KUL19)	OTHER	459	9333	11778.5	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC021 (KUL21	OTHER	603	3472	4448.9	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC021 (KUL21)	CTRL	68	4285.5	5001.87	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC024	CTRL	406	5957.5	7518.46	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC024	OTHER	605	3865	5305.49	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC027	CTRL	311	2706	3456.47	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC027	OTHER	219	4262	6273.69	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC028 (KUL28)	CTRL	40	2270	3246.1	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC028 (KUL28)	OTHER	142	2097.5	2862.76	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC029	CTRL	119	1396	2019.06	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC029	OTHER	188	2185.5	2900.66	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC030 (KUL30)	CTRL	137	1361	2022.63	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC030 (KUL30)	OTHER	163	3959	5102.62	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC031 (KUL31)	CTRL	41	3702	4495.02	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+SC031 (KUL31)	OTHER	116	6590.5	9650.58	10x 3' v2	ds2_myeloid	Lee2020	Surgery	
+T017	OTHER	68	3764.5	5001.51	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T019	OTHER	213	3595	6209.52	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T024	CTRL	167	1317	2507.27	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T036	CTRL	31	894	2595.42	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T036NEG	CTRL	203	4017	4446.02	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T036POS	CTRL	14	3834	5743.64	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T044	CTRL	81	2568	3447.6	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T057	CTRL	173	4079	4819.68	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T110NEG	CTRL	52	4285.5	5598.62	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T110POS	CTRL	11	9806	7744.36	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T160	CTRL	37	8043	8766.84	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T161	CTRL	24	1917	3625.08	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T176	OTHER	811	2255	2920.2	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T182	CTRL	27	3624	4239.93	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T189	OTHER	26	1976.5	2466.27	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T197	OTHER	158	4745.5	5561.82	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T202	OTHER	56	5184	5662.46	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+T203	OTHER	136	4070	4803.19	10x 3' v2	ds2_myeloid	Elmentaite2021	Endoscopy	
+donor 1813	CTRL	1	1466	1466	10x 3' v2	ds2_myeloid	Jaeger2021	Surgery	
+donor 1813	OTHER	14	6284.5	6163.93	10x 3' v2	ds2_myeloid	Jaeger2021	Surgery	
+donor 1818	OTHER	2	3957	3957	10x 3' v2	ds2_myeloid	Jaeger2021	Surgery	
+donor 7420/1366	CTRL	1	628	628	10x 3' v2	ds2_myeloid	Jaeger2021	Colectomy_ilectomy	
+donor1	CTRL	1034	2256	2805.11	10x 5' transcription profiling	ds2_myeloid	He2020GenomeBio	DBD	
+fetus#6	CTRL	68	10047	10076.5	10x 3' v2	ds2_myeloid	Li2019	Unspecified	
+patient1	CTRL	8	2520.5	2979.5	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient1	OTHER	155	3463	4586.08	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient10	CTRL	82	3398	4094.56	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient10	OTHER	222	2786	3905.05	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient11	CTRL	183	4888	5602.53	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient11	OTHER	368	2640	2906.28	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient12	CTRL	109	2540	2801.33	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient12	OTHER	241	1725	1944.34	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient13	CTRL	69	4082	4284.1	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient13	OTHER	198	4916	5251.55	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient14	CTRL	318	4629.5	4952.46	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient14	OTHER	310	3992	4747.07	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient15	CTRL	110	3454	3581.64	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient15	OTHER	212	4739	5238.74	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient16	CTRL	78	8626	7839.78	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient16	OTHER	258	4777	5890.47	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient2	OTHER	393	6133	7559.34	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient3	CTRL	13	4387	4340.62	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient3	OTHER	1440	3622	4507.95	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient4	CTRL	19	2396	2913.63	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient4	OTHER	147	3731	5878.71	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient5-Jeong2021	CTRL	28	966.5	1546.25	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient5-Jeong2021	OTHER	26	3795.5	4751.46	10x 3' v2	ds2_myeloid	Jeong2021	Surgery	
+patient5-Martin2019	CTRL	135	1680	1771.27	10x 3' v1	ds2_myeloid	Martin2019	Surgery	
+patient5-Martin2019	OTHER	194	2234.5	2479.63	10x 3' v1	ds2_myeloid	Martin2019	Surgery	
+patient6	CTRL	16	1600.5	2901.62	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient6	OTHER	60	2894	3539.62	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient7	CTRL	28	3796	4049.68	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient7	OTHER	393	2460	2955.85	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient8	CTRL	24	5261.5	5881.12	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+patient8	OTHER	141	3294	3475.26	10x 3' v2	ds2_myeloid	Martin2019	Surgery	
+pooled (FA340, FA341)	OTHER	407	11334	11501.8	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 1	OTHER	148	4650.5	6172.7	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 2	OTHER	9	2829	4816.44	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 3	OTHER	581	1320	2950.65	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 4	OTHER	2	21449.5	21449.5	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA602, FA604) 1	CTRL	18	1407	2250	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA602, FA604) 3	CTRL	37	4789	4987.78	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA602, FA604) 4	CTRL	5	1216	1765.2	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+pooled (FA609, FA611, FA612) 2	CTRL	18	5340.5	4787.61	10x 5' v1	ds2_myeloid	Huang2019	Colonoscopy	
+198	UC	26	11768.5	15544	10x 3' v2	ds3_largeintestine	Uzzan2022	Colonoscopy	
+200	UC	36	8833.5	10691.3	10x 3' v2	ds3_largeintestine	Uzzan2022	Colonoscopy	
+202	UC	23	11136	13439.4	10x 3' v2	ds3_largeintestine	Uzzan2022	Colonoscopy	
+204	CTRL	31	14964	19895.6	10x 3' v2	ds3_largeintestine	Uzzan2022	Colonoscopy	
+206	CTRL	1	2103	2103	10x 3' v2	ds3_largeintestine	Uzzan2022	Colonoscopy	
+221	CTRL	5	12896	10214.4	10x 3' v2	ds3_largeintestine	Uzzan2022	Colonoscopy	
+237	CTRL	625	11256	13382	10x 3' v3	ds3_largeintestine	Uzzan2022	Colonoscopy	
+290b	CTRL	20	12750	24444.2	10x 3' v2	ds3_largeintestine	James2020	DBD	
+298c	CTRL	40	11702	15366.5	10x 3' v2	ds3_largeintestine	James2020	DCD	
+302c	CTRL	10	2189.5	8485.7	10x 5' v2	ds3_largeintestine	James2020	DCD	
+390C	CTRL	2675	6602	8230.74	10x 5' v2	ds3_largeintestine	James2020	DCD	
+398B	CTRL	3558	5761	8472.57	10x 3' v2	ds3_largeintestine	Elmentaite2021	DBD	
+403C	CTRL	697	5811	7152.22	10x 5' v1	ds3_largeintestine	Dominguez2022	DCD	
+412C	CTRL	177	1508	2293.09	10x 5' v1	ds3_largeintestine	Dominguez2022	DCD	
+423C	CTRL	286	4771	6052.85	10x 5' v1	ds3_largeintestine	Dominguez2022	DCD	
+A1_healthy	CTRL	1291	5040	7822.62	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+A26 (386C)	CTRL	7790	7183.5	8765.4	10x 5' v2	ds3_largeintestine	Elmentaite2021	DCD	
+A2_non_inflamed	CTRL	1071	4409	6491.31	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+A32 (411C)	CTRL	3581	7967	12982.5	10x 5' v2	ds3_largeintestine	Elmentaite2021	DCD	
+A34 (417C)	CTRL	17780	2907	4602.09	10x 5' v2	ds3_largeintestine	Elmentaite2021	DCD	
+A38 (432C)	CTRL	9968	7901	10570.4	10x 5' v2	ds3_largeintestine	Elmentaite2021	DCD	
+A39 (440C)	CTRL	3332	4032	5630.63	10x 5' v2	ds3_largeintestine	Elmentaite2021	DCD	
+A3_inflamed	UC	820	3672	5861.41	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+B1_healthy	CTRL	2865	4438	8382.85	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+B2_non_inflamed	CTRL	2815	6790	9767.61	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+B3_inflamed	UC	1140	11487	16913.5	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+C1_healthy	CTRL	3811	4598	7780.69	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+C2_non_inflamed	CTRL	3390	5763.5	9059.29	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+C3_inflamed	UC	2960	2930.5	6603.92	10x 3' v2	ds3_largeintestine	Parikh2019	Colonoscopy	
+Colon-1	CTRL	2048	12662.5	15268.2	10x 3' v2	ds3_largeintestine	Wang2020	Surgery	
+Ileum-2/Colon-2	CTRL	3552	9239	11063.5	10x 3' v2	ds3_largeintestine	Wang2020	Surgery	
+Rectum-1	CTRL	2979	14494	16160.3	10x 3' v2	ds3_largeintestine	Wang2020	Surgery	
+Rectum-2	CTRL	1604	5827	8551.9	10x 3' v2	ds3_largeintestine	Wang2020	Surgery	
+S10 (S54)	UC	25	15061	15627	10x 3' v2	ds3_largeintestine	Kinchen2018	Endoscopy	
+S279	OTHER	122	1566.5	2479.03	10x 3' v2	ds3_largeintestine	Huang2019	Colonoscopy	
+S280	OTHER	31	2495	3928.55	10x 3' v2	ds3_largeintestine	Huang2019	Colonoscopy	
+S8 (S66)	CTRL	9	730	4329.44	10x 3' v2	ds3_largeintestine	Kinchen2018	Endoscopy	
+S9 (S78)	UC	8	7138	11803.4	10x 3' v2	ds3_largeintestine	Kinchen2018	Endoscopy	
+SC001 (KUL01)	CTRL	864	6360.5	9628.58	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC001 (KUL01)	OTHER	1673	15854	25628.5	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC019 (KUL19)	CTRL	667	7391	11785.9	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC019 (KUL19)	OTHER	779	3984	17206.9	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC021 (KUL21	OTHER	1784	6448.5	9157.66	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC021 (KUL21)	CTRL	481	4670	6712.54	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC024	CTRL	365	24125	36186.8	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC024	OTHER	1167	6597	14262.6	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC027	CTRL	689	7496	11118.3	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC027	OTHER	518	5014.5	9740.48	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC028 (KUL28)	CTRL	176	5682.5	7265.46	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC028 (KUL28)	OTHER	279	3428	5174.14	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC029	CTRL	277	4221	5331.8	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC029	OTHER	632	2391	4460.74	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC030 (KUL30)	CTRL	600	10118.5	15047	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC030 (KUL30)	OTHER	905	6221	9444.26	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC031 (KUL31)	CTRL	587	6110	8909.66	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+SC031 (KUL31)	OTHER	650	16242	19253.4	10x 3' v2	ds3_largeintestine	Lee2020	Surgery	
+donor 1425	CTRL	1	922	922	10x 3' v2	ds3_largeintestine	Jaeger2021	Colectomy_ilectomy	
+donor 7420/1366	CTRL	2	1117	1117	10x 3' v2	ds3_largeintestine	Jaeger2021	Colectomy_ilectomy	
+donor1	CTRL	979	3224	5280.67	10x 5' transcription profiling	ds3_largeintestine	He2020GenomeBio	DBD	
+pooled (FA340, FA341)	OTHER	4	15023.5	14436.8	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 1	OTHER	4	6091.5	8924	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 2	OTHER	7	33916	34634.3	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 3	OTHER	21	8196	10014.8	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA394, FA395, FA396, FA397) 4	OTHER	746	5188.5	6869.32	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA602, FA604) 1	CTRL	10	978.5	1083.5	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA602, FA604) 3	CTRL	2	618	618	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA602, FA604) 4	CTRL	445	1599	2007.29	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA609, FA611, FA612) 1	CTRL	153	1084	1457.54	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+pooled (FA609, FA611, FA612) 2	CTRL	6	1301	4615.83	10x 5' v1	ds3_largeintestine	Huang2019	Colonoscopy	
+411c	CTRL	5138	3103	5178.22	10x 5' v2	ds4_tearle			A32-TCL-0-SC-45P-1
+414c	CTRL	104773	1016	1362.13	10x 5' v2	ds4_tearle			A33-REC-0-SC-45N-1
+417c	CTRL	53016	1534	2592.03	10x 5' v2	ds4_tearle			A34-ACL-1-SC-45P-1
+432c	CTRL	9160	5542.5	9344.72	10x 5' v2	ds4_tearle			A38-TCL-1-SC-45P-1
+440c	CTRL	5895	4127	5122.25	10x 5' v2	ds4_tearle			A39-TCL--SC-1
+HC-1	CTRL	7836	5169.5	10476	10x 5' v3	ds4_tearle			2025
+HC-2	CTRL	2683	6213	13596.4	10x 5' v3	ds4_tearle			CRC-1
+PSC-1	OTHER	8901	8570	15241.2	10x 5' v2	ds4_tearle			2022_1
+PSC-2	OTHER	9192	8141	18617.1	10x 5' v2	ds4_tearle			2022_2
+PSC-3	OTHER	5596	9327.5	15500.6	10x 5' v2	ds4_tearle			2022_2
+PSC-4	OTHER	26691	5097	10322.2	10x 5' v2	ds4_tearle			2022_7
+PSC-5	OTHER	4467	5507	10458.9	10x 5' v3	ds4_tearle			2025
+PSC-6	OTHER	5808	6974.5	15500.9	10x 5' v3	ds4_tearle			2025
+PSC-7	OTHER	8855	7164	22978.3	10x 5' v3	ds4_tearle			2025
+UC-1	UC	8063	3900	10456.5	10x 5' v2	ds4_tearle			2022_3
+UC-10	UC	12004	6105	14257.8	10x 5' v3	ds4_tearle			2025
+UC-2	UC	11331	4368	10499.4	10x 5' v2	ds4_tearle			2022_4
+UC-3	UC	6135	13050	23746	10x 5' v2	ds4_tearle			2022_5
+UC-4	UC	5218	9423	16878.7	10x 5' v2	ds4_tearle			2022_6
+UC-7	UC	8427	6116	9149.98	10x 5' v3	ds4_tearle			2025
+UC-8	UC	2691	4343	11954.4	10x 5' v3	ds4_tearle			2025
+UC-9	UC	9099	4916	10373.6	10x 5' v3	ds4_tearle			2025

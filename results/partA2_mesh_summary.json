@@ -1,0 +1,25 @@
+{
+ "n_keyword_hits": 160,
+ "verdict_counts": {
+  "IBD但非UC": 69,
+  "无UC/IBD归因": 39,
+  "UC确认-次要": 25,
+  "无法核验-无PMID": 22,
+  "UC确认-主要主题": 5
+ },
+ "n_with_pmid": 138,
+ "n_without_pmid": 22,
+ "n_uc_any": 30,
+ "n_uc_major": 5,
+ "n_ibd_only": 69,
+ "n_no_attribution": 39,
+ "n_unique_pmids": 144,
+ "n_pmids_multi_dataset": 12,
+ "gids_in_multi_pmid_datasets": 27,
+ "n_review_datasets": 0,
+ "arms_ok_keyword": 15,
+ "arms_ok_and_uc_any": 12,
+ "arms_ok_and_uc_major": 1,
+ "study_level_arms_ok_uc_any": 16,
+ "study_level_arms_ok_uc_major": 1
+}

@@ -1,0 +1,34 @@
+{
+ "purpose": "Case B (pyroptosis x Parkinson) — per-cohort direction consistency and pooled Mann-Whitney for the two panel genes.",
+ "source_table": "results/caseB_expr_table.tsv (123 samples x 161 genes), results/caseB_samples.tsv",
+ "label_rule": "label == 'PD' vs 'CTL'",
+ "per_cohort": {
+  "GSE20163": {"POLR2K": {"pd_median": 12.68, "ctl_median": 12.87, "direction": "down", "p": 0.335},
+               "TIMM8B": {"pd_median": 13.2, "ctl_median": 13.41, "direction": "down", "p": 0.2268}},
+  "GSE20164": {"POLR2K": {"pd_median": 6.642, "ctl_median": 6.901, "direction": "down", "p": 0.4286},
+               "TIMM8B": {"pd_median": 9.132, "ctl_median": 9.285, "direction": "down", "p": 0.08225}},
+  "GSE7621":  {"POLR2K": {"pd_median": 7.916, "ctl_median": 8.021, "direction": "down", "p": 0.6711},
+               "TIMM8B": {"pd_median": 7.652, "ctl_median": 7.469, "direction": "up",   "p": 0.06999}},
+  "GSE8397":  {"POLR2K": {"pd_median": 7.147, "ctl_median": 7.386, "direction": "down", "p": 0.02633},
+               "TIMM8B": {"pd_median": 8.948, "ctl_median": 9.15,  "direction": "down", "p": 0.02559}},
+  "GSE49036": {"POLR2K": {"pd_median": 8.946, "ctl_median": 9.142, "direction": "down", "p": 0.3169},
+               "TIMM8B": {"pd_median": 9.012, "ctl_median": 9.376, "direction": "down", "p": 0.2651}}
+ },
+ "direction_summary": {
+  "POLR2K": {"n_cohorts_down": 5, "n_cohorts": 5},
+  "TIMM8B": {"n_cohorts_down": 4, "n_cohorts": 5, "exception": "GSE7621"}
+ },
+ "pooled_training_only": {
+  "n_samples": 100, "n_PD": 59, "n_CTL": 41,
+  "datasets": ["GSE7621", "GSE20164", "GSE20163", "GSE8397"],
+  "POLR2K": {"p_two_sided": 0.143},
+  "TIMM8B": {"p_two_sided": 0.04616},
+  "note": "This is the pooling used in the manuscript ('pooling the 100 training samples'). The validation cohort GSE49036 is excluded."
+ },
+ "pooled_all_123": {
+  "n_samples": 123, "n_PD": 74, "n_CTL": 49,
+  "POLR2K": {"p_two_sided": 0.2358},
+  "TIMM8B": {"p_two_sided": 0.02757},
+  "note": "Reported for completeness; NOT the number quoted in the manuscript."
+ }
+}

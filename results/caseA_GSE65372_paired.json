@@ -1,0 +1,66 @@
+{
+ "platform": "GPL14951",
+ "n_samples": 54,
+ "n_patients": 18,
+ "n_genes_tested": 64,
+ "n_tumor": 39,
+ "n_normal": 15,
+ "P1_unpaired_paper_caliber": {
+  "n_per_group": [
+   39,
+   15
+  ],
+  "n_de_p001": 8,
+  "n_de_fdr05": 19,
+  "n_fdr_sig_using_fdr_as_original_claimed": null,
+  "auc_insample_de001": 0.9794871794871796,
+  "top_genes": [
+   "PRNP",
+   "VDAC3",
+   "AKR1C3",
+   "HSPB1",
+   "TXNRD1",
+   "PCBP2",
+   "FTH1",
+   "PCBP1",
+   "GPX4",
+   "STEAP3"
+  ]
+ },
+ "P2_paired_patient_level": {
+  "n_pairs": 14,
+  "n_de_p001": 2,
+  "n_de_p05": 16,
+  "auc_insample_de001": 0.9846938775510203,
+  "n_de05_by_patient_power": 16,
+  "min_attainable_p_two_sided_n14": 0.0001220703125,
+  "top_genes": [
+   "TXNRD1",
+   "NOX4",
+   "FTH1",
+   "HSPB1",
+   "AKR1C3",
+   "SLC39A14",
+   "AKR1C2",
+   "VDAC3",
+   "PRNP",
+   "GPX4"
+  ],
+  "mean_abs_delta_z": 0.8616969725898345
+ },
+ "pseudoreplication": {
+  "n_tumor_samples": 39,
+  "n_patients_with_tumor": 17,
+  "inflation_factor": 2.2941176470588234,
+  "max_tumor_per_patient": 3
+ },
+ "comparison": {
+  "n_de_P1": 8,
+  "n_de_P2": 2,
+  "auc_P1": 0.9794871794871796,
+  "auc_P2": 0.9846938775510203,
+  "overlap_genes_p001": [
+   "TXNRD1"
+  ]
+ }
+}
