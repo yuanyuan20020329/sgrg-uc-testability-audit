@@ -53,6 +53,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
+import resfeas_reason_i18n as I18N
+
 socket.setdefaulttimeout(120)
 CTX = ssl.create_default_context()
 CTX.check_hostname = False
@@ -419,32 +421,12 @@ def main():
             contrast.control_reuse_frac.notna()].nlargest(20, "control_reuse_frac")[
             ["collection_name", "tissue_systems", "diseases_union", "n_control_ds",
              "n_disease_ds", "control_cells", "control_reuse_frac", "case_reuse_frac"]].to_dict("records"),
-        "metric_definitions": {
-            "frac_primary": "primary_cell_count / cell_count（该数据集有多少细胞是本研究原产）",
-            "library_reused_cell_share": "全库 1 - Σprimary/Σcells，即非原产（复用）细胞占比",
-            "control_reuse_frac": "集合对照臂细胞中非本数据集原产的占比（对照组标签 = normal/healthy/control 等）",
-            "case_reuse_frac": "同一集合病例臂的对应比例（作为对照，避免把 atlas 聚合误判成对照污染）",
-            "reuse_asymmetry": "control_reuse_frac - case_reuse_frac，>0 才说明对照比病例更依赖外来数据",
-            "depth_ratio": "加权 mean_genes_per_cell，对照臂 / 病例臂；仅用 frac_primary≈1 的数据集",
-            "arm_class": ("数据集按疾病标签划分：ctl_only（仅对照标签）/ dis_only（仅疾病标签）/ "
-                          "mixed（同一数据集同时含对照与疾病标签）。mixed 的对比存在于数据集内部，"
-                          "臂无法在元数据层拆分，故整体单独计数、不并入病例臂。"),
-            "has_arm_contrast": "集合同时有 ctl_only 与 dis_only 数据集 → 对照臂/病例臂可分别审计",
-            "has_mixed_contrast": "集合含 mixed 数据集（有对比但臂不可分）",
-            "n_any_contrast_collections": "has_arm_contrast 或 has_mixed_contrast 的集合总数",
-            "share_contrast_collections_not_arm_separable": "含对比集合中，臂无法在元数据层分开的比例",
-            "median_frac_primary_contrast_bearing_ds": "携带病例-对照对比的数据集（mixed）的 frac_primary 中位",
-            "share_contrast_bearing_ds_fully_reused": "mixed 数据集中 frac_primary = 0（全部复用）的比例",
-        },
-        "caveat": ("is_primary_data=False 本身不构成错误，atlas 型集合合法地聚合外部数据；"
-                   "本审计的结论落在**不对称性**（对照臂比病例臂更依赖外来细胞）与"
-                   "**对照臂完全复用**的比例上，而非复用率的绝对值。"
-                   "mean_genes_per_cell 为数据集级均值，仅作深度代理。"
-                   "★ 本审计最重要的局限是审计可行性本身被数据质量筛选："
-                   "全库 140 个含对比集合里只有 10.7% 的臂可在元数据层分开，"
-                   "而在这 15 个可审计集合中对照臂几乎都是本研究原产——"
-                   "即「可审计」的子集恰好是「对照干净」的子集，"
-                   "对 89.3% 的集合我们无法判断，而不是判断为干净。"),
+        # v1.0.1: English only. The Chinese wording shipped in v1.0.0 is preserved for
+        # every one of these strings in scripts/resfeas_reason_i18n.py, which is also
+        # what regenerates the row-by-row mapping in the code archive. Field names,
+        # numbers and key order are unchanged.
+        "metric_definitions": I18N.metric_definitions("en"),
+        "caveat": I18N.SUMMARY_CAVEAT["en"],
     }
     json.dump(summary, open(os.path.join(OUT, "partD_resfeas_libwide_summary.json"), "w",
                             encoding="utf-8"), indent=2, ensure_ascii=False, default=str)

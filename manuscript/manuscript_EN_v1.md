@@ -5,7 +5,7 @@
 > **目标刊**：Tier B —— *Briefings in Bioinformatics* / *Scientific Data* / *GigaScience* / *PLOS Computational Biology*；
 > Tier C 备选 —— *BMC Bioinformatics* / *Scientific Reports* / *Database (Oxford)*。
 > **状态**：初稿。全部数字已回溯至 `results/` 下具体文件（见 `主论文初稿_v1_CN附注.md` 的 §B 数字—来源对照表，§B1–§B15）。
-> 仍待补：目标刊定稿的参考文献体例转换。存档已完成 —— GitHub `yuanyuan20020329/sgrg-uc-testability-audit`，Zenodo DOI **10.5281/zenodo.23291759**。
+> 仍待补：目标刊定稿的参考文献体例转换。存档已完成 —— GitHub `yuanyuan20020329/sgrg-uc-testability-audit`；代码 Zenodo DOI **10.5281/zenodo.23291759**；审计表数据集 Zenodo DOI **10.5281/zenodo.23297703**（概念 DOI `10.5281/zenodo.23297702`）。
 > **体裁红线**：不可自称 meta-analysis（无可合并效应量）。若用 meta 框架，分析单位必须是数据集，做单组率的比例 meta。
 
 ---
@@ -248,7 +248,7 @@ Three implications follow.
 
 ## 6. Data and code availability
 
-No primary data were generated. All analyses use public data: bulk transcriptomic cohorts GSE38713, GSE11223, GSE22619, GSE19738, GSE53987, GSE80655 (GEO, accessed via Gemma [20]) and GSE133060 (GEO); single-cell datasets ds1 [26], ds2–ds3 [30] and ds4 [31] via CELLxGENE Discover [24]; GTEx v8 cis-eQTLs [23]; the 1000 Genomes high-coverage GRCh38 phased panel; and the de Lange 2017 UC GWAS (GCST004133) [11]. No primary data are redistributed. Analysis code, the key result tables backing every number reported here, the manuscript sources and the pinned Python/R environments are available in the public archive — GitHub: https://github.com/yuanyuan20020329/sgrg-uc-testability-audit (archived at Zenodo, DOI: 10.5281/zenodo.23291759). Accessions for every primary dataset, the corresponding retrieval scripts, and download instructions are given in the archive's `DATA_ACCESS.md`.
+No primary data were generated. All analyses use public data: bulk transcriptomic cohorts GSE38713, GSE11223, GSE22619, GSE19738, GSE53987, GSE80655 (GEO, accessed via Gemma [20]) and GSE133060 (GEO); single-cell datasets ds1 [26], ds2–ds3 [30] and ds4 [31] via CELLxGENE Discover [24]; GTEx v8 cis-eQTLs [23]; the 1000 Genomes high-coverage GRCh38 phased panel; and the de Lange 2017 UC GWAS (GCST004133) [11]. No primary data are redistributed. Analysis code, the key result tables backing every number reported here, the manuscript sources and the pinned Python/R environments are available in the public archive — GitHub: https://github.com/yuanyuan20020329/sgrg-uc-testability-audit (archived at Zenodo, DOI: 10.5281/zenodo.23291759). The derived audit tables that the layer definitions in this paper are stated against are deposited separately as a citable dataset — Zenodo, DOI: 10.5281/zenodo.23297703 (concept DOI: 10.5281/zenodo.23297702). Accessions for every primary dataset, the corresponding retrieval scripts, and download instructions are given in the archive's `DATA_ACCESS.md`.
 
 ---
 

@@ -1,0 +1,238 @@
+{
+  "old": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\frozen_deposit_v1.0.0",
+  "new": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\deposit",
+  "total": 46,
+  "failed": 0,
+  "checks": [
+    {
+      "ok": true,
+      "label": "no English reason template contains the join token '; '",
+      "detail": "templates that would be ambiguous to split: []"
+    },
+    {
+      "ok": true,
+      "label": "every reason template keeps its zh/en directive counts",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "label": "reference payload exists at C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\frozen_deposit_v1.0.0",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "current payload exists at C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\deposit",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "file inventory unchanged",
+      "detail": "only in old: set(); only in new: set()"
+    },
+    {
+      "ok": true,
+      "label": "payload has 14 files (found 14)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "cxg_coll_detail_snapshot_v1.0.0.zip is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_geo_series.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_collections.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_datasets.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "ledger keeps its line-ending convention",
+      "detail": "old '\\r\\n'/True vs new '\\r\\n'/True"
+    },
+    {
+      "ok": true,
+      "label": "ledger row count unchanged (old 29, new 29)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "ledger header (field names and order) unchanged",
+      "detail": "['source', 'resource', 'dataset', 'assay', 'resolution', 'disease', 'n_case', 'n_ctrl', 'n_pairs', 'frac_primary', 'G1_mRNA', 'G2_UC', 'G3_powered_control', 'G4_in_vivo', 'USABLE', 'reason'] vs ['source', 'resource', 'dataset', 'assay', 'resolution', 'disease', 'n_case', 'n_ctrl', 'n_pairs', 'frac_primary', 'G1_mRNA', 'G2_UC', 'G3_powered_control', 'G4_in_vivo', 'USABLE', 'reason']"
+    },
+    {
+      "ok": true,
+      "label": "every ledger column except `reason` is identical, row by row (includes G1_mRNA, G2_UC, G3_powered_control, G4_in_vivo, USABLE)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "all 29 `reason` cells changed (found 29)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "all 29 `reason` cells are ASCII (found 29)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "every `reason` component matches a declared English template",
+      "detail": "unmatched: []"
+    },
+    {
+      "ok": true,
+      "label": "gate matrix and USABLE verdict identical (row order included)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: key set unchanged",
+      "detail": "diff []"
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: every changed key path is allow-listed",
+      "detail": "unexpected changes at []"
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: every numeric value byte-identical",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: four tabular resources",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: field names and order unchanged in a resource",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: field names and order unchanged in a resource",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: field names and order unchanged in a resource",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: field names and order unchanged in a resource",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_summary.json: key set unchanged",
+      "detail": "diff []"
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_summary.json: every changed key path is allow-listed",
+      "detail": "unexpected changes at []"
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_summary.json: every numeric value byte-identical",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_summary.json: prose keys replaced, not all text touched",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_verdict.json: key set unchanged",
+      "detail": "diff []"
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_verdict.json: every changed key path is allow-listed",
+      "detail": "unexpected changes at []"
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_verdict.json: every numeric value byte-identical",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in CHANGELOG.md",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in datapackage.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in LICENSE-DATA.md",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in manifest.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_geo_series.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_ledger.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_libwide_collections.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_libwide_datasets.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_libwide_summary.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_verdict.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in README.md",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in SCOPE_NOTE.md",
+      "detail": "0 line(s), e.g. []"
+    }
+  ]
+}

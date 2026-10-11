@@ -534,3 +534,35 @@ ds4 的发现——94.4% 的「对照」细胞复用外部供体，靠读单个�
 
 > **一处待用户确认的口径**：`DATA_ACCESS.md` 把 ds2/ds3 的**沉积细胞数**（50,570 / 96,675）标为「非分析口径」，
 > 与 §B6 的分析口径分列。若审稿人拿沉积数质疑样本量，答复应指向 `partD_technical_inventory.tsv` 的 `n_cell_pseudobulk`，不要引用沉积数。
+
+### C9 数据集 DOI 已铸（2026-10-11）
+
+**数据集记录已发布**，与代码 DOI 是两条独立记录：
+
+| | |
+|---|---|
+| **数据集版本 DOI（写稿件引这个）** | **`10.5281/zenodo.23297703`** |
+| 概念 DOI（指向该记录全部版本） | `10.5281/zenodo.23297702` |
+| 记录页 | https://zenodo.org/records/23297703 （状态 `published`） |
+| 载荷 | 14 个文件 / 3,095,926 B（≈2.95 MB）；Resource type **Dataset**；许可 **CC BY 4.0**；Version 1.0.0 |
+| 互链 | 代码 DOI `10.5281/zenodo.23291759`（`isSupplementedBy`）+ GitHub 仓库（`isDerivedFrom`） |
+| 本地凭据 | `resource_paper/dataset_doi.txt`（首行 DOI，供 `--doi-file` 复跑与稿件抄写） |
+
+**已同步的位置**：英文稿 §6 *Data and code availability* 新增一句并给出数据集 DOI 与概念 DOI；
+`resource_paper/README.md` 的 Citation 段、`LICENSE-DATA.md` 的 attribution 块均已含正式 DOI；
+`resource_paper/SUBMISSION_READINESS.md` 第 1、3 项由「pending」改为已发布/已铸。
+
+**两条独立验证通道（都已跑）**：
+
+1. `scripts/verify_dataset_doi.py`（走 zenodo.org，下载 14 文件复算 SHA-256）—— 检查 2a/2b/3/4 全过：
+   14/14 文件齐、**12/12 SHA-256 一致**、`MANIFEST.sha256` 与本地逐字节相同、`manifest.json` 的 `files` 块自洽、
+   README 与载荷逐字节相同、数据集 DOI 与代码 DOI 分离且互链。检查 1（DOI 能否解析）**单次 TLS 握手超时**，
+   属瞬时故障（同一轮里其余检查都要连 Zenodo 且都成功了）。
+2. `scripts/verify_dataset_doi_registry.py`（走 **doi.org + api.datacite.org**，完全不碰 zenodo.org）—— **5/5 全过**，
+   含 DOI 已注册（`state=findable`）、类型 `Dataset`、权利 `cc-by-4.0`、与代码 DOI 互链、本地载荷 12/12 自洽。
+   报告落盘 `results/dataset_doi_verification_registry.json`。
+
+> **发布过程记录（供复现）**：首次运行在第 3 阶段第 14 个文件上被网络掐断（13/14 已上传，草稿完好）；
+> 用 `--deposition-id 23297703 --assume-reachable` 续跑，14 个文件全部判定「已存在」→ 上传 0 个 →
+> stage 4 元数据 → stage 5 发布 → stage 6 校验。**保留号在发布前于 DataCite 查为 404**，
+> 这一点可用于区分「草稿保留号」与「已注册 DOI」。

@@ -1,15 +1,16 @@
 # CITATION.cff — Citation File Format 1.2.0
 #
-# Released: v1.0.0 archived on Zenodo (version DOI below).
+# v1.0.1. The Zenodo version DOI is minted when the GitHub release is published, so it is
+# added in a follow-up commit (see the `identifiers:` block below); the concept DOI
+# 10.5281/zenodo.23291758 always resolves to the newest version of this code archive.
 #
 cff-version: 1.2.0
 message: "If you use this code or these result tables, please cite the manuscript and the archived release."
 title: "A five-rung testability audit for public omics resources: code and key results"
 type: software
-version: "v1.0.0"
-date-released: "2026-10-10"
+version: "v1.0.1"
+date-released: "2026-10-11"
 license: MIT
-doi: 10.5281/zenodo.23291759
 repository-code: "https://github.com/yuanyuan20020329/sgrg-uc-testability-audit"
 
 authors:
@@ -48,5 +49,12 @@ abstract: >-
 
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23291759
-    description: "Zenodo archival DOI (version v1.0.0)"
+    value: 10.5281/zenodo.23291758
+    description: "Zenodo concept DOI of this code archive (resolves to the newest version)"
+
+# The v1.0.1 version DOI is added here once Zenodo has archived the release, e.g.
+#   doi: 10.5281/zenodo.<id>
+#   identifiers:
+#     - type: doi
+#       value: 10.5281/zenodo.<id>
+#       description: "Zenodo archival DOI (version v1.0.1)"

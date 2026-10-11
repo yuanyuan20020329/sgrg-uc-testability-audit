@@ -29,6 +29,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
+import resfeas_reason_i18n as I18N
+
 MM = 1 / 25.4
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 6.2,
@@ -64,9 +66,10 @@ for _, r in CXG[CXG.has_UC].iterrows():
     why = []
     if not g3:
         if nctl < CTRL_MIN:
-            why.append("自有对照供体 %d<%d" % (nctl, CTRL_MIN))
+            why.append(I18N.reason("en", "cxg_own_control_donors", nctl, CTRL_MIN))
         if frac < 0.9:
-            why.append("原产细胞仅 %.1f%%" % (100 * frac if pd.notna(frac) else float("nan")))
+            why.append(I18N.reason("en", "cxg_frac_primary",
+                                   100 * frac if pd.notna(frac) else float("nan")))
     rows.append({
         "source": "CELLxGENE", "resource": r.collection_name,
         "dataset": r.dataset_title, "assay": (r.assays if isinstance(r.assays, str) else ""),
@@ -75,7 +78,8 @@ for _, r in CXG[CXG.has_UC].iterrows():
         "n_pairs": "", "frac_primary": round(float(frac), 4) if pd.notna(frac) else "",
         "G1_mRNA": g1, "G2_UC": g2, "G3_powered_control": g3, "G4_in_vivo": g4,
         "USABLE": bool(g1 and g2 and g3 and g4),
-        "reason": "; ".join(why) if why else "同研究真对照，供体数与同源性均达标",
+        "reason": (I18N.REASON_SEPARATOR.join(why) if why
+                   else I18N.reason("en", "pass_cxg")),
     })
 
 # ---------------------------------------------------------------- GEO 侧
@@ -90,15 +94,16 @@ for _, r in G.iterrows():
     g4 = not bool(r.in_vitro)
     why = []
     if not g1:
-        why.append("assay=%s，非 mRNA，无法给编码基因面板打分" % r.molecule)
+        why.append(I18N.reason("en", "geo_assay_not_mrna", r.molecule))
     if not g2:
-        why.append("疾病为 %s（无 UC）" % (dis or "未标注"))
+        why.append(I18N.reason("en", "geo_no_uc",
+                               dis or I18N.DISEASE_UNKNOWN["en"]))
     if not g3:
-        why.append("同供体配对仅 %d 对（<%d）" % (npr, PAIR_MIN))
+        why.append(I18N.reason("en", "geo_too_few_pairs", npr, PAIR_MIN))
     if not g4:
-        why.append("离体模型（类器官/细胞系）")
+        why.append(I18N.reason("en", "geo_in_vitro"))
     if g1 and nss == 0 and r.resolution == "spatial":
-        why.append("空间数据配对为跨肠段，部位与状态混杂")
+        why.append(I18N.reason("en", "geo_spatial_cross_segment"))
     rows.append({
         "source": "GEO", "resource": r.gse, "dataset": r.title,
         "assay": str(r.series_type)[:70], "resolution": r.resolution,
@@ -106,7 +111,8 @@ for _, r in G.iterrows():
         "n_pairs": npr, "frac_primary": "",
         "G1_mRNA": g1, "G2_UC": g2, "G3_powered_control": g3, "G4_in_vivo": g4,
         "USABLE": bool(g1 and g2 and g3 and g4),
-        "reason": "; ".join(why) if why else "达标",
+        "reason": (I18N.REASON_SEPARATOR.join(why) if why
+                   else I18N.reason("en", "pass_geo")),
     })
 
 L = pd.DataFrame(rows)
@@ -129,7 +135,7 @@ verdict = {
     "geo_spatial_pairs_max": int(GEO[GEO.resolution == "spatial"].n_paired_donors.max()),
     "geo_spatial_samesite_pairs": geo_summ["n_spatial_mrna_with_pairing_samesite"],
     "geo_max_pairs_any_assay": int(GEO.n_paired_donors.max()),
-    "geo_max_pairs_mirna_example": "GSE272890（43 对，但测 miRNA）",
+    "geo_max_pairs_mirna_example": I18N.VERDICT_MIRNA_EXAMPLE["en"],
     "usable_resources": usable[["source", "resource", "resolution", "disease",
                                 "n_case", "n_ctrl", "n_pairs"]].to_dict("records"),
     "verdict_text": (

@@ -13,7 +13,7 @@ release itself is the whole repository snapshot; Zenodo mints the DOI.
 
 ## How to mint the DOI
 
-1. In the GitHub repository, create a release, e.g. tag `v1.0.0`.
+1. In the GitHub repository, create a release, e.g. tag `v1.0.1`.
 2. Log in to Zenodo → *Settings* → *GitHub* → toggle the repository **On**.
 3. Create the GitHub release; Zenodo archives the tag automatically and mints a
    DOI. (Alternatively upload a ZIP of this directory manually.)

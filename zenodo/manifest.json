@@ -1,7 +1,11 @@
 {
   "payload": {
     "scripts": [
+      "_report_cjk_literals.py",
       "audit_citations.py",
+      "audit_data_descriptor.py",
+      "backfill_release_dois.py",
+      "build_data_deposit.py",
       "caseA_GSE65372_paired.py",
       "caseA_GSE65372_pseudorep.py",
       "caseA_L2L3.py",
@@ -23,7 +27,9 @@
       "dl_parallel.py",
       "download_gwas_parallel.py",
       "epmc_meta_research_calib.py",
+      "find_zenodo_version_doi.py",
       "gemma_cohort_probe.py",
+      "i18n_normalise_reason.py",
       "inspect_h5ad.py",
       "install_r_coloc.R",
       "ld_bgzf_tabix.py",
@@ -99,9 +105,17 @@
       "partD_resfeas_ledger.py",
       "partD_resfeas_libwide.py",
       "partD_technical_inventory.py",
+      "publish_dataset.py",
       "reconcile_numbers.py",
+      "resfeas_reason_i18n.py",
       "sgrg_common.py",
-      "validate_sgrg_hgnc.py"
+      "test_language_normalisation.py",
+      "test_probe_api.py",
+      "test_resume_upload.py",
+      "validate_sgrg_hgnc.py",
+      "verify_dataset_doi.py",
+      "verify_dataset_doi_registry.py",
+      "zenodo_deposit_data.py"
     ],
     "results": [
       "caseA_GSE65372_paired.json",
@@ -118,6 +132,7 @@
       "caseB_gene_direction.json",
       "caseB_samples.tsv",
       "caseB_step34_summary.json",
+      "language_normalisation.json",
       "partA2_analysis.json",
       "partA2_cohorts.tsv",
       "partA2_group_auc_pc1_batch.tsv",
@@ -176,6 +191,7 @@
       "partD_resfeas_geo_series.tsv",
       "partD_resfeas_geo_summary.json",
       "partD_resfeas_ledger.tsv",
+      "partD_resfeas_ledger_reason_i18n.tsv",
       "partD_resfeas_libwide_collections.tsv",
       "partD_resfeas_libwide_datasets.tsv",
       "partD_resfeas_libwide_summary.json",
@@ -255,11 +271,13 @@
     "partD_resfeas_geo_series.tsv": "a7b9f687112c8cfcc8364923df771e99756ece5f31361a23ab1aa116a88ff511",
     "partD_resfeas_geo_samples.tsv": "bfd838c4ed975330f74aab40436842cc2b71d7ef1ce8b136bdb03a41c96ecdc4",
     "partD_resfeas_geo_summary.json": "933965581f1f8acdb0cadda49eedf7ef2d698ef443928ebcd6ce8b57e5252228",
-    "partD_resfeas_ledger.tsv": "e1d751c7e7ebc4f87406481476fbb3d6bc5659b4679e6c75ce7a5bf791acbbaf",
+    "partD_resfeas_ledger.tsv": "dfa6462bc248b5451bde367e4bc953f67d1995bff2b091865c9e7ee6cd530e2f",
+    "partD_resfeas_ledger_reason_i18n.tsv": "33da96a5f02ab61cfc5a31963df489338f10fb4ff5741cafd8f1429d06a71650",
     "partD_resfeas_libwide_collections.tsv": "9b668172db90454c95752aa2dcdd3389e801f71022c35d96a61b5a078e326b99",
     "partD_resfeas_libwide_datasets.tsv": "0d23f5839fee5fd50f3dc54b32b9429fd27e256ef8f6b2ba1beeebd9c7349081",
-    "partD_resfeas_libwide_summary.json": "ee4572157f32a7fb5f09bccb05e03c840c267fa4c29ebec947de401e49e5afb5",
-    "partD_resfeas_verdict.json": "019b07ae90ce27fe641410129923791e7cb10810d56e7b3a8a930b1e25239e0f",
+    "partD_resfeas_libwide_summary.json": "bc18179eb60496073fca6ee0c0c9ee08560f0fca0a296c4a27b03657975c6d99",
+    "partD_resfeas_verdict.json": "07ec7fb3f35f0657165215e55f4f5686a1ae38eb2426e8f93ac574ad035a7529",
+    "language_normalisation.json": "ba089ba32c3c0c7bcadb6b906b1ca50adab2b2dd98311ee31f5be65e5ce920e9",
     "caseA_L2L3.json": "51a458c1a0719f3fdac235c4d92c83ac6fb13d6a9099c5a6a37a0dde04f992b3",
     "caseA_L4_random.json": "5d765613ff2803e605ccfdce8ec22f7681c4a3536f2cd7c596e5a3a87fc0d08a",
     "caseA_GSE65372_paired.json": "2f6d704824f963efa211cccfbcd8586b795bc3049042cc5b41a525c2eeb9c53c",
@@ -276,5 +294,5 @@
     "caseB_cxg_neuro.tsv": "7a638c11c9f831adfd37661afdebfefd3158de06737869d968ade0b16d529236",
     "partAD_figure_numbers.json": "e7c82d6be27289a7593b78b4954f789a746b6b4a94bc9b727314fc56ff333a24"
   },
-  "total_results_bytes": 8101481
+  "total_results_bytes": 8116164
 }

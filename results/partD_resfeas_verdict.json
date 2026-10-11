@@ -12,7 +12,7 @@
   "geo_spatial_pairs_max": 4,
   "geo_spatial_samesite_pairs": 0,
   "geo_max_pairs_any_assay": 43,
-  "geo_max_pairs_mirna_example": "GSE272890（43 对，但测 miRNA）",
+  "geo_max_pairs_mirna_example": "GSE272890 (43 pairs, but assays miRNA)",
   "usable_resources": [
     {
       "source": "GEO",

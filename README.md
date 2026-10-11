@@ -13,6 +13,27 @@ ladder of five zero-cost checks, apply it to a real published-looking claim
 (stress-granule-related gene set × ulcerative colitis), and then validate the
 ladder on two further independent published claims.
 
+## Release notes
+
+**v1.0.1** — no change to any analysis, any number, or any conclusion. Two things moved:
+
+1. **The deposited dataset payload was normalised to English.** The per-row `reason` string
+   of the four-gate ledger, the field glossary and `caveat` note of the summary JSON, one
+   example string, and two schema descriptions were written in Chinese in v1.0.0 and are now
+   English, so a reader of the deposit can see *why a resource failed* without a translation
+   layer. Field names, table structure, the four gates, `USABLE`, every numeric value and the
+   row order are unchanged. `scripts/test_language_normalisation.py` asserts exactly that by
+   diffing the deposit against the frozen v1.0.0 payload file by file, and
+   `scripts/audit_data_descriptor.py --pre-publish` runs it as a hard pre-publication gate.
+2. **This code archive was re-released** so that the scripts in it are the scripts that
+   produced the v1.0.1 data. New in v1.0.1: `resfeas_reason_i18n.py` (the bilingual strings,
+   one source of truth), `i18n_normalise_reason.py` (applies them to already-generated
+   results without re-running the plots), `test_language_normalisation.py` (the byte-level
+   language-only claim) and `results/partD_resfeas_ledger_reason_i18n.tsv` (the v1.0.0 →
+   v1.0.1 reason mapping, row by row).
+
+v1.0.0 remains published and immutable, with its own version DOI.
+
 ## The audit ladder
 
 | Rung | Question | Quantity to report | Cost |
@@ -54,8 +75,11 @@ retrieval scripts are listed in [`DATA_ACCESS.md`](DATA_ACCESS.md).
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). The archived release is permanently
-available at Zenodo: [10.5281/zenodo.23291759](https://doi.org/10.5281/zenodo.23291759).
+See [`CITATION.cff`](CITATION.cff). The concept DOI for this code archive is
+[10.5281/zenodo.23291758](https://doi.org/10.5281/zenodo.23291758), which resolves to the
+newest version. A version DOI for this release is minted via Zenodo upon publication of the
+GitHub release and is recorded in `CITATION.cff` and
+[`zenodo/deposit_metadata.md`](zenodo/deposit_metadata.md).
 
 ## Licence
 
