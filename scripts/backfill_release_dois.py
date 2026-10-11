@@ -276,16 +276,25 @@ def edit_working_docs(rep: Report, new_code: str, new_data: str | None) -> None:
         return
 
     # ---- depends on the dataset DOI ----------------------------------------
+    # ``publish_dataset.py`` stage 2 already swaps the version DOI in this file — that is what
+    # makes the repository and the payload agree *before* publication — so the edit left here is
+    # the wording stage 2 does not touch. Keying it on the concept DOI (which never changes
+    # across versions) keeps the pass idempotent whether or not stage 2 has run yet, and avoids
+    # the trap this edit originally fell into: a search string ending in the old version DOI
+    # that matches nothing once the DOI has already been rewritten, which reports a false FAIL
+    # against a file that is in fact already correct.
     rep.edit(
         "resource_paper/README.md",
-        f"* **The tables (this resource, dataset record)** \u2014 **{OLD_DATA}**\n"
-        f"  \u2014 https://doi.org/{OLD_DATA}\n"
         f"  (minted 2026-10-11; version DOI. The concept DOI {DATA_CONCEPT} points at all\n"
         "  versions of this record.)\n",
-        f"* **The tables (this resource, dataset record)** \u2014 **{new_data}**\n"
-        f"  \u2014 https://doi.org/{new_data}\n"
         f"  (version of record, v{VERSION}; concept DOI {DATA_CONCEPT} points at all versions.)\n",
     )
+    readme = (ROOT / "resource_paper/README.md").read_text(encoding="utf-8")
+    for label, ok in (("cites the v1.0.1 dataset DOI", new_data in readme),
+                      ("no longer cites the superseded v1.0.0 dataset DOI",
+                       OLD_DATA not in readme)):
+        if not ok:
+            rep.problems.append(f"resource_paper/README.md: does not {label} — check by hand")
     rep.edit("resource_paper/SUBMISSION_READINESS.md",
              f"The 14-file payload is live as Zenodo record {OLD_DATA.rsplit('.', 1)[-1]} (see gap 3).",
              f"The payload is live as Zenodo record {new_data.rsplit('.', 1)[-1]} "
@@ -352,8 +361,11 @@ def edit_manuscripts(rep: Report, new_code: str, new_data: str | None) -> None:
                  f"审计表数据集 Zenodo DOI **{new_data}**")
     rep.edit(en, f"Zenodo, DOI: {OLD_DATA} (concept DOI: {DATA_CONCEPT})",
                  f"Zenodo, DOI: {new_data} (concept DOI: {DATA_CONCEPT})")
-    rep.edit(cn, f"| **数据集版本 DOI（写稿件引这个）** | **`{OLD_DATA}`** |",
-                 f"| **数据集版本 DOI（v1.0.0，已被 v1.0.1 取代 \u2014 见 \u00a7C10）** | **`{OLD_DATA}`** |")
+    # No trailing ``|``: the appendix is a space-padded Markdown table, so a search string that
+    # includes the closing pipe (or the padding before it) matches nothing. Key on the cell text
+    # only and the surrounding layout survives untouched.
+    rep.edit(cn, f"| **数据集版本 DOI（写稿件引这个）** | **`{OLD_DATA}`**",
+                 f"| **数据集版本 DOI（v1.0.0，已被 v1.0.1 取代 \u2014 见 \u00a7C10）** | **`{OLD_DATA}`**")
 
 
 def append_appendix_section(rep: Report, new_code: str, new_data: str, total: int) -> None:

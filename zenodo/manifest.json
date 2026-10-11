@@ -110,6 +110,7 @@
       "resfeas_reason_i18n.py",
       "sgrg_common.py",
       "test_language_normalisation.py",
+      "test_newversion_doi.py",
       "test_probe_api.py",
       "test_resume_upload.py",
       "validate_sgrg_hgnc.py",

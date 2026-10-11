@@ -15,9 +15,12 @@ science:
      payload files (the two manifest artifacts cannot reference themselves), so the check also
      confirms MANIFEST.sha256 is byte-identical to the local copy and that manifest.json's own
      ``files`` block agrees with the published bytes;
-  4. the record keeps the **dataset DOI and the code DOI distinct**: the code DOI
-     (10.5281/zenodo.23291759) appears as a *related identifier*, is not the record's own
-     DOI, and README.md quotes both.
+  4. the record keeps the **dataset DOI and the code DOI distinct**: the code version DOI
+     recorded in ``resource_paper/code_doi.txt`` (v1.0.1: 10.5281/zenodo.23298914) appears as
+     a *related identifier*, is not the record's own DOI, and README.md quotes both. The value
+     is **read from that file, never typed here**: a literal is how this check went stale at
+     the v1.0.1 re-release, where the record correctly cross-links the v1.0.1 code record
+     while a hard-coded v1.0.0 DOI failed a perfectly good deposit.
 
 Usage
 -----
@@ -43,10 +46,20 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
 DEPOSIT = ROOT / "resource_paper" / "deposit"
 LOCAL_MANIFEST = DEPOSIT / "MANIFEST.sha256"
 
-CODE_DOI = "10.5281/zenodo.23291759"
+import build_data_deposit as bdd            # noqa: E402
+
+# Single source of truth, shared with build_data_deposit.py and the metadata block: the first
+# line of resource_paper/code_doi.txt is the *current* code version DOI (falling back to the
+# v1.0.0 record only if that file is missing). Re-releasing the code archive is then a one-line
+# edit to a data file, and this check cannot silently keep validating the previous release.
+CODE_DOI = bdd.read_code_doi()
+CODE_DOI_SOURCE = ("resource_paper/code_doi.txt" if bdd.CODE_DOI_FILE.exists()
+                   else "built-in v1.0.0 fallback")
 ZENODO = "https://zenodo.org"
 RECORDS_API = f"{ZENODO}/api/records"
 UA = "sgrg-uc-testability-audit/verify_dataset_doi.py (+https://github.com/yuanyuan20020329/sgrg-uc-testability-audit)"
@@ -332,6 +345,7 @@ def main() -> int:
         readme_text = tmp_readme.read_text(encoding="utf-8") if tmp_readme.exists() else None
     ok, det = check_related_and_distinct(rec, own_doi, readme_text)
     print(f"{OK if ok else BAD}4. dataset DOI and code DOI {CODE_DOI} kept distinct & cross-linked")
+    print(f"        code DOI source: {CODE_DOI_SOURCE}")
     for k, v in det.items():
         print(f"        {k}: {v}")
     report["checks"]["doi_relation"] = {"pass": ok, **det}

@@ -52,6 +52,11 @@ Usage
     python scripts/publish_dataset.py --token-file %TEMP%\\zenodo_token \\
             --deposition-id 12345678 --stop-after upload
 
+    # resume a new-version draft: the DOI Zenodo reserved for it is read from the draft
+    # itself, so it never has to be typed (and a stale one cannot be typed by mistake)
+    python scripts/publish_dataset.py --token-file %TEMP%\\zenodo_token \\
+            --deposition-id 12345678
+
 The token is read from the ZENODO_TOKEN environment variable or --token-file, and is never
 echoed, logged or written anywhere. Scopes needed: deposit:write, deposit:actions.
 """
@@ -353,18 +358,33 @@ def stage_newversion(base: str, token: str, spec: str) -> tuple[dict, str | None
     print(f"  cleared {len(inherited)} inherited file(s) so the deposit holds only v"
           f"{bdd.VERSION} bytes")
 
+    # Which DOI this draft will be published under.
+    #
+    # Zenodo's published docs say the response body of ``actions/newversion`` is the
+    # *original* resource, so the "previous" DOI was read from it. On production
+    # (InvenioRDM behind the legacy API, v14) the body is the **new draft**: reading both
+    # sides out of it compares the draft with itself and rejects every honest reservation -
+    # which is exactly what happened on the first real v1.0.1 run. The previous version's
+    # DOI is derived from ``parent`` instead, and a reservation is trusted only when its
+    # suffix is this draft's own record id: Zenodo mints ``10.5281/zenodo.<recid>`` and
+    # reserves it as soon as the new version exists, so a DOI carrying any other suffix is
+    # an inherited or stale value that must never be baked into the payload.
     meta = draft.get("metadata") or {}
     reserved = (meta.get("prereserve_doi") or {}).get("doi") or draft.get("doi")
-    prev_doi = ((resp.get("metadata") or {}).get("doi")
-                or (resp.get("metadata") or {}).get("prereserve_doi", {}).get("doi"))
-    if reserved and reserved != prev_doi:
+    prev_doi = f"10.5281/zenodo.{parent}"
+    suffix = reserved.rsplit(".", 1)[-1] if reserved else ""
+    if reserved and suffix == new_id and reserved != prev_doi:
         print(f"  reserved doi (new version) = {reserved}")
     else:
-        print(f"  [warn] the draft reports doi={reserved!r}, the same as the previous "
-              f"version. Zenodo "
-              f"may only mint the new version DOI at publication.")
-        print("         Do NOT publish yet: the archived README would quote a placeholder.")
-        print("         Open the draft, press 'Reserve DOI', save, then re-run with")
+        if reserved:
+            print(f"  [warn] the draft reports doi={reserved!r}, which is not a new "
+                  f"reservation for draft {new_id} (the previous version is {prev_doi}).")
+        else:
+            print("  [warn] the draft reports no DOI at all.")
+        print("         Zenodo may only mint the new version DOI at publication, so "
+              "publishing now would archive a README that quotes a placeholder.")
+        print("         Do NOT publish yet. Open the draft, reserve the DOI, then re-run "
+              "with")
         print(f"           --deposition-id {new_id} --data-doi <the reserved DOI>")
         reserved = None
     return draft, reserved
@@ -435,6 +455,15 @@ def _recorded_dataset_doi() -> str:
     return ""
 
 
+def _payload_dataset_doi() -> str:
+    """The dataset DOI the payload on disk was last built with ("" if it cannot be read)."""
+    try:
+        man = json.loads((DEPOSIT / "manifest.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return ""
+    return str(man.get("dataset_doi") or "")
+
+
 def stage_backfill(doi: str | None, args) -> str | None:
     """Replace the dataset DOI in the repository docs, then rebuild the payload."""
     rule("stage 2 - backfill the DOI (repo docs, then the payload)")
@@ -483,6 +512,16 @@ def stage_backfill(doi: str | None, args) -> str | None:
         print(f"  [warn] repository docs still cite DOI(s) that are neither the new version, "
               f"the concept DOI nor the code record: {stray}")
         print("         check resource_paper/README.md and LICENSE-DATA.md by hand.")
+
+    # A resume can arrive with the DOI already baked into the payload (stage 2 ran, the
+    # upload died). Rebuilding then is not a no-op: manifest.json gets rewritten, and a byte
+    # that changed while keeping its length would be skipped by the upload stage on a size
+    # comparison - leaving the deposit holding the earlier copy. So when the payload already
+    # cites this DOI, the repository docs above are still updated but nothing is rebuilt; the
+    # stage-2g gate re-checks the payload immediately after this.
+    if _payload_dataset_doi() == doi:
+        print(f"  [ok] the payload already cites {doi} - no rebuild; the gate re-checks it")
+        return doi
 
     cmd = [sys.executable, str(SCRIPTS / "build_data_deposit.py"), "--data-doi", doi]
     print(f"  $ build_data_deposit.py --data-doi {doi}")
@@ -600,7 +639,8 @@ def _record_doi(doi: str, record_url: str | None, concept_doi: str | None = None
     print(f"       verify later with: verify_dataset_doi.py --doi-file {shown}")
 
 
-def stage_publish(base: str, rid: str, token: str, record_doi: bool = True) -> str | None:
+def stage_publish(base: str, rid: str, token: str, record_doi: bool = True,
+                  expect: str | None = None) -> str | None:
     rule("stage 5 - publish")
     pub = zd._req(f"{base}/deposit/depositions/{rid}/actions/publish", token, "POST")
     doi = pub.get("doi")
@@ -609,6 +649,14 @@ def stage_publish(base: str, rid: str, token: str, record_doi: bool = True) -> s
     if concept:
         print(f"       concept doi = {concept} (unchanged across versions)")
     print(f"       record page: {pub.get('links', {}).get('record_html') or pub.get('links', {}).get('record_url')}")
+    # Last line of defence: the uploaded README/manifest quote the DOI we backfilled, and
+    # those bytes are immutable from here on. If Zenodo minted a different one, say so now -
+    # while the remedy is still "publish another new version", not "explain the citation".
+    if doi and expect and doi != expect:
+        print(f"  [FAIL] the record was published as {doi}, but the uploaded payload cites "
+              f"{expect}.")
+        print("         the deposited bytes cannot be edited; publish a further new version "
+              "that cites the right DOI before citing this one anywhere.")
     if doi and record_doi:
         _record_doi(doi, (pub.get("links") or {}).get("record_html")
                     or (pub.get("links") or {}).get("record_url"), concept)
@@ -660,6 +708,22 @@ def token_hygiene(args) -> None:
         print(f"  [ok] token file removed: {p}")
     except OSError as e:  # noqa: BLE001
         print(f"  [warn] could not remove {p}: {e}")
+
+
+def _draft_own_doi(dep: dict) -> str | None:
+    """The DOI *this* deposition will be published under, or None if that cannot be told.
+
+    Prefer the deposition's own answer over any DOI typed on the command line or inferred
+    from the repository. Only a DOI whose suffix is this deposit's own record id is
+    returned: Zenodo mints ``10.5281/zenodo.<recid>``, so anything else is an inherited or
+    stale value and baking it into the payload would archive a README citing a DOI this
+    record will never have - which is unfixable once published.
+    """
+    doi = ((dep.get("metadata") or {}).get("prereserve_doi") or {}).get("doi") or dep.get("doi")
+    rid = str(dep.get("id") or dep.get("record_id") or "")
+    if doi and rid and doi.rsplit(".", 1)[-1] == rid:
+        return str(doi)
+    return None
 
 
 # --------------------------------------------------------------------- main
@@ -793,6 +857,32 @@ def main() -> int:
         print("         to publish a new version, use --new-version-of <record id>")
         return 1
 
+    # Resuming: the deposition is the authority on the DOI it will be published under, and
+    # that is the one number the operator would otherwise have to supply by hand. The
+    # fallback in stage_backfill (reuse the DOI the repository README already cites) is only
+    # a guess, and on a re-release it guesses the *previous* version's DOI.
+    if args.deposition_id:
+        own = _draft_own_doi(dep)
+        if own and args.data_doi and args.data_doi != own:
+            print(f"\n  [FAIL] --data-doi {args.data_doi}, but this draft will be published "
+                  f"as {own}.")
+            print("         refusing to bake a DOI that is not the one Zenodo will mint.")
+            return 1
+        if own and not doi:
+            doi = own
+            print(f"  [ok] the draft carries its own DOI: {doi} (read from Zenodo, not typed)")
+        if not own and not doi:
+            print("\n  [FAIL] this draft does not report a DOI of its own and no --data-doi "
+                  "was given.")
+            print("         refusing to fall back on the DOI the repository README happens to "
+                  "cite:")
+            print("         on a re-release that is the PREVIOUS version's DOI, and it would "
+                  "be baked")
+            print("         into bytes that cannot be corrected after publication.")
+            print("         reserve the DOI on the draft page, or pass "
+                  "--data-doi <the DOI it will get>.")
+            return 1
+
     if stop >= at("backfill"):
         out = stage_backfill(doi, args)
         if out:
@@ -829,13 +919,18 @@ def main() -> int:
     published = None
     if stop >= at("publish"):
         try:
-            published = stage_publish(base, rid, token, record_doi=not args.sandbox)
+            published = stage_publish(base, rid, token, record_doi=not args.sandbox,
+                                      expect=doi)
         except urllib.error.HTTPError as e:
             print(f"  [FAIL] HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:800]}")
             print(f"  the draft is intact - fix and re-run with --deposition-id {rid}")
             return 1
     if published:
         token_hygiene(args)
+        if doi and published != doi:
+            print("\n  the published DOI and the DOI quoted by the payload disagree "
+                  "(see above). Not verifying; treat this release as unusable.")
+            return 1
     if stop == at("publish"):
         return 0
 

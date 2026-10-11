@@ -65,9 +65,8 @@ ulcerative colitis; stress granules; data re-use
 
 ## Related identifiers
 
-* This archive: concept DOI 10.5281/zenodo.23291758 (resolves to the newest
-  version); the v1.0.1 version DOI is minted when the GitHub release is published and is
-  then recorded here and in `CITATION.cff`.
+* This archive (v1.0.1): 10.5281/zenodo.23298914
+* Concept DOI (resolves to the newest version): 10.5281/zenodo.23291758
 * Previous version (v1.0.0): 10.5281/zenodo.23291759 (published and immutable)
 * Manuscript: <DOI / preprint URL — fill in>
 * GitHub repository: https://github.com/yuanyuan20020329/sgrg-uc-testability-audit
@@ -82,8 +81,7 @@ ulcerative colitis; stress granules; data re-use
   that over a manual upload so the DOI tracks the tag.
 * ✅ Done (v1.0.0, 2026-10-11): version DOI `10.5281/zenodo.23291759` backfilled into
   `CITATION.cff`, `README.md` and the manuscript's *Data and code availability* statement.
-* ⏳ To do for v1.0.1: publish the GitHub release for tag `v1.0.1`, then copy the minted
-  version DOI into `resource_paper/code_doi.txt`, `CITATION.cff`, `README.md`, this file
-  and the manuscript's *Data and code availability* statement. The data payload must cite
-  the **v1.0.1** code DOI, not the v1.0.0 one — `scripts/audit_data_descriptor.py
-  --pre-publish` fails the build if it does not.
+* ✅ Done (v1.0.1, 2026-10-11): version DOI `10.5281/zenodo.23298914` backfilled into
+  `resource_paper/code_doi.txt`, `CITATION.cff`, `README.md`, this file and the manuscript's
+  *Data and code availability* statement. The data payload cites the **v1.0.1** code DOI,
+  not the v1.0.0 one — `scripts/audit_data_descriptor.py --pre-publish` fails otherwise.
