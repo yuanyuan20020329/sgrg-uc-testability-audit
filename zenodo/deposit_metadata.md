@@ -65,6 +65,7 @@ ulcerative colitis; stress granules; data re-use
 
 ## Related identifiers
 
+* This archive (v1.0.0): 10.5281/zenodo.23291759
 * Manuscript: <DOI / preprint URL — fill in>
 * GitHub repository: https://github.com/yuanyuan20020329/sgrg-uc-testability-audit
 * Target paper, case A: 10.1155/2023/1624580
@@ -76,5 +77,6 @@ ulcerative colitis; stress granules; data re-use
 
 * Zenodo's GitHub integration archives a tagged release automatically; prefer
   that over a manual upload so the DOI tracks the tag.
-* After minting, paste the DOI into `CITATION.cff` and into the manuscript's
+* ✅ Done (2026-10-11): version DOI `10.5281/zenodo.23291759` is backfilled into
+  `CITATION.cff` (`doi:` + `identifiers:`), `README.md` and the manuscript's
   *Data and code availability* statement.

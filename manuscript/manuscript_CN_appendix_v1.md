@@ -514,7 +514,7 @@ ds4 的发现——94.4% 的「对照」细胞复用外部供体，靠读单个�
 - `DATA_ACCESS.md` —— **所有 accession 一表打尽**：Part A（GSE38713/GSE11223/GSE22619）、Part A2（Gemma 队列 + Europe PMC MeSH）、Part B（GSE19738/GSE53987/GSE80655）、Part C（GTEx v8 / GCST004133 / 1000G 高覆盖 GRCh38 20220422）、Part D 四套单细胞（ds1 `7c7bd6c2-…`、ds2/ds3 `f11cb29c-…`、ds4 `75e35754-…`）、GSE133060、案例 A（GSE36376=Gemma:7673、GSE65372）、案例 B（GSE7621/GSE20163/GSE20164/GSE8397/GSE49036 + scRNA GSE140231/GSE157783/GSE204796）与全部基因集来源。每行附**对应检索脚本**。
 - `REPRODUCE.md` —— 分部分运行顺序 + **每层的口径护栏**（Part A2 的「同源自洽非独立验证、须用 PC1–3 口径」；Part C 的「距离剪枝≠LD clumping」；Part D 的「抽稀必须带随机集同流程」等），把踩过的坑写进复现文档而不是只留在记忆里。
 - `LICENSE` —— 代码 MIT、结果表/稿件 CC BY 4.0、原始数据不重分发（各自归属原 depositor）。
-- `CITATION.cff` —— 含 `identifiers:` 槽位，DOI 铸出后回填。
+- `CITATION.cff` —— 含 `doi:` 与 `identifiers:`，已回填版本 DOI `10.5281/zenodo.23291759`。
 
 **★ 边界（B5 决定，不得违反）**：**不重新上传任何原始公共数据**。`data/` 被 `.gitignore` 排除；仓库只提供 accession + 下载脚本 + 环境文件。
 
@@ -529,7 +529,7 @@ ds4 的发现——94.4% 的「对照」细胞复用外部供体，靠读单个�
 |---|---|---|
 | 1 | ✅ **已填**（2026-10-10）：`CITATION.cff` 的 `authors` = **Yike Yuan（第一作者，湖北中医药大学，yyk20020329@126.com，ORCID 0009-0009-8391-4134）** + **Hongci Chen（通讯作者，湖北省中医院，chenhongci@hbhtcm.com，ORCID 0009-0000-3335-8998）**；`LICENSE` 版权行改为实名并列 `Copyright (c) 2026 Yike Yuan, Hongci Chen` | 已完成 |
 | 2 | 建 GitHub 仓库并推送 `release/`；三处 `<OWNER>` 已替换为 **`yuanyuan20020329`**（仓库名 **`sgrg-uc-testability-audit`**） | 需要账号与网络（推送待用户登录一次） |
-| 3 | Zenodo → Settings → GitHub 打开该仓库 → 建 release（tag `v1.0.0`）自动铸 DOI；回填 `CITATION.cff` 的 `identifiers:` 与英文稿的 `10.5281/zenodo.〔ID〕` | 同上 |
+| 3 | ✅ **已完成**（2026-10-11）：Zenodo 挂钩该仓库 → 发 Release（tag `v1.0.0`）自动铸 DOI = **`10.5281/zenodo.23291759`**；已回填 `CITATION.cff` 的 `doi:`/`identifiers:`、英文稿 §6 的 `10.5281/zenodo.23291759`、`README.md` 与 `deposit_metadata.md` | 回填 commit **不在 v1.0.0 快照内**（标准做法） |
 | 4 | 若期刊要求「Source Data」按图打包，用 `scripts/build_archive.py` 的 `manifest.json` 作对照清单再切一次 | 可选 |
 
 > **一处待用户确认的口径**：`DATA_ACCESS.md` 把 ds2/ds3 的**沉积细胞数**（50,570 / 96,675）标为「非分析口径」，

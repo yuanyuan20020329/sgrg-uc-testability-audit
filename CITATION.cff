@@ -1,7 +1,6 @@
 # CITATION.cff — Citation File Format 1.2.0
 #
-# Remaining before release: the Zenodo DOI under `identifiers:` once it is
-# minted (GitHub owner and author ORCIDs are filled in).
+# Released: v1.0.0 archived on Zenodo (version DOI below).
 #
 cff-version: 1.2.0
 message: "If you use this code or these result tables, please cite the manuscript and the archived release."
@@ -10,6 +9,7 @@ type: software
 version: "v1.0.0"
 date-released: "2026-10-10"
 license: MIT
+doi: 10.5281/zenodo.23291759
 repository-code: "https://github.com/yuanyuan20020329/sgrg-uc-testability-audit"
 
 authors:
@@ -46,7 +46,7 @@ abstract: >-
   disease). No primary data are redistributed; accessions and retrieval scripts
   are provided.
 
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.XXXXXXX
-#     description: "Zenodo archival DOI"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23291759
+    description: "Zenodo archival DOI (version v1.0.0)"

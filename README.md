@@ -54,8 +54,8 @@ retrieval scripts are listed in [`DATA_ACCESS.md`](DATA_ACCESS.md).
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). A DOI for the archived release is minted via
-Zenodo upon publication.
+See [`CITATION.cff`](CITATION.cff). The archived release is permanently
+available at Zenodo: [10.5281/zenodo.23291759](https://doi.org/10.5281/zenodo.23291759).
 
 ## Licence
 
