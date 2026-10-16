@@ -52,7 +52,9 @@ RELEASE = ROOT / "release"
 SCRIPTS = ROOT / "scripts"
 REGISTRY_REPORT = ROOT / "results" / "dataset_doi_verification_registry.json"
 LANGUAGE_REPORT = ROOT / "results" / "language_normalisation.json"
+SYNC_REPORT = ROOT / "results" / "documentation_sync.json"
 FROZEN_DEPOSIT = RP / "frozen_deposit_v1.0.0"
+REFERENCE_DEPOSIT = RP / "frozen_deposit_v1.0.1"
 DATASET_DOI_FILE = RP / "dataset_doi.txt"
 CODE_DOI_FILE = RP / "code_doi.txt"
 
@@ -69,8 +71,9 @@ TABLES = {
 # 14-file payload always splits 12 + 2.
 N_FILES = 14
 N_CHECKSUMMED = 12
-PAYLOAD_VERSION = "1.0.1"
+PAYLOAD_VERSION = "1.0.2"
 FROZEN_VERSION = "1.0.0"
+PREVIOUS_VERSION = "1.0.1"
 
 results: list[tuple[bool, str, str]] = []
 
@@ -286,13 +289,16 @@ def audit_internal(dois: dict, facts: dict) -> None:
           f"deposit README states Version {PAYLOAD_VERSION}")
     check(f"## [{PAYLOAD_VERSION}]" in changelog,
           f"CHANGELOG.md carries a [{PAYLOAD_VERSION}] section")
+    check(f"## [{PREVIOUS_VERSION}]" in changelog,
+          f"CHANGELOG.md keeps the [{PREVIOUS_VERSION}] entry (history, not overwritten)")
     check(f"## [{FROZEN_VERSION}]" in changelog,
           f"CHANGELOG.md keeps the [{FROZEN_VERSION}] entry (history, not overwritten)")
-    check("English-language normalisation only" in changelog
-          and "no gate outcome, numeric value, field semantics,\n  or row membership changed"
-          in changelog,
-          "CHANGELOG.md states the v1.0.1 scope in the required words",
-          "looked for 'English-language normalisation only' and the no-change clause")
+    check("synchronised with the companion Data Descriptor" in changelog
+          and "gate outcome, numeric value, field name, or row membership changed" in changelog,
+          f"CHANGELOG.md states the v{PAYLOAD_VERSION} scope in the required words",
+          "looked for the data-dictionary-synchronisation clause and the no-change clause")
+    check("English-language normalisation only" in changelog,
+          f"CHANGELOG.md keeps the historical v{PREVIOUS_VERSION} scope statement")
 
     # --- the code record this data release was built from ---------------------------
     check(bool(dois["code"]), "a code DOI is recorded in resource_paper/code_doi.txt",
@@ -355,24 +361,24 @@ def audit_internal(dois: dict, facts: dict) -> None:
     check(not han, "the payload contains no Han characters (English-only deposit)",
           f"still Chinese: {han}")
 
-    # --- the machine-checked language-only claim ------------------------------------
-    if FROZEN_DEPOSIT.is_dir():
+    # --- the machine-checked documentation-only claim --------------------------------
+    if REFERENCE_DEPOSIT.is_dir():
         r = subprocess.run(
-            [sys.executable, str(SCRIPTS / "test_language_normalisation.py"),
-             "--json-out", str(LANGUAGE_REPORT)],
+            [sys.executable, str(SCRIPTS / "test_documentation_sync.py"),
+             "--json-out", str(SYNC_REPORT)],
             cwd=str(ROOT), capture_output=True, text=True)
-        verdict = (LANGUAGE_REPORT.read_text(encoding="utf-8")
-                   if LANGUAGE_REPORT.exists() else "{}")
+        verdict = (SYNC_REPORT.read_text(encoding="utf-8")
+                   if SYNC_REPORT.exists() else "{}")
         rep = json.loads(verdict) if verdict.strip().startswith("{") else {}
         check(r.returncode == 0 and rep.get("failed") == 0,
-              f"language-only regression vs frozen v{FROZEN_VERSION} passes every check",
+              f"documentation-only regression vs frozen v{PREVIOUS_VERSION} passes every check",
               f"exit {r.returncode}, {rep.get('total')} checks, {rep.get('failed')} failed")
         check(rep.get("total", 0) >= 40,
               "the regression actually ran (expected >= 40 checks)", str(rep.get("total")))
     else:
-        check(False, f"frozen v{FROZEN_VERSION} reference payload present",
-              f"missing {FROZEN_DEPOSIT.relative_to(ROOT)} — the language-only claim cannot "
-              f"be verified without it")
+        check(False, f"frozen v{PREVIOUS_VERSION} reference payload present",
+              f"missing {REFERENCE_DEPOSIT.relative_to(ROOT)} — the documentation-only claim "
+              f"cannot be verified without it")
 
 
 def audit_size_in_manuscript(md: str, facts: dict) -> None:

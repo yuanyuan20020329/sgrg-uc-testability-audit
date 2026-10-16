@@ -1,0 +1,283 @@
+{
+  "old": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\frozen_deposit_v1.0.1",
+  "new": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\deposit",
+  "total": 55,
+  "failed": 0,
+  "checks": [
+    {
+      "ok": true,
+      "label": "reference payload exists at C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\frozen_deposit_v1.0.1",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "current payload exists at C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\deposit",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "file inventory unchanged",
+      "detail": "only in old: set(); only in new: set()"
+    },
+    {
+      "ok": true,
+      "label": "payload has 14 files (found 14)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "cxg_coll_detail_snapshot_v1.0.0.zip is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_geo_series.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_ledger.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_collections.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_datasets.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_libwide_summary.json is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "partD_resfeas_verdict.json is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json version is 1.0.2",
+      "detail": "1.0.2"
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: only allow-listed top-level keys changed",
+      "detail": "unexpected: []"
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: four tabular resources",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: resource names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "libwide_datasets: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "libwide_datasets: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "libwide_datasets: only allow-listed field descriptions changed",
+      "detail": "unexpected description change(s): []"
+    },
+    {
+      "ok": true,
+      "label": "libwide_datasets: exactly the intended field descriptions were updated",
+      "detail": "changed ['diseases'] vs intended ['diseases']"
+    },
+    {
+      "ok": true,
+      "label": "libwide_collections: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "libwide_collections: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "libwide_collections: only allow-listed field descriptions changed",
+      "detail": "unexpected description change(s): []"
+    },
+    {
+      "ok": true,
+      "label": "libwide_collections: exactly the intended field descriptions were updated",
+      "detail": "changed ['has_CD', 'has_UC'] vs intended ['has_CD', 'has_UC']"
+    },
+    {
+      "ok": true,
+      "label": "geo_series: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "geo_series: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "geo_series: only allow-listed field descriptions changed",
+      "detail": "unexpected description change(s): []"
+    },
+    {
+      "ok": true,
+      "label": "geo_series: exactly the intended field descriptions were updated",
+      "detail": "changed ['diseases', 'n_paired_donors', 'n_paired_same_site'] vs intended ['diseases', 'n_paired_donors', 'n_paired_same_site']"
+    },
+    {
+      "ok": true,
+      "label": "gate_ledger: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "gate_ledger: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "gate_ledger: only allow-listed field descriptions changed",
+      "detail": "unexpected description change(s): []"
+    },
+    {
+      "ok": true,
+      "label": "gate_ledger: exactly the intended field descriptions were updated",
+      "detail": "changed ['G2_UC', 'G3_powered_control', 'USABLE'] vs intended ['G2_UC', 'G3_powered_control', 'USABLE']"
+    },
+    {
+      "ok": true,
+      "label": "datapackage.json: every numeric constraint byte-identical",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "label": "deposit README states Version 1.0.2",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "CHANGELOG.md carries a [1.0.2] section",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "CHANGELOG.md keeps the [1.0.1] and [1.0.0] entries (history, not overwritten)",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "README.md carries the new 'Known limitations' warning section",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "README.md states the warning keyword 'design-eligibility gate'",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "README.md states the warning keyword 'candidate'",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "README.md states the warning keyword 'normal pressure hydrocephalus'",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "LICENSE-DATA.md keeps its CC BY 4.0 statement",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "label": "LICENSE-DATA.md carries a resolved dataset DOI",
+      "detail": "no 10.5281/zenodo.* token found"
+    },
+    {
+      "ok": true,
+      "label": "manifest.json version is 1.0.2",
+      "detail": "1.0.2"
+    },
+    {
+      "ok": true,
+      "label": "manifest.json keeps the same file inventory",
+      "detail": "only in old: set(); only in new: set()"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in CHANGELOG.md",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in datapackage.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in LICENSE-DATA.md",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in manifest.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_geo_series.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_ledger.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_libwide_collections.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_libwide_datasets.tsv",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_libwide_summary.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in partD_resfeas_verdict.json",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in README.md",
+      "detail": "0 line(s), e.g. []"
+    },
+    {
+      "ok": true,
+      "label": "no Han characters left in SCOPE_NOTE.md",
+      "detail": "0 line(s), e.g. []"
+    }
+  ]
+}

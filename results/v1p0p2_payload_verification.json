@@ -1,0 +1,562 @@
+{
+  "payload": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\deposit",
+  "reference": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\frozen_deposit_v1.0.1",
+  "version": "1.0.2",
+  "expected_files": 14,
+  "expected_bytes": 3108031,
+  "actual_files": 14,
+  "actual_bytes": 3108031,
+  "inventory": [
+    {
+      "name": "CHANGELOG.md",
+      "bytes": 7895,
+      "sha256": "afd845a7cf60bb856d6620fec9e1e7636eb636b1dba339757aede65c72ec6c60"
+    },
+    {
+      "name": "cxg_coll_detail_snapshot_v1.0.0.zip",
+      "bytes": 1668111,
+      "sha256": "18996054f95d96728e31576857ad0dd6a1b78519709438d85ab15f9f574e1cc9"
+    },
+    {
+      "name": "datapackage.json",
+      "bytes": 21341,
+      "sha256": "47678f4fd5f67ebbf2130f3e2bc16be4d419e0a999444fd4781fa6674f85c5c5"
+    },
+    {
+      "name": "LICENSE-DATA.md",
+      "bytes": 2300,
+      "sha256": "ff23ec48e3a06f7f6fdb097cacaaf333df7b010822cf7d888f3f013dc5f1fc7a"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 3114,
+      "sha256": "c38d212fcb471c36717a2786fb94c60a9379da461b8c02baa17244904cc3558c"
+    },
+    {
+      "name": "MANIFEST.sha256",
+      "bytes": 1182,
+      "sha256": "c1113d05439a162ed05bb70f1ac7561df149ac73d2b32a4d5d4d724db3073e66"
+    },
+    {
+      "name": "partD_resfeas_geo_series.tsv",
+      "bytes": 109184,
+      "sha256": "a7b9f687112c8cfcc8364923df771e99756ece5f31361a23ab1aa116a88ff511"
+    },
+    {
+      "name": "partD_resfeas_ledger.tsv",
+      "bytes": 8521,
+      "sha256": "dfa6462bc248b5451bde367e4bc953f67d1995bff2b091865c9e7ee6cd530e2f"
+    },
+    {
+      "name": "partD_resfeas_libwide_collections.tsv",
+      "bytes": 150486,
+      "sha256": "9b668172db90454c95752aa2dcdd3389e801f71022c35d96a61b5a078e326b99"
+    },
+    {
+      "name": "partD_resfeas_libwide_datasets.tsv",
+      "bytes": 1110980,
+      "sha256": "0d23f5839fee5fd50f3dc54b32b9429fd27e256ef8f6b2ba1beeebd9c7349081"
+    },
+    {
+      "name": "partD_resfeas_libwide_summary.json",
+      "bytes": 13787,
+      "sha256": "bc18179eb60496073fca6ee0c0c9ee08560f0fca0a296c4a27b03657975c6d99"
+    },
+    {
+      "name": "partD_resfeas_verdict.json",
+      "bytes": 1628,
+      "sha256": "0c87f0b46b79d8e0c9dacfce794e6118d6465623f8291d44aa5a2b5c626e8c3f"
+    },
+    {
+      "name": "README.md",
+      "bytes": 7481,
+      "sha256": "8353539bb3d939cf6679210bbbb48699879382afdad9c79a7e499e33146b0a29"
+    },
+    {
+      "name": "SCOPE_NOTE.md",
+      "bytes": 2021,
+      "sha256": "b32b00615cf2764110d2f759938f56e793af4f06c06fe022d5618d65cebea769"
+    }
+  ],
+  "manifest_entries": 12,
+  "frozen_files": [
+    "partD_resfeas_libwide_datasets.tsv",
+    "partD_resfeas_libwide_collections.tsv",
+    "partD_resfeas_geo_series.tsv",
+    "partD_resfeas_ledger.tsv",
+    "partD_resfeas_libwide_summary.json",
+    "partD_resfeas_verdict.json",
+    "cxg_coll_detail_snapshot_v1.0.0.zip"
+  ],
+  "description_changes": {
+    "libwide_datasets": [
+      "diseases"
+    ],
+    "libwide_collections": [
+      "has_UC",
+      "has_CD"
+    ],
+    "geo_series": [
+      "diseases",
+      "n_paired_donors",
+      "n_paired_same_site"
+    ],
+    "gate_ledger": [
+      "G2_UC",
+      "G3_powered_control",
+      "USABLE"
+    ]
+  },
+  "checks_total": 65,
+  "checks_failed": 0,
+  "pending": [
+    {
+      "ok": true,
+      "id": "H1",
+      "label": "payload still embeds the previous version DOIs (2 distinct: ['10.5281/zenodo.23298914', '10.5281/zenodo.23299341'])",
+      "detail": "expected before publication: the v1.0.2 DOI does not exist yet. publish_dataset.py stage 2 re-runs build_data_deposit.py --data-doi <reserved DOI>, which rewrites exactly these lines; re-run this script afterwards and A1/A2/B*/C*/D*/E* must stay green",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "H2",
+      "label": "CHANGELOG v1.0.2 line cites the companion code record",
+      "detail": "- The companion **code archive** is re-released as v1.0.2 (`10.5281/zenodo.23298914`) because the deposit",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "H3",
+      "label": "the code DOI inside the payload is read from code_doi.txt at build time, so it becomes correct only after backfill_v1p0p2_dois.py --code-doi has run and the payload has been rebuilt",
+      "detail": "",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "H4",
+      "label": "reserved dataset DOI in the registry is 10.5281/zenodo.23299341 (1.0.1); code 10.5281/zenodo.23298914 (v1.0.1)",
+      "detail": "",
+      "pending": true
+    }
+  ],
+  "checks": [
+    {
+      "ok": true,
+      "id": "A0",
+      "label": "payload directory exists",
+      "detail": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\deposit"
+    },
+    {
+      "ok": true,
+      "id": "A0b",
+      "label": "frozen reference directory exists",
+      "detail": "C:\\Users\\H-P\\WorkBuddy\\应激颗粒\\resource_paper\\frozen_deposit_v1.0.1"
+    },
+    {
+      "ok": true,
+      "id": "A1",
+      "label": "payload has exactly 14 files",
+      "detail": "found 14"
+    },
+    {
+      "ok": true,
+      "id": "A2",
+      "label": "payload totals 3,108,031 bytes",
+      "detail": "found 3,108,031"
+    },
+    {
+      "ok": true,
+      "id": "B0",
+      "label": "MANIFEST.sha256 present",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "B1",
+      "label": "MANIFEST.sha256 covers 12 payload files",
+      "detail": "found 12"
+    },
+    {
+      "ok": true,
+      "id": "B2",
+      "label": "every MANIFEST entry exists in the payload",
+      "detail": "missing: []"
+    },
+    {
+      "ok": true,
+      "id": "B3",
+      "label": "every declared sha256 matches the file on disk",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "B4",
+      "label": "the only unlisted files are the two self-referential manifests",
+      "detail": "unlisted: ['MANIFEST.sha256', 'manifest.json']"
+    },
+    {
+      "ok": true,
+      "id": "C1",
+      "label": "manifest.json version is 1.0.2",
+      "detail": "1.0.2"
+    },
+    {
+      "ok": true,
+      "id": "C2",
+      "label": "manifest.json released is 2026-10-16",
+      "detail": "2026-10-16"
+    },
+    {
+      "ok": true,
+      "id": "C3",
+      "label": "manifest.json licence is CC-BY-4.0",
+      "detail": "CC-BY-4.0"
+    },
+    {
+      "ok": true,
+      "id": "C4",
+      "label": "manifest.json file list equals the MANIFEST.sha256 file list",
+      "detail": "only in manifest: []; only in MANIFEST: []"
+    },
+    {
+      "ok": true,
+      "id": "C5",
+      "label": "manifest.json bytes+sha256 agree with the actual files",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "C6",
+      "label": "manifest.json source snapshot is 397 files frozen 2026-10-09",
+      "detail": "{'repository': 'CELLxGENE Discover curation API v1', 'endpoint': 'https://api.cellxgene.cziscience.com/curation/v1/collections', 'frozen': '2026-10-09', 'n_files': 397}"
+    },
+    {
+      "ok": true,
+      "id": "D·partD_resfeas_libwide_datasets.tsv",
+      "label": "partD_resfeas_libwide_datasets.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·partD_resfeas_libwide_collections.tsv",
+      "label": "partD_resfeas_libwide_collections.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·partD_resfeas_geo_series.tsv",
+      "label": "partD_resfeas_geo_series.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·partD_resfeas_ledger.tsv",
+      "label": "partD_resfeas_ledger.tsv is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·partD_resfeas_libwide_summary.json",
+      "label": "partD_resfeas_libwide_summary.json is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·partD_resfeas_verdict.json",
+      "label": "partD_resfeas_verdict.json is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·cxg_coll_detail_snapshot_v1.0.0.zip",
+      "label": "cxg_coll_detail_snapshot_v1.0.0.zip is byte-identical",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·4TSV·partD_resfeas_libwide_datasets.tsv",
+      "label": "TSV partD_resfeas_libwide_datasets.tsv unchanged byte for byte",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·4TSV·partD_resfeas_libwide_collections.tsv",
+      "label": "TSV partD_resfeas_libwide_collections.tsv unchanged byte for byte",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·4TSV·partD_resfeas_geo_series.tsv",
+      "label": "TSV partD_resfeas_geo_series.tsv unchanged byte for byte",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "D·4TSV·partD_resfeas_ledger.tsv",
+      "label": "TSV partD_resfeas_ledger.tsv unchanged byte for byte",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E1",
+      "label": "datapackage.json version is 1.0.2",
+      "detail": "1.0.2"
+    },
+    {
+      "ok": true,
+      "id": "E2",
+      "label": "datapackage.json created is 2026-10-16",
+      "detail": "2026-10-16"
+    },
+    {
+      "ok": true,
+      "id": "E3",
+      "label": "datapackage.json declares the CC-BY-4.0 licence",
+      "detail": "[{'name': 'CC-BY-4.0', 'path': 'https://creativecommons.org/licenses/by/4.0/', 'title': 'Creative Commons Attribution 4.0 International'}]"
+    },
+    {
+      "ok": true,
+      "id": "E4",
+      "label": "four tabular resources",
+      "detail": "found 4"
+    },
+    {
+      "ok": true,
+      "id": "E5",
+      "label": "every resource profile is tabular-data-resource",
+      "detail": "[('libwide_datasets', 'tabular-data-resource'), ('libwide_collections', 'tabular-data-resource'), ('geo_series', 'tabular-data-resource'), ('gate_ledger', 'tabular-data-resource')]"
+    },
+    {
+      "ok": true,
+      "id": "E6",
+      "label": "resource names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_datasets",
+      "label": "libwide_datasets: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_datasets·sig",
+      "label": "libwide_datasets: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_datasets·allow",
+      "label": "libwide_datasets: no description changed outside the allow-list",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_datasets·intended",
+      "label": "libwide_datasets: every intended field description was updated",
+      "detail": "missing []"
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_collections",
+      "label": "libwide_collections: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_collections·sig",
+      "label": "libwide_collections: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_collections·allow",
+      "label": "libwide_collections: no description changed outside the allow-list",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "E·libwide_collections·intended",
+      "label": "libwide_collections: every intended field description was updated",
+      "detail": "missing []"
+    },
+    {
+      "ok": true,
+      "id": "E·geo_series",
+      "label": "geo_series: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·geo_series·sig",
+      "label": "geo_series: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·geo_series·allow",
+      "label": "geo_series: no description changed outside the allow-list",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "E·geo_series·intended",
+      "label": "geo_series: every intended field description was updated",
+      "detail": "missing []"
+    },
+    {
+      "ok": true,
+      "id": "E·gate_ledger",
+      "label": "gate_ledger: field names and order unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·gate_ledger·sig",
+      "label": "gate_ledger: field types and constraints unchanged",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "E·gate_ledger·allow",
+      "label": "gate_ledger: no description changed outside the allow-list",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "E·gate_ledger·intended",
+      "label": "gate_ledger: every intended field description was updated",
+      "detail": "missing []"
+    },
+    {
+      "ok": true,
+      "id": "E7",
+      "label": "every numeric constraint is unchanged",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "E8",
+      "label": "only allow-listed top-level keys changed",
+      "detail": "['created', 'version']"
+    },
+    {
+      "ok": true,
+      "id": "F1",
+      "label": "README states Version 1.0.2",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F2",
+      "label": "README carries the 'Known limitations' section",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F·design-eligibility gate",
+      "label": "README states the warning keyword 'design-eligibility gate'",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F·candidate",
+      "label": "README states the warning keyword 'candidate'",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F·normal pressure hydrocephalus",
+      "label": "README states the warning keyword 'normal pressure hydrocephalus'",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F·1.0.2",
+      "label": "CHANGELOG carries a [1.0.2] section",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F·1.0.1",
+      "label": "CHANGELOG carries a [1.0.1] section",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F·1.0.0",
+      "label": "CHANGELOG carries a [1.0.0] section",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "F3",
+      "label": "LICENSE-DATA.md keeps its CC BY 4.0 statement",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "G1",
+      "label": "no Han character anywhere in the payload",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "H1",
+      "label": "payload still embeds the previous version DOIs (2 distinct: ['10.5281/zenodo.23298914', '10.5281/zenodo.23299341'])",
+      "detail": "expected before publication: the v1.0.2 DOI does not exist yet. publish_dataset.py stage 2 re-runs build_data_deposit.py --data-doi <reserved DOI>, which rewrites exactly these lines; re-run this script afterwards and A1/A2/B*/C*/D*/E* must stay green",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "H2",
+      "label": "CHANGELOG v1.0.2 line cites the companion code record",
+      "detail": "- The companion **code archive** is re-released as v1.0.2 (`10.5281/zenodo.23298914`) because the deposit",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "H3",
+      "label": "the code DOI inside the payload is read from code_doi.txt at build time, so it becomes correct only after backfill_v1p0p2_dois.py --code-doi has run and the payload has been rebuilt",
+      "detail": "",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "H4",
+      "label": "reserved dataset DOI in the registry is 10.5281/zenodo.23299341 (1.0.1); code 10.5281/zenodo.23298914 (v1.0.1)",
+      "detail": "",
+      "pending": true
+    },
+    {
+      "ok": true,
+      "id": "I1",
+      "label": "no DOI placeholder token anywhere in the CN manuscript",
+      "detail": "[]"
+    },
+    {
+      "ok": true,
+      "id": "I2",
+      "label": "interim 'pending archival' sentence appears 5x (abstract / software / data records / data availability / code availability)",
+      "detail": "found 5"
+    },
+    {
+      "ok": true,
+      "id": "I4",
+      "label": "data concept DOI is cited in the manuscript",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "I5",
+      "label": "code concept DOI is cited in the manuscript",
+      "detail": ""
+    },
+    {
+      "ok": true,
+      "id": "I6",
+      "label": "the v1.0.1 version DOIs are no longer cited in the manuscript",
+      "detail": ""
+    }
+  ]
+}

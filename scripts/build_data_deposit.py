@@ -2,13 +2,26 @@
 # -*- coding: utf-8 -*-
 """Build the frozen deposit of the audit *tables* (the dataset DOI record).
 
-Current payload version: **v1.0.1**, which differs from the immutable v1.0.0 release
-(`10.5281/zenodo.23297703`) only in the language of its free-text fields — see
-`CHANGELOG.md` in the deposit and `scripts/test_language_normalisation.py`, which asserts
-that difference file by file against `resource_paper/frozen_deposit_v1.0.0/`.
+Current payload version: **v1.0.2**, whose only change against the published v1.0.1
+(`10.5281/zenodo.23299341`) is in the *documentation* of the payload: the field
+descriptions in ``datapackage.json`` and the prose in ``README.md`` / ``CHANGELOG.md``.
+No field name, table structure, row, numeric value or gate outcome changed — see the
+deposit ``CHANGELOG.md`` and ``scripts/test_documentation_sync.py``, which asserts that
+difference file by file against ``resource_paper/frozen_deposit_v1.0.1/``.
+v1.0.1 itself was a language-only change against the immutable v1.0.0 release
+(`10.5281/zenodo.23297703`), asserted by ``scripts/test_language_normalisation.py``
+against ``resource_paper/frozen_deposit_v1.0.0/``.
+
+Why v1.0.2 had to exist: the v1.0.1 ``datapackage.json`` described ``G3_powered_control``
+as a *"power gate"* while the Data Descriptor that cites the deposit explains it as a
+**preset design-eligibility rule, not a power calculation**. A reader who downloads the
+package must not be told a different semantics than the manuscript. The same release adds
+the two data-integrity warnings (candidate donor pairing; one known control-vocabulary
+misclassification) to ``README.md`` and to the affected field descriptions, and writes the
+three distinct UC-selection conventions into the dictionary.
 
 This is deliberately separate from ``scripts/build_archive.py`` (the *code* record; currently
-v1.0.1, cited from ``resource_paper/code_doi.txt``). Scientific Data requires the dataset itself to
+v1.0.2, cited from ``resource_paper/code_doi.txt``). Scientific Data requires the dataset itself to
 be deposited in a public repository with its own persistent identifier, so the two
 records are minted and cited independently. Never merge them.
 
@@ -57,11 +70,12 @@ DEPOSIT = RP / "deposit"
 RESULTS = ROOT / "results"
 SNAPSHOT_SRC = ROOT / "data" / "raw" / "cxg_coll_detail"
 
-VERSION = "1.0.1"
-RELEASE_DATE = date(2026, 10, 11).isoformat()
-# v1.0.0 shipped on the same calendar day; the two releases are kept distinct by version
-# DOI, not by date, so both carry today's date and the changelog lists both.
+VERSION = "1.0.2"
+RELEASE_DATE = date(2026, 10, 16).isoformat()
+# v1.0.0 and v1.0.1 shipped on the same calendar day as each other; each release is kept
+# distinct by version DOI, not by date.
 FIRST_RELEASE_DATE = "2026-10-11"
+V1_0_1_DATE = "2026-10-11"
 SNAPSHOT_FROZEN = "2026-10-09"
 
 # The companion **code** record. v1.0.1 re-releases the code too (the generators changed),
@@ -253,6 +267,36 @@ repository.
 record is *cannot be determined* — never *passes*. Any downstream use of these tables
 must preserve that distinction.
 
+## Known limitations — read this before filtering
+
+These are recorded here, next to the data, because a reader who only opens the tables
+must not have to find the companion Data Descriptor to learn them.
+
+* **`G3_powered_control` is a design-eligibility gate, not a power calculation.** The
+  name is historical. The field is True when a resource meets a *preset inclusion rule*
+  (bulk: at least 6 same-donor same-site inflamed/non-inflamed pairs; single-cell: at
+  least 5 donors per arm and at least 90% primary cells). It is not an estimate of
+  statistical power.
+* **`n_paired_donors` and `n_paired_same_site` are *candidate* counts, not a validated
+  pairing table.** The same-donor pairing is parsed from sample titles by a rule with
+  confirmed false positives, and has not been checked against a manual gold standard.
+  Do **not** read `G3_powered_control = True` as "the pairing has been verified": verify
+  donor identity and sampling site manually before relying on it.
+* **One known control-vocabulary misclassification.** The control vocabulary is matched
+  by a case-insensitive `^normal` prefix, so the single disease label
+  `normal pressure hydrocephalus` is classified as a *control* label in one dataset.
+  That row also carries many disease labels, so the library-wide `arm_class` counts are
+  unchanged — but the single record's label is wrong, and "the counts did not move" is
+  not evidence that the rule is correct.
+* **Three different UC-selection conventions, one per table.** (i) `libwide_datasets.diseases`
+  — case-insensitive substring `ulcerative colitis` on each semicolon-separated label;
+  (ii) `libwide_collections.has_UC` — True when *any* member dataset matches (i); (iii)
+  `geo_series.diseases` — an exact **token** match on `UC`, because that table's labels are
+  the abbreviated tokens `UC` / `CD` / `IBD` only (a free-text search for the full name
+  returns **0 rows**). Do not assume the three agree.
+* **A UC label is a metadata-label hit.** It does not mean every sample in the resource is
+  UC, nor that disease state has been verified sample by sample.
+
 ## One field is counts-only
 
 `partD_resfeas_verdict.json` originally carried a free-text annotation that stated a
@@ -266,7 +310,8 @@ copies through unchanged. See `CHANGELOG.md` and `SCOPE_NOTE.md`.
 
 | Version | Released | What changed |
 |---|---|---|
-| {VERSION} | {RELEASE_DATE} | **English-language normalisation only.** The free-text fields that were written in Chinese in v1.0.0 — the per-row `reason` string of `partD_resfeas_ledger.tsv`, the `metric_definitions` glossary and the `caveat` note of `partD_resfeas_libwide_summary.json`, one example string in `partD_resfeas_verdict.json`, and two prose field descriptions in `datapackage.json` — are now English. No gate outcome, numeric value, field semantics or row membership changed: field names, table structure, column order, the four gates, `USABLE` and every number are identical to v1.0.0. |
+| {VERSION} | {RELEASE_DATE} | **Data-dictionary synchronisation only; no gate outcome, numeric value, field name, or row membership changed.** The field descriptions in `datapackage.json` and the prose in `README.md` / `CHANGELOG.md` now state the semantics the companion Data Descriptor uses: `G3_powered_control` is a **preset design-eligibility gate, not a power calculation** (the v1.0.1 description called it a *"power gate"*); `n_paired_donors` / `n_paired_same_site` are marked **candidate counts** that require manual verification; the known control-vocabulary misclassification and the three per-table UC conventions are written down. No table byte, field name, column order, gate value or number differs from v1.0.1. |
+| 1.0.1 | {V1_0_1_DATE} | **English-language normalisation only.** The free-text fields that were written in Chinese in v1.0.0 — the per-row `reason` string of `partD_resfeas_ledger.tsv`, the `metric_definitions` glossary and the `caveat` note of `partD_resfeas_libwide_summary.json`, one example string in `partD_resfeas_verdict.json`, and two prose field descriptions in `datapackage.json` — are now English. No gate outcome, numeric value, field semantics or row membership changed. |
 | 1.0.0 | {FIRST_RELEASE_DATE} | First public release. Retained, unaltered, at its own version DOI. |
 
 ## Citation
@@ -285,8 +330,9 @@ See `LICENSE-DATA.md` for attribution requirements.
 * Source data: CELLxGENE Discover (curation API v1) and NCBI GEO. See the code
   repository's `DATA_ACCESS.md`.
 
-_Released {RELEASE_DATE} as v{VERSION}; supersedes v1.0.0 ({FIRST_RELEASE_DATE}), which
-stays available and immutable under its own version DOI._
+_Released {RELEASE_DATE} as v{VERSION}; supersedes v1.0.1 ({V1_0_1_DATE}) and v1.0.0
+({FIRST_RELEASE_DATE}), both of which stay available and immutable under their own version
+DOIs._
 """
 
 
@@ -299,6 +345,51 @@ versioning, and every released version keeps its own version DOI while the conce
 always resolves to the latest one. `README.md` carries the same history as a table.
 
 ## [{VERSION}] — {RELEASE_DATE}
+
+### Changed
+- **The payload's documentation is synchronised with the companion Data Descriptor; no
+  gate outcome, numeric value, field name, or row membership changed.** In v1.0.1 the
+  dictionary described `G3_powered_control` as a *"power gate"*, while the manuscript that
+  cites the deposit explains the same field as a **preset design-eligibility rule, not a
+  power calculation**. A reader who downloads the package must not be told a different
+  semantics than the paper. Specifically:
+  - `datapackage.json` — field descriptions. `G3_powered_control` is now the design-eligibility
+    gate; `n_paired_donors` and `n_paired_same_site` are marked **candidate counts** requiring
+    manual verification; `has_UC`, the dataset-level `diseases` and the GEO `diseases`
+    descriptions state the three distinct per-table UC conventions; `G2_UC` and `USABLE` are
+    clarified. The `version` and `created` fields move with the release.
+  - `README.md` — a new **"Known limitations — read this before filtering"** section: the
+    gate semantics, the candidate pairing counts, the one known control-vocabulary
+    misclassification (`normal pressure hydrocephalus`), and the three UC conventions.
+  - `README.md` / `CHANGELOG.md` — version and history lines reissued for the release.
+- What did **not** change, item by item: field names, table structure and column order, row
+  count and row order, the four gates (`G1_mRNA`, `G2_UC`, `G3_powered_control`, `G4_in_vivo`),
+  `USABLE`, every numeric value, every boolean, every accession, the `verdict_text`
+  counts-only transformation, and every byte of the four table records and of the frozen
+  CELLxGENE snapshot. This is asserted, not merely intended:
+  `scripts/test_documentation_sync.py` diffs this payload against the frozen v1.0.1
+  reference (`resource_paper/frozen_deposit_v1.0.1/`) file by file and allows only the
+  descriptions and prose listed above to differ.
+- The companion **code archive** is re-released as v1.0.2 (`{code_doi}`) because the deposit
+  builder and the release gate changed; this data record cites that exact code version DOI
+  as a related identifier. All earlier versions of both records stay published and immutable.
+
+### Added
+- The two data-integrity warnings and the three UC-selection conventions, now stated in
+  `README.md` and in the affected `datapackage.json` field descriptions rather than only in
+  the manuscript.
+
+### Fixed
+- The v1.0.1 `datapackage.json` description of `G3_powered_control` (called a "power gate"),
+  which contradicted the semantics the citing Data Descriptor uses.
+
+### Source snapshot
+- Unchanged: CELLxGENE Discover curation API v1, collection-detail endpoint, frozen
+  **{SNAPSHOT_FROZEN}** (397 JSON files). Shipped as
+  `{SNAPSHOT_ZIP_NAME}`; the pipeline re-runs against it offline with `--no-fetch`. The
+  file keeps its v1.0.0 name because the snapshot itself is the v1.0.0 snapshot.
+
+## [1.0.1] — {V1_0_1_DATE}
 
 ### Changed
 - **English-language normalisation only; no gate outcome, numeric value, field semantics,

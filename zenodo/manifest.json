@@ -5,6 +5,7 @@
       "audit_citations.py",
       "audit_data_descriptor.py",
       "backfill_release_dois.py",
+      "backfill_v1p0p2_dois.py",
       "build_data_deposit.py",
       "caseA_GSE65372_paired.py",
       "caseA_GSE65372_pseudorep.py",
@@ -27,6 +28,7 @@
       "dl_parallel.py",
       "download_gwas_parallel.py",
       "epmc_meta_research_calib.py",
+      "fill_v1p0p2_manuscript_dois.py",
       "find_zenodo_version_doi.py",
       "gemma_cohort_probe.py",
       "i18n_normalise_reason.py",
@@ -109,6 +111,7 @@
       "reconcile_numbers.py",
       "resfeas_reason_i18n.py",
       "sgrg_common.py",
+      "test_documentation_sync.py",
       "test_language_normalisation.py",
       "test_newversion_doi.py",
       "test_probe_api.py",
@@ -116,6 +119,7 @@
       "validate_sgrg_hgnc.py",
       "verify_dataset_doi.py",
       "verify_dataset_doi_registry.py",
+      "verify_payload_consistency.py",
       "zenodo_deposit_data.py"
     ],
     "results": [
@@ -133,6 +137,7 @@
       "caseB_gene_direction.json",
       "caseB_samples.tsv",
       "caseB_step34_summary.json",
+      "documentation_sync.json",
       "language_normalisation.json",
       "partA2_analysis.json",
       "partA2_cohorts.tsv",
@@ -200,7 +205,8 @@
       "partD_technical_inventory.tsv",
       "sgrg_gene_set_clean.json",
       "sgrg_gene_set_clean.tsv",
-      "sgrg_rejected.tsv"
+      "sgrg_rejected.tsv",
+      "v1p0p2_payload_verification.json"
     ],
     "manuscript": [
       "caseA_registration_table.md",
@@ -279,6 +285,8 @@
     "partD_resfeas_libwide_summary.json": "bc18179eb60496073fca6ee0c0c9ee08560f0fca0a296c4a27b03657975c6d99",
     "partD_resfeas_verdict.json": "07ec7fb3f35f0657165215e55f4f5686a1ae38eb2426e8f93ac574ad035a7529",
     "language_normalisation.json": "ba089ba32c3c0c7bcadb6b906b1ca50adab2b2dd98311ee31f5be65e5ce920e9",
+    "documentation_sync.json": "3926ffeef453abcae4060a638ef508b2c6a7f80d5cf39ff90714dd58e0212e7d",
+    "v1p0p2_payload_verification.json": "bad5f5ea3ef6aa020668f5a0694dddeb0b7e77d3f5a0eb90ee0898bfdf9d7ee9",
     "caseA_L2L3.json": "51a458c1a0719f3fdac235c4d92c83ac6fb13d6a9099c5a6a37a0dde04f992b3",
     "caseA_L4_random.json": "5d765613ff2803e605ccfdce8ec22f7681c4a3536f2cd7c596e5a3a87fc0d08a",
     "caseA_GSE65372_paired.json": "2f6d704824f963efa211cccfbcd8586b795bc3049042cc5b41a525c2eeb9c53c",
@@ -295,5 +303,5 @@
     "caseB_cxg_neuro.tsv": "7a638c11c9f831adfd37661afdebfefd3158de06737869d968ade0b16d529236",
     "partAD_figure_numbers.json": "e7c82d6be27289a7593b78b4954f789a746b6b4a94bc9b727314fc56ff333a24"
   },
-  "total_results_bytes": 8116164
+  "total_results_bytes": 8140114
 }
