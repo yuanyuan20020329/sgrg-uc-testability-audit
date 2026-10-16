@@ -1,16 +1,16 @@
 # CITATION.cff — Citation File Format 1.2.0
 #
-# v1.0.1. The version DOI below is the record Zenodo minted for this release; the concept
+# v1.0.2. The version DOI below is the record Zenodo minted for this release; the concept
 # DOI 10.5281/zenodo.23291758 always resolves to the newest version of this code archive.
 #
 cff-version: 1.2.0
 message: "If you use this code or these result tables, please cite the manuscript and the archived release."
 title: "A five-rung testability audit for public omics resources: code and key results"
 type: software
-version: "v1.0.1"
-date-released: "2026-10-11"
+version: "v1.0.2"
+date-released: "2026-10-16"
 license: MIT
-doi: 10.5281/zenodo.23298914
+doi: 10.5281/zenodo.23412772
 repository-code: "https://github.com/yuanyuan20020329/sgrg-uc-testability-audit"
 
 authors:
@@ -49,8 +49,11 @@ abstract: >-
 
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.23412772
+    description: "Zenodo archival DOI (version v1.0.2)"
+  - type: doi
     value: 10.5281/zenodo.23298914
-    description: "Zenodo archival DOI (version v1.0.1)"
+    description: "Zenodo archival DOI (version v1.0.1, published and immutable)"
   - type: doi
     value: 10.5281/zenodo.23291758
     description: "Zenodo concept DOI of this code archive (resolves to the newest version)"

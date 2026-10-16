@@ -15,6 +15,24 @@ ladder on two further independent published claims.
 
 ## Release notes
 
+**v1.0.2** — no change to any analysis, any number, or any conclusion. The deposited
+dataset payload's **documentation** was synchronised with the Data Descriptor that cites it:
+
+1. **`G3_powered_control` is described as a preset design-eligibility gate, not a "power
+   gate".** The v1.0.1 `datapackage.json` used the word *power*, which contradicted the
+   semantics the manuscript explains. The field itself is unchanged; only its description is.
+2. **The warnings now ship with the data.** `n_paired_donors` / `n_paired_same_site` are
+   marked *candidate* counts that need manual verification, and the known control-vocabulary
+   misclassification (`normal pressure hydrocephalus`) plus the three per-table UC-selection
+   conventions are written into `README.md` and the affected field descriptions. Field names,
+   table structure, the four gates, `USABLE`, every numeric value and the row order are
+   unchanged. `scripts/test_documentation_sync.py` asserts exactly that by diffing the deposit
+   against the frozen v1.0.1 payload file by file, and
+   `scripts/audit_data_descriptor.py --pre-publish` runs it as a hard pre-publication gate.
+3. **This code archive was re-released** so that it is the archive that built the v1.0.2
+   payload. New in v1.0.2: `scripts/test_documentation_sync.py` and the updated
+   `scripts/build_data_deposit.py` templates.
+
 **v1.0.1** — no change to any analysis, any number, or any conclusion. Two things moved:
 
 1. **The deposited dataset payload was normalised to English.** The per-row `reason` string

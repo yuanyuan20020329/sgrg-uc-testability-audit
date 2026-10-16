@@ -11,11 +11,11 @@ lead with the result tables
 
 ## Version
 
-v1.0.1
+v1.0.2
 
 ## Publication date
 
-2026-10-11
+2026-10-16
 
 ## Creators
 
@@ -65,8 +65,9 @@ ulcerative colitis; stress granules; data re-use
 
 ## Related identifiers
 
-* This archive (v1.0.1): 10.5281/zenodo.23298914
+* This archive (v1.0.2): 10.5281/zenodo.23412772
 * Concept DOI (resolves to the newest version): 10.5281/zenodo.23291758
+* Previous version (v1.0.1): 10.5281/zenodo.23298914 (published and immutable)
 * Previous version (v1.0.0): 10.5281/zenodo.23291759 (published and immutable)
 * Manuscript: <DOI / preprint URL — fill in>
 * GitHub repository: https://github.com/yuanyuan20020329/sgrg-uc-testability-audit
@@ -85,3 +86,7 @@ ulcerative colitis; stress granules; data re-use
   `resource_paper/code_doi.txt`, `CITATION.cff`, `README.md`, this file and the manuscript's
   *Data and code availability* statement. The data payload cites the **v1.0.1** code DOI,
   not the v1.0.0 one — `scripts/audit_data_descriptor.py --pre-publish` fails otherwise.
+* ✅ Done (v1.0.2, 2026-10-16): version DOI `10.5281/zenodo.23412772` backfilled into
+  `resource_paper/code_doi.txt`, `CITATION.cff`, `README.md` and this file. The v1.0.2 data
+  payload cites the **v1.0.2** code DOI. The manuscripts are updated in a later pass —
+  this release is data-dictionary synchronisation only.
