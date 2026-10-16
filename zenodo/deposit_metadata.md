@@ -90,3 +90,7 @@ ulcerative colitis; stress granules; data re-use
   `resource_paper/code_doi.txt`, `CITATION.cff`, `README.md` and this file. The v1.0.2 data
   payload cites the **v1.0.2** code DOI. The manuscripts are updated in a later pass —
   this release is data-dictionary synchronisation only.
+* ✅ Done (v1.0.2, 2026-10-16): version DOI `10.5281/zenodo.23412772` backfilled into
+  `resource_paper/code_doi.txt`, `CITATION.cff`, `README.md` and this file. The v1.0.2 data
+  payload cites the **v1.0.2** code DOI. The manuscripts are updated in a later pass —
+  this release is data-dictionary synchronisation only.

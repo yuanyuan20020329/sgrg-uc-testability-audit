@@ -10,7 +10,7 @@
     {
       "name": "CHANGELOG.md",
       "bytes": 7895,
-      "sha256": "afd845a7cf60bb856d6620fec9e1e7636eb636b1dba339757aede65c72ec6c60"
+      "sha256": "22c0218d0f93c924368188159a2535e05327da89464fd1e30ddc774c02a7187e"
     },
     {
       "name": "cxg_coll_detail_snapshot_v1.0.0.zip",
@@ -25,17 +25,17 @@
     {
       "name": "LICENSE-DATA.md",
       "bytes": 2300,
-      "sha256": "ff23ec48e3a06f7f6fdb097cacaaf333df7b010822cf7d888f3f013dc5f1fc7a"
+      "sha256": "d3abc6ad5571e84cad6ce838a64a1c4504f8706e4c56ced51f2386e8ea7b2823"
     },
     {
       "name": "manifest.json",
       "bytes": 3114,
-      "sha256": "c38d212fcb471c36717a2786fb94c60a9379da461b8c02baa17244904cc3558c"
+      "sha256": "fd9dd95d388324dc3551d67f2fff217c36c1e889a38012482768d3a895387b83"
     },
     {
       "name": "MANIFEST.sha256",
       "bytes": 1182,
-      "sha256": "c1113d05439a162ed05bb70f1ac7561df149ac73d2b32a4d5d4d724db3073e66"
+      "sha256": "6086fea55a274297125381e365fb5ce25d4aa46a69b9613ec246596a05e4ce2c"
     },
     {
       "name": "partD_resfeas_geo_series.tsv",
@@ -70,12 +70,12 @@
     {
       "name": "README.md",
       "bytes": 7481,
-      "sha256": "8353539bb3d939cf6679210bbbb48699879382afdad9c79a7e499e33146b0a29"
+      "sha256": "34bcc550d1f8122e4affc5944b58c9adfa0e06d9b9399f1a0084292a247eb90b"
     },
     {
       "name": "SCOPE_NOTE.md",
       "bytes": 2021,
-      "sha256": "b32b00615cf2764110d2f759938f56e793af4f06c06fe022d5618d65cebea769"
+      "sha256": "61315186b8a1641bb06e130c761425cfe2ee26d7651a48c51aaad90e7ab0bf1c"
     }
   ],
   "manifest_entries": 12,
@@ -107,13 +107,13 @@
       "USABLE"
     ]
   },
-  "checks_total": 65,
+  "checks_total": 66,
   "checks_failed": 0,
   "pending": [
     {
       "ok": true,
       "id": "H1",
-      "label": "payload still embeds the previous version DOIs (2 distinct: ['10.5281/zenodo.23298914', '10.5281/zenodo.23299341'])",
+      "label": "payload still embeds the previous version DOIs (2 distinct: ['10.5281/zenodo.23412772', '10.5281/zenodo.23414533'])",
       "detail": "expected before publication: the v1.0.2 DOI does not exist yet. publish_dataset.py stage 2 re-runs build_data_deposit.py --data-doi <reserved DOI>, which rewrites exactly these lines; re-run this script afterwards and A1/A2/B*/C*/D*/E* must stay green",
       "pending": true
     },
@@ -121,7 +121,7 @@
       "ok": true,
       "id": "H2",
       "label": "CHANGELOG v1.0.2 line cites the companion code record",
-      "detail": "- The companion **code archive** is re-released as v1.0.2 (`10.5281/zenodo.23298914`) because the deposit",
+      "detail": "- The companion **code archive** is re-released as v1.0.2 (`10.5281/zenodo.23412772`) because the deposit",
       "pending": true
     },
     {
@@ -134,7 +134,7 @@
     {
       "ok": true,
       "id": "H4",
-      "label": "reserved dataset DOI in the registry is 10.5281/zenodo.23299341 (1.0.1); code 10.5281/zenodo.23298914 (v1.0.1)",
+      "label": "reserved dataset DOI in the registry is 10.5281/zenodo.23414533 (1.0.2); code 10.5281/zenodo.23412772 (v1.0.2)",
       "detail": "",
       "pending": true
     }
@@ -503,7 +503,7 @@
     {
       "ok": true,
       "id": "H1",
-      "label": "payload still embeds the previous version DOIs (2 distinct: ['10.5281/zenodo.23298914', '10.5281/zenodo.23299341'])",
+      "label": "payload still embeds the previous version DOIs (2 distinct: ['10.5281/zenodo.23412772', '10.5281/zenodo.23414533'])",
       "detail": "expected before publication: the v1.0.2 DOI does not exist yet. publish_dataset.py stage 2 re-runs build_data_deposit.py --data-doi <reserved DOI>, which rewrites exactly these lines; re-run this script afterwards and A1/A2/B*/C*/D*/E* must stay green",
       "pending": true
     },
@@ -511,7 +511,7 @@
       "ok": true,
       "id": "H2",
       "label": "CHANGELOG v1.0.2 line cites the companion code record",
-      "detail": "- The companion **code archive** is re-released as v1.0.2 (`10.5281/zenodo.23298914`) because the deposit",
+      "detail": "- The companion **code archive** is re-released as v1.0.2 (`10.5281/zenodo.23412772`) because the deposit",
       "pending": true
     },
     {
@@ -524,7 +524,7 @@
     {
       "ok": true,
       "id": "H4",
-      "label": "reserved dataset DOI in the registry is 10.5281/zenodo.23299341 (1.0.1); code 10.5281/zenodo.23298914 (v1.0.1)",
+      "label": "reserved dataset DOI in the registry is 10.5281/zenodo.23414533 (1.0.2); code 10.5281/zenodo.23412772 (v1.0.2)",
       "detail": "",
       "pending": true
     },
@@ -537,8 +537,14 @@
     {
       "ok": true,
       "id": "I2",
-      "label": "interim 'pending archival' sentence appears 5x (abstract / software / data records / data availability / code availability)",
-      "detail": "found 5"
+      "label": "interim 'pending archival' sentence removed after publication",
+      "detail": "0 left"
+    },
+    {
+      "ok": true,
+      "id": "I3",
+      "label": "the published dataset version DOI is cited",
+      "detail": "4 occurrence(s)"
     },
     {
       "ok": true,

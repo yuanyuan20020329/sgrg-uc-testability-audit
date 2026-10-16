@@ -357,6 +357,14 @@ def stage_newversion(base: str, token: str, spec: str) -> tuple[dict, str | None
         zd._req(f"{draft['links']['self']}/files/{f['id']}", token, "DELETE")
     print(f"  cleared {len(inherited)} inherited file(s) so the deposit holds only v"
           f"{bdd.VERSION} bytes")
+    # The DELETEs above changed the draft on the server, but this object still lists the files
+    # we just removed. Hand stage 3 a list that matches the server, or it reads the stale one,
+    # decides those files "need replacing", deletes them a second time and dies with an HTTP
+    # 404 before it uploads a single byte. That is exactly what the first v1.0.2 run did:
+    # stage 1n succeeded, stage 3 failed on the very first file, and the run had to be
+    # resumed. Nothing was published either way, but the resume was avoidable. (v1.0.1 never
+    # hit this because its first run stopped at stage 1n and never reached stage 3.)
+    draft["files"] = []
 
     # Which DOI this draft will be published under.
     #

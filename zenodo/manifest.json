@@ -286,7 +286,7 @@
     "partD_resfeas_verdict.json": "07ec7fb3f35f0657165215e55f4f5686a1ae38eb2426e8f93ac574ad035a7529",
     "language_normalisation.json": "ba089ba32c3c0c7bcadb6b906b1ca50adab2b2dd98311ee31f5be65e5ce920e9",
     "documentation_sync.json": "3926ffeef453abcae4060a638ef508b2c6a7f80d5cf39ff90714dd58e0212e7d",
-    "v1p0p2_payload_verification.json": "bad5f5ea3ef6aa020668f5a0694dddeb0b7e77d3f5a0eb90ee0898bfdf9d7ee9",
+    "v1p0p2_payload_verification.json": "ebb33cd8d50fe3aff10f3d68b6f8000ee8613c1da23bd09abd0ce3851f3e855d",
     "caseA_L2L3.json": "51a458c1a0719f3fdac235c4d92c83ac6fb13d6a9099c5a6a37a0dde04f992b3",
     "caseA_L4_random.json": "5d765613ff2803e605ccfdce8ec22f7681c4a3536f2cd7c596e5a3a87fc0d08a",
     "caseA_GSE65372_paired.json": "2f6d704824f963efa211cccfbcd8586b795bc3049042cc5b41a525c2eeb9c53c",
@@ -303,5 +303,5 @@
     "caseB_cxg_neuro.tsv": "7a638c11c9f831adfd37661afdebfefd3158de06737869d968ade0b16d529236",
     "partAD_figure_numbers.json": "e7c82d6be27289a7593b78b4954f789a746b6b4a94bc9b727314fc56ff333a24"
   },
-  "total_results_bytes": 8140114
+  "total_results_bytes": 8140195
 }

@@ -84,6 +84,13 @@ SNAPSHOT_FROZEN = "2026-10-09"
 # manuscript has to cite the same DOI. One file, one source of truth.
 CODE_DOI_FILE = RP / "code_doi.txt"
 CODE_DOI_V1_0_0 = "10.5281/zenodo.23291759"          # the v1.0.0 code record, still immutable
+# Historical code DOIs, frozen. A changelog entry that says "the code archive was re-released
+# as vX.Y.Z (DOI) ... this data record cites that exact code version DOI" states a fact about
+# THAT release, so it must not follow the current code DOI forward: substituting {code_doi}
+# there rewrites history (the v1.0.1 data record cites 23298914, which cannot change). The
+# entry for the version being built uses {code_doi}; every earlier entry uses a frozen value.
+# On each new data release, add the constant for the version that just became historical.
+CODE_DOI_V1_0_1 = "10.5281/zenodo.23298914"          # the v1.0.1 code record, superseded
 DATA_DOI_PLACEHOLDER = "10.5281/zenodo.XXXXXXX"
 # A second, parallel token for the code record. `LICENSE-DATA.md` is a template that is
 # *rendered* into the deposit, so both DOIs have to be substituted at build time: a real DOI
@@ -411,7 +418,7 @@ always resolves to the latest one. `README.md` carries the same history as a tab
   snapshot and of the three provenance-free tables. This is asserted, not merely intended:
   `scripts/test_language_normalisation.py` diffs this payload against the frozen v1.0.0
   reference file by file and allows only the fields listed above to differ.
-- The companion **code archive** is re-released as v1.0.1 (`{code_doi}`) because the
+- The companion **code archive** is re-released as v1.0.1 (`{CODE_DOI_V1_0_1}`) because the
   generator scripts changed; this data record cites that exact code version DOI as a
   related identifier. v1.0.0 of both records stays published and immutable.
 
