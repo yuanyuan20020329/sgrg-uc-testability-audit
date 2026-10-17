@@ -1,6 +1,0 @@
-gate	value	evidence	gse
-G1_mRNA	True	!Series_type -> molecule=mRNA	GSE107593
-G2_UC	True	系列疾病标签 token 含 UC	GSE107593
-G3_powered_control	True	闸门输入为 n_paired_donors（同供体，不要求同部位）=6，阈值 >= 6	GSE107593
-G4_in_vivo	True	未命中离体模型正则	GSE107593
-（敏感性）若改用 n_paired_same_site	False	同供体且同部位 = 3；闸门若改用该口径则 G3 为假	GSE107593

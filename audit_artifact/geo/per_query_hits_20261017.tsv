@@ -1,5 +1,0 @@
-query	n_hits	n_retrieved_retmax600	n_retrieved_retmax5000	hit_the_cap
-hts	771	600	771	True
-spatial	60	60	60	False
-scnuc	1940	600	1940	True
-array	307	307	307	False

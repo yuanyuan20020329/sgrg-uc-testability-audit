@@ -1,3 +1,0 @@
-uid	gse	title	n_samples	gdsType	pdat	molecule	is_sc_or_spatial	lbl_UC	lbl_CD	lbl_IBD	site
-200339323	GSE339323	Ulcerative colitis Xenium In Situ Spatial Gene Expression	2		2026/10/15	mRNA	True	True	False	False	
-200350397	GSE350397	Transcriptome profiling of  colitis-associated colorectal cancer	24		2026/10/11	mRNA	False	True	False	False	rectum
