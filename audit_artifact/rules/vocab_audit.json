@@ -1,0 +1,108 @@
+{
+  "n_datasets": 2238,
+  "n_unique_labels": 332,
+  "n_labels_matched_by_vocabulary": 2,
+  "n_datasets_matched_by_vocabulary": 1883,
+  "matched_labels": {
+    "normal": 1883,
+    "normal pressure hydrocephalus": 1
+  },
+  "per_branch": {
+    "normal": {
+      "n_labels": 2,
+      "n_datasets": 1884,
+      "examples": [
+        "normal",
+        "normal pressure hydrocephalus"
+      ]
+    },
+    "healthy": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "control": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "ctrl": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "non-disease": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "unaffected": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "wild-type": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "wt": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "naive": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "saline": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "sham": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    },
+    "baseline": {
+      "n_labels": 0,
+      "n_datasets": 0,
+      "examples": []
+    }
+  },
+  "misclassified_labels": {
+    "normal pressure hydrocephalus": 1
+  },
+  "near_miss_labels": {
+    "dementia || Alzheimer disease || normal pressure hydrocephalus": 1,
+    "dementia || normal pressure hydrocephalus": 1
+  },
+  "n_near_miss_labels": 2,
+  "sensitivity": {
+    "prefix_anchor_vs_substring": {
+      "n_rows_arm_class_changed": 0,
+      "newly_matched_labels": [
+        "dementia || Alzheimer disease || normal pressure hydrocephalus",
+        "dementia || normal pressure hydrocephalus"
+      ]
+    },
+    "drop_normal_branch": {
+      "n_rows_arm_class_changed": 1883
+    },
+    "drop_vocabulary_entirely": {
+      "n_rows_arm_class_changed": 1883
+    }
+  },
+  "arm_class_published": {
+    "ctl_only": 1537,
+    "dis_only": 355,
+    "mixed": 346
+  },
+  "arm_class_under_substring_vocabulary": {
+    "ctl_only": 1537,
+    "dis_only": 355,
+    "mixed": 346
+  }
+}

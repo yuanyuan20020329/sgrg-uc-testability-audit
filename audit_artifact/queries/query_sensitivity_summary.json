@@ -1,0 +1,152 @@
+{
+  "run_date": "2026-10-17",
+  "baseline": {
+    "source": "out/geo_retrieval_audit/uids_full_union.txt",
+    "n_uid": 2734,
+    "note": "四条归档检索式在 retmax=5000 下的 UID 并集，构成敏感性的基线"
+  },
+  "triage_max_increment": 500,
+  "note": "增量 = 变体命中 − 基线命中。泛词（单独 UC／colitis／colorectal 等）增量数千条、以无关命中为主，未逐条分诊，其增量不得读作「漏掉的 IBD 系列数」。仅对增量 ≤ 阈值者取 esummary 分诊，统计其中人类 GSE 及标题/摘要含 IBD 相关词者。",
+  "variants": [
+    {
+      "group": "A",
+      "variant": "缩写 UC（无全称）",
+      "term": "(UC OR \"U.C.\")",
+      "n_hits": 6039,
+      "n_overlap": 364,
+      "n_increment": 4636,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "A",
+      "variant": "临床术语 proctitis",
+      "term": "(proctitis OR proctocolitis)",
+      "n_hits": 109,
+      "n_overlap": 8,
+      "n_increment": 101,
+      "triaged": true,
+      "n_increment_human_gse": 2,
+      "n_increment_human_gse_with_ibd_term": 1,
+      "human_gse_with_ibd_term": [
+        "GSE185101"
+      ]
+    },
+    {
+      "group": "A",
+      "variant": "临床术语 pancolitis",
+      "term": "(pancolitis OR \"pan-colitis\")",
+      "n_hits": 277,
+      "n_overlap": 48,
+      "n_increment": 229,
+      "triaged": true,
+      "n_increment_human_gse": 4,
+      "n_increment_human_gse_with_ibd_term": 3,
+      "human_gse_with_ibd_term": [
+        "GSE67106",
+        "GSE185101",
+        "GSE315662"
+      ]
+    },
+    {
+      "group": "A",
+      "variant": "全称截断式 ulcerative colit",
+      "term": "(\"ulcerative colit\" OR \"ulcerative-colitis\")",
+      "n_hits": 5584,
+      "n_overlap": 771,
+      "n_increment": 4229,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "A",
+      "variant": "泛称 colitis",
+      "term": "(colitis)",
+      "n_hits": 7993,
+      "n_overlap": 709,
+      "n_increment": 4291,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "B",
+      "variant": "部位 ileocolonic",
+      "term": "(ileocolonic OR \"ileo-colonic\" OR ileocaecal OR \"ileocecal\")",
+      "n_hits": 337,
+      "n_overlap": 20,
+      "n_increment": 317,
+      "triaged": true,
+      "n_increment_human_gse": 18,
+      "n_increment_human_gse_with_ibd_term": 1,
+      "human_gse_with_ibd_term": [
+        "GSE73094"
+      ]
+    },
+    {
+      "group": "B",
+      "variant": "部位 colorectal",
+      "term": "(colorectal)",
+      "n_hits": 19753,
+      "n_overlap": 100,
+      "n_increment": 4900,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "B",
+      "variant": "部位 caecum/cecum/sigmoid/升结肠/降结肠",
+      "term": "(caecum OR cecum OR sigmoid OR \"ascending colon\" OR \"descending colon\")",
+      "n_hits": 17616,
+      "n_overlap": 113,
+      "n_increment": 4887,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "C",
+      "variant": "对照侧 healthy donor",
+      "term": "(\"healthy donor\" OR \"healthy donors\" OR \"healthy control\")",
+      "n_hits": 2522,
+      "n_overlap": 112,
+      "n_increment": 2410,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "C",
+      "variant": "对照侧 non-inflamed mucosa",
+      "term": "(noninflamed OR \"non-inflamed\" OR uninflamed OR \"unaffected mucosa\")",
+      "n_hits": 4245,
+      "n_overlap": 330,
+      "n_increment": 3915,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    },
+    {
+      "group": "C",
+      "variant": "状态 quiescent/remission",
+      "term": "(quiescent OR remission OR \"inactive disease\")",
+      "n_hits": 1926,
+      "n_overlap": 86,
+      "n_increment": 1840,
+      "triaged": false,
+      "n_increment_human_gse": null,
+      "n_increment_human_gse_with_ibd_term": null,
+      "human_gse_with_ibd_term": []
+    }
+  ]
+}
