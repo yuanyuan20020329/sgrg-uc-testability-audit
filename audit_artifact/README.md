@@ -1,22 +1,34 @@
-# sgrg GEO audit artifact — v1.0.1
+# sgrg GEO audit artifact — v1.0.2
 
 本工件包汇总《面向溃疡性结肠炎及相关炎性肠病公共分子数据集元数据的来源追溯与规则化筛选标注资源》
 （下称"主稿"）在后续各轮审稿应答中生成的全部 **GEO 检索审计中间结果**。
 它是对已发布数据包 **1.0.3 版（10.5281/zenodo.23436090）** 的**追加证据**，不修改、不替换其中任何字节。
 
-- 主稿版本：v3（2026-10-17 修订，对应 docx `中文稿草稿_v15`）
+- 主稿版本：v3（2026-10-17 修订，对应 docx `中文稿草稿_v17`）
 - 生成日期：2026-10-17
-- **本版（v1.0.1）相对 v1.0.0 的变更：新增 4 个文件**——`geo/skipped98_modality_recheck.tsv`
+- **本版（v1.0.2）相对 v1.0.1 的变更：只改 2 个文件，不增删文件**（仍 31 个文件）。
+  `scripts/gdstype_recompute.py` 修正了一处输入缺陷——v1.0.1 的脚本写成
+  `r.get("series_type", "")`，而归档 raw 表**没有** `series_type` 列（其第 6 列名为 `gdsType`），
+  于是 `series_type` 也被传成空串，**同时改变了两个输入**，不再是"只改变 `gdstype` 一个输入"
+  的对照实验。v1.0.2 改为从系列级 SOFT 缓存取 `!Series_type` 的真值（与归档流程同一函数），
+  并把取到的值写进 `geo/gdstype_recompute_20261017.tsv` 新增的 `series_type` 列，供读者核对
+  第三个输入确实非空。**重算结论不变**：423 行的 `molecule` 与 `resolution` 仍无一改变，
+  521 行中 `changed` 为真的行数仍为 0。
+- **本版新增的一条机理性解释**：521 行中 `!Series_type` 与 `gdstype` 的取值**逐行相同**
+  （仅分隔符 `| ` 与 `; ` 不同，各 22 种取值；规范化后 521/521 相等）。这正是"`gdstype` 为空
+  而结果不变"的原因——不是因为该输入无关紧要，而是 `!Series_type` 已携带完全相同的信息。
+  脚本重跑时会打印该计数。
+- **v1.0.1 相对 v1.0.0 的变更：新增 4 个文件**——`geo/skipped98_modality_recheck.tsv`
   （98 个未进入发布表的系列按发布表同一 `assay_class()` 规则重判的逐条结果）、
   `geo/gdstype_recompute_20261017.tsv`（按正确键名 `gdstype` 重取并重算 521 条的对照表）、
   以及两者的生成脚本 `scripts/skipped98_modality_recheck.py` 与 `scripts/gdstype_recompute.py`。
   **其余 27 个文件逐字节未动**，`audit-artifact-v1.0.0` 标签仍然有效、内容不变。
-- 公开位置：代码仓库 `yuanyuan20020329/sgrg-uc-testability-audit` 的标签 **`audit-artifact-v1.0.1`**
-  下的 `audit_artifact/` 目录（`https://github.com/yuanyuan20020329/sgrg-uc-testability-audit/tree/audit-artifact-v1.0.1/audit_artifact`）
+- 公开位置：代码仓库 `yuanyuan20020329/sgrg-uc-testability-audit` 的标签 **`audit-artifact-v1.0.2`**
+  下的 `audit_artifact/` 目录（`https://github.com/yuanyuan20020329/sgrg-uc-testability-audit/tree/audit-artifact-v1.0.2/audit_artifact`）
 - **独立历史根**：该标签指向 `audit-artifact` 分支上的一个**无父提交**，其树中只有 `audit_artifact/`。
   因此克隆该标签**只得到本包**，不含代码归档的任何文件；本包在取得方式上等同于一个独立仓库。
-  v1.0.1 与 v1.0.0 指向同一分支上的两个不同提交，v1.0.0 的树仍在、内容未被覆盖。
-- 归档下载：`https://github.com/yuanyuan20020329/sgrg-uc-testability-audit/archive/refs/tags/audit-artifact-v1.0.1.zip`
+  v1.0.0、v1.0.1、v1.0.2 指向同一分支上的三个不同提交，前两个标签的树仍在、内容未被覆盖。
+- 归档下载：`https://github.com/yuanyuan20020329/sgrg-uc-testability-audit/archive/refs/tags/audit-artifact-v1.0.2.zip`
 - 许可：CC BY 4.0
 - 逐文件校验：`MANIFEST.sha256`（SHA-256，按相对路径；共 30 行，不含清单自身）
 
@@ -31,7 +43,8 @@
 5. `GSE107593` 满足全部四道闸门的逐样本依据；
 6. 对照词表的分支命中与敏感性；
 7. 检索式词表变体的增量与分诊结果；
-8. 未进入发布表的 98 个系列的同源规则复核，以及 `gdsType` 输入未生效的影响评估（v1.0.1 新增）。
+8. 未进入发布表的 98 个系列的同源规则复核，以及 `gdstype` 输入未生效的影响评估（v1.0.1 新增，
+   生成脚本的输入缺陷在 v1.0.2 修正）。
 
 本包即为上述八项的落盘产物。
 
@@ -53,7 +66,7 @@
 | `truncation_comparison.tsv` | 已纳入组（523）与被截断组（60）的 24 项构成指标 | 24 |
 | `truncated_soft_recheck.tsv` | 60 条的复核：按发布表同一 `assay_class()` 给出的分子类别、分辨率与候选配对计数 | 60 |
 | `skipped98_modality_recheck.tsv` | **v1.0.1 新增**：未进入发布表的 98 个系列的逐条模态复核（发布表规则与早期弱规则并置，附差异标记） | 98 |
-| `gdstype_recompute_20261017.tsv` | **v1.0.1 新增**：521 条按正确键名 `gdstype` 重算的对照（发布值／重算值／是否改变） | 521 |
+| `gdstype_recompute_20261017.tsv` | **v1.0.1 新增／v1.0.2 修正**：521 条的对照——`series_type` 与 `gdstype` 两个输入的原值、发布值、重算值与是否改变 | 521 |
 | `gse107593_sample_level.tsv` | `GSE107593` 48 个样本逐条解析结果（供体 token、部位、状态） | 48 |
 | `gse107593_donor_states.tsv` | 该系列按供体汇总的状态集合与是否构成配对 | 30 |
 | `gse107593_donor_site_pairs.tsv` | 该系列按（供体, 部位）汇总的配对判定 | 34 |
@@ -81,9 +94,10 @@
    一列**不是**"规则互相矛盾"的计数，不能读作 86 条判读不一致。
 2. **无一条为单细胞或空间系列**（`resolution_true_rule` 的取值集合只有 `bulk-array`、`bulk-seq`、
    `chromatin`、`ncRNA`）；这是**该规则内**的结论，不是对源库的绝对陈述。
-3. **`gdsType` 一列在表内全为空**，原因见 §3 第 6 条：归档流程读的是 esummary 的 `gdsType` 键，
-   而接口实际返回 `gdstype`，故该项输入在归档中从未携带信息。本表复现的是**发布当时的实际输入**；
-   用正确键名补取该值后重算，98 条的构成与 423 行的已发布取值均未改变（§3 第 6 条）。
+3. **归档 raw 表名为 `gdsType` 的一列在表内全为空**，原因见 §3 第 6 条：归档流程读的是 esummary
+   的 `gdsType` 键，而接口实际返回 `gdstype`，故该项输入在归档中从未携带信息。本表复现的是
+   **发布当时的实际输入**；用正确键名补取该值、并同时取回 `!Series_type` 的真值后重算，
+   98 条的构成与 423 行的已发布取值均未改变（§3 第 6 条）。
 
 ### 2.2 `rules/` — 对照词表
 
@@ -104,6 +118,7 @@
 
 `geo_retrieval_audit.py`（检索复算与截断对照）、`geo_truncation_soft.py`（60 条 SOFT 复核）、
 `skipped98_modality_recheck.py`（**v1.0.1 新增**，98 条未解析系列的同源复核）、
+`gdstype_recompute.py`（**v1.0.1 新增、v1.0.2 修正输入**，521 条的 `gdstype` 重算对照）、
 `vocab_audit.py`（词表）、`geo_query_sensitivity.py`（检索式敏感性）、`build_audit_artifact.py`（本包打包）。
 脚本依赖 `scripts/partD_resfeas_geo.py`（与发布表同一份检索/解析代码），该文件属**代码归档**
 （10.5281/zenodo.23412772）而非本包。
@@ -125,12 +140,37 @@
    `assay_class()` 的第二个输入从未携带信息——这是实现缺陷，已写入主稿“局限与已知问题”。
    为量化其影响，v1.0.1 按正确键名重新取回全部 521 条的 `gdstype`，并用**同一函数**重算：
    423 行的 `molecule` 与 `resolution` **无一改变**，98 条未解析系列的构成也不变
-   （mRNA 86／chromatin 7／ncRNA 5；bulk-array 49／bulk-seq 37）。逐条对照见
-   `geo/gdstype_recompute_20261017.tsv`（`changed` 一列全为 `False`），生成脚本为
-   `scripts/gdstype_recompute.py`；该脚本需访问 NCBI，重跑所得 `gdstype` 会随源库刷新而变。
+   （mRNA 86／chromatin 7／ncRNA 5；bulk-array 49／bulk-seq 37）。
+
+   **v1.0.2 修正了该对照实验本身的一处缺陷。** v1.0.1 的脚本写成 `r.get("series_type", "")`，
+   但归档 raw 表并没有 `series_type` 列（它的第 6 列名为 `gdsType`，且恒为空），所以
+   `series_type` 也被传成空串——**同时改变了两个输入**，不能作为"只改变 `gdstype` 一个输入"
+   的对照。v1.0.2 改为调 `partD_resfeas_geo.parse_soft_series()` 从系列级 SOFT 缓存读
+   `!Series_type` 的真值（与归档流程同一函数、同一缓存），并把该值写入输出表新增的
+   `series_type` 列。修正后重跑：`empty series_type = 0`、`empty gdstype = 0`、423 行
+   **`changed` 仍为 0**，521 行的 `molecule`／`resolution` 与 v1.0.1 表**逐行相同**。
+
+   **为什么"一项输入为空"结果却不变**：输出表可逐行核对——521 行中 `!Series_type` 与
+   `gdstype` 的取值**逐行相同**，仅分隔符不同（`!Series_type` 用 ` | `、`gdstype` 用 `; `），
+   两者各只有 22 种取值；规范化分隔符后 **521/521 相等**。因此结论不是"`gdstype` 无关紧要"，
+   而是**归档实际使用的 `!Series_type` 已经携带了与 `gdstype` 完全相同的信息**——缺陷之所以
+   没有后果，是因为存在冗余；这属于幸运，不能推广为"该输入可以省略"。逐条对照见
+   `geo/gdstype_recompute_20261017.tsv`，生成脚本为 `scripts/gdstype_recompute.py`；
+   该脚本需访问 NCBI 补取 `gdstype`，重跑所得会随源库刷新而变。
    **本包的两张模态表复现的仍是发布当时的实际输入**（`gdsType` 为空），不是补算后的取值。
 
 ## 4 复现方式
+
+**运行前提（v1.0.2 起写清楚，因为 v1.0.1 的说明有歧义）。** 本包 `scripts/` 下的脚本是在
+**代码归档仓库**的 `scripts/` 目录里开发的：除 `gdstype_recompute.py` 外，其余脚本都用
+`ROOT = Path(__file__).resolve().parents[1]` 定位仓库根，再从 `ROOT / "scripts"` 引入
+`partD_resfeas_geo.py`。若直接在本包的 `audit_artifact/scripts/` 下运行，`parents[1]` 会指向
+`audit_artifact/`，那里没有 `partD_resfeas_geo.py`，脚本会导入失败。因此：
+
+- **取得代码归档（10.5281/zenodo.23412772）并解包**，把本包 `scripts/*.py` 复制到其
+  `scripts/` 目录，然后在该仓库根目录下按下面 1→6 的顺序运行；
+- `gdstype_recompute.py` 例外：v1.0.2 起它接受 `--repo` 指定仓库根，**可从任意目录运行**，
+  并可保留 `audit_artifact/scripts/` 这一原始位置。
 
 ```bash
 # 1) 复算检索与截断对照（需可访问 NCBI E-utilities）
@@ -139,19 +179,21 @@ python scripts/geo_retrieval_audit.py
 python scripts/geo_truncation_soft.py
 # 3) 对 98 个未进入发布表的系列做同源复核（v1.0.1 新增；只读 SOFT 缓存，不联网）
 python scripts/skipped98_modality_recheck.py
-# 4) 按正确键名 gdstype 重算 521 条并与发布值比对（v1.0.1 新增；需 NCBI）
-python scripts/gdstype_recompute.py
+# 4) 重算 521 条并与发布值比对：gdstype 按正确键名重取，series_type 取原 SOFT 的 !Series_type
+#    （v1.0.1 新增、v1.0.2 修正输入；需 NCBI 补取 gdstype，需系列级 SOFT 缓存）
+python audit_artifact/scripts/gdstype_recompute.py --repo . --out gdstype_recompute_20261017.tsv
 # 5) 词表覆盖与敏感性（只读 1.0.3 数据包的四个 TSV）
 python scripts/vocab_audit.py
 # 6) 检索式词表敏感性（需 NCBI）
 python scripts/geo_query_sensitivity.py
 ```
 
-脚本以主稿仓库的 `scripts/partD_resfeas_geo.py` 为解析核心，故须在仓库根目录下运行。
-第 2、3 步还需要系列级或样本级 SOFT 缓存（`data/raw/geo_soft_series`、`data/raw/geo_soft`），
-该缓存**不在本包内**，也不在数据包或代码归档内；缺缓存时脚本会逐条报告缺失的 GSE。
-`geo_truncation_soft.py` 把样本级 SOFT 缓存重定向到 `out/geo_retrieval_audit/soft_cache_scratch`，
-不写回归档缓存。
+第 4 步的脚本用 `--repo` 指定代码归档的工作树根，因此它要求该根目录下同时存在
+`results/partD_resfeas_geo_series_raw.tsv`、`resource_paper/deposit/partD_resfeas_geo_series.tsv`
+与 `data/raw/geo_soft_series/`。第 2、3、4 步还需要系列级或样本级 SOFT 缓存
+（`data/raw/geo_soft_series`、`data/raw/geo_soft`），该缓存**不在本包内**，也不在数据包或
+代码归档内；缺缓存时脚本会逐条报告缺失的 GSE。`geo_truncation_soft.py` 把样本级 SOFT 缓存
+重定向到 `out/geo_retrieval_audit/soft_cache_scratch`，不写回归档缓存。
 
 ## 5 与已发布数据包的关系
 
@@ -170,12 +212,12 @@ python scripts/geo_query_sensitivity.py
 
 ```bash
 # 取得（只含本包，不含代码归档）
-git clone --branch audit-artifact-v1.0.1 --depth 1 \
+git clone --branch audit-artifact-v1.0.2 --depth 1 \
   https://github.com/yuanyuan20020329/sgrg-uc-testability-audit.git sgrg-audit
 cd sgrg-audit/audit_artifact
 
 # 或直接下载 zip
-# https://github.com/yuanyuan20020329/sgrg-uc-testability-audit/archive/refs/tags/audit-artifact-v1.0.1.zip
+# https://github.com/yuanyuan20020329/sgrg-uc-testability-audit/archive/refs/tags/audit-artifact-v1.0.2.zip
 
 # 核对（在 audit_artifact/ 目录下）
 sha256sum -c MANIFEST.sha256     # Linux
