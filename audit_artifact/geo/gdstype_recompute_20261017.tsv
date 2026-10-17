@@ -1,0 +1,522 @@
+gse	gdstype	molecule_published	resolution_published	molecule_recomputed	resolution_recomputed	changed	in_published_table
+GSE1141	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE1142	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE1152	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE1510	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE1710	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE2232	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE2461	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE3176	Expression profiling by array			mRNA	bulk-array		False
+GSE3365	Expression profiling by array			mRNA	bulk-array		False
+GSE3629	Expression profiling by array			mRNA	bulk-array		False
+GSE3801	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE4183	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE6731	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE8286	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE9452	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE9686	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE10080	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE10191	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE10616	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE10791	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE10867	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE11223	Expression profiling by array			mRNA	bulk-array		False
+GSE11678	Expression profiling by RT-PCR	mRNA	single-cell	mRNA	single-cell	False	True
+GSE11688	Expression profiling by RT-PCR	mRNA	single-cell	mRNA	single-cell	False	True
+GSE12251	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE12875	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE13367	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE14442	Expression profiling by array			mRNA	bulk-array		False
+GSE14580	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE15933	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE15934	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE15975	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE16879	Expression profiling by array			mRNA	bulk-array		False
+GSE17594	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE18088	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE20881	Expression profiling by array			mRNA	bulk-array		False
+GSE22619	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE22889	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE23630	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE24287	Expression profiling by array			mRNA	bulk-array		False
+GSE25220	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE25275	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE25276	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE25277	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE25510	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE25641	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE26305	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE28656	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE31260	Genome variation profiling by SNP array; SNP genotyping by SNP array	other	other	other	other	False	True
+GSE31937	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE33078	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE36807	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE37283	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE38713	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE39681	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE39999	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE42911	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE44248	Expression profiling by array			mRNA	bulk-array		False
+GSE45468	Expression profiling by array			mRNA	bulk-array		False
+GSE46451	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE46754	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE47908	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE48634	Expression profiling by array			mRNA	bulk-array		False
+GSE48958	Expression profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE48959	Expression profiling by array; Non-coding RNA profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE49066	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE50594	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE50788	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE51425	Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE51785	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE52746	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE53306	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE53351	Expression profiling by array			mRNA	bulk-array		False
+GSE54163	Expression profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE56448	Expression profiling by array	mRNA	spatial	mRNA	spatial	False	True
+GSE56681	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE56789	Expression profiling by array	mRNA	single-cell	mRNA	single-cell	False	True
+GSE59071	Expression profiling by array			mRNA	bulk-array		False
+GSE62408	Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE65114	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE65270	Expression profiling by array			mRNA	bulk-array		False
+GSE65790	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE66407	Expression profiling by array			mRNA	bulk-array		False
+GSE66824	Expression profiling by array			mRNA	bulk-array		False
+GSE68306	Expression profiling by array; Other	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE68570	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE68852	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE69762	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE70469	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE71730	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE72048	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE72163	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE72780	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE73661	Expression profiling by array			mRNA	bulk-array		False
+GSE75214	Expression profiling by array			mRNA	bulk-array		False
+GSE75459	Expression profiling by array; Non-coding RNA profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE75916	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE77387	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE79627	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE83381	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE83448	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE83925	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE83982	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE84779	Non-coding RNA profiling by high throughput sequencing			ncRNA	ncRNA		False
+GSE86434	Expression profiling by array			chromatin	chromatin		False
+GSE87465	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE87466	Expression profiling by array			mRNA	bulk-array		False
+GSE87473	Expression profiling by array			mRNA	bulk-array		False
+GSE87650	Expression profiling by array; Methylation profiling by genome tiling array			chromatin	chromatin		False
+GSE87847	Expression profiling by array			mRNA	bulk-array		False
+GSE88794	Expression profiling by array			mRNA	bulk-array		False
+GSE89177	Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE89876	Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by array; Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE90126	Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE90607	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE92415	Expression profiling by array			mRNA	bulk-array		False
+GSE94648	Expression profiling by array			mRNA	bulk-array		False
+GSE95095	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE95435	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE95446	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE95450	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE95459	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE96665	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE96698	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE97011	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE97012	Expression profiling by array			mRNA	bulk-array		False
+GSE98820	Expression profiling by array			mRNA	bulk-array		False
+GSE100833	Expression profiling by array			mRNA	bulk-array		False
+GSE100922	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE101794	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE102133	Expression profiling by array			mRNA	bulk-array		False
+GSE102134	Expression profiling by array; Non-coding RNA profiling by array			ncRNA	ncRNA		False
+GSE102524	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE105074	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE107499	Expression profiling by array			mRNA	bulk-array		False
+GSE107597	Expression profiling by array; Expression profiling by high throughput sequencing			mRNA	bulk-array		False
+GSE111761	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE112366	Expression profiling by array			mRNA	bulk-array		False
+GSE114374	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE114527	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE116222	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE117875	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE117993	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE118754	Expression profiling by array			mRNA	bulk-array		False
+GSE119600	Expression profiling by array			mRNA	bulk-array		False
+GSE120782	Expression profiling by array			mRNA	bulk-array		False
+GSE121267	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE121380	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE123141	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE123553	Expression profiling by array			mRNA	bulk-array		False
+GSE125527	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE126124	Expression profiling by array			mRNA	bulk-array		False
+GSE127757	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE130070	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE131359	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE133060	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE133061	Non-coding RNA profiling by array; Expression profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE134025	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE134649	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE134809	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE134881	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE135428	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE139278	Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE139350	Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE140123	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE140405	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE141174	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE141553	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE148233	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE148837	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE149722	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE150115	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE150516	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE150979	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE151686	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE151911	Expression profiling by array			mRNA	bulk-array		False
+GSE152229	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE152306	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE152316	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE152320	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE152321	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE152999	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE153191	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE153802	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE153866	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE156776	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE157020	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE159751	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE160306	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE160308	Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE160804	Expression profiling by array; Non-coding RNA profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE160925	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE162335	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE163314	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE164871	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE164918	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE164985	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE165512	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE165522	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE165814	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE166925	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE166928	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE169136	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE171190	Expression profiling by array; Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE171582	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE172116	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing			chromatin	chromatin		False
+GSE172372	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE172404	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE173642	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE174159	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE174331	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE174460	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE174792	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE175685	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE176255	Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE176367	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing			chromatin	chromatin		False
+GSE178388	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE178698	Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE178753	Expression profiling by array; Non-coding RNA profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE178994	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE179128	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE179285	Expression profiling by array			mRNA	bulk-array		False
+GSE179949	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE182270	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE182424	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE183069	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE183620	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE183853	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE184291	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE184307	Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE184593	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE184876	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE186001	Expression profiling by array			mRNA	bulk-array		False
+GSE186110	Expression profiling by array			mRNA	bulk-array		False
+GSE186295	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE186507	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE186582	Expression profiling by array			mRNA	bulk-array		False
+GSE186963	Expression profiling by array			mRNA	bulk-array		False
+GSE189040	Expression profiling by high throughput sequencing; Other	mRNA	spatial	mRNA	spatial	False	True
+GSE189184	Expression profiling by high throughput sequencing; Other	mRNA	spatial	mRNA	spatial	False	True
+GSE189185	Expression profiling by high throughput sequencing; Other	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE189754	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE190564	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE191015	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE191234	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE191328	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE191331	Expression profiling by high throughput sequencing; Methylation profiling by genome tiling array			chromatin	chromatin		False
+GSE192786	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE192819	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE193330	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE193677	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE197698	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE199906	Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE201566	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE202052	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE202777	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE202778	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE203380	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE204665	Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE204868	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE205276	Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE206171	Expression profiling by array			mRNA	bulk-array		False
+GSE206177	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE206228	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE206285	Expression profiling by array			mRNA	bulk-array		False
+GSE207022	Expression profiling by array			mRNA	bulk-array		False
+GSE208303	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE208684	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE209832	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE210714	Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE210763	Expression profiling by high throughput sequencing; Methylation profiling by genome tiling array			chromatin	chromatin		False
+GSE210955	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE212849	Expression profiling by array			mRNA	bulk-array		False
+GSE214695	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE215001	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE215068	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE215144	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE215285	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE215924	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE216189	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE216810	Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE217163	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE217164	Methylation profiling by genome tiling array; Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE217352	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE217663	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE218000	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE218623	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE220061	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE220063	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE220066	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE220815	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE221161	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE221261	Non-coding RNA profiling by high throughput sequencing; Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE221987	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE222070	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE222117	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE224758	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE224973	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE225199	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE226039	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE226875	Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE227376	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE227514	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE227638	Expression profiling by high throughput sequencing; Other	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE227747	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE228122	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE228165	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE228360	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE230113	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE230419	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE230524	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE230535	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE230568	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE230569	Expression profiling by high throughput sequencing; Other			mRNA	bulk-seq		False
+GSE231993	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE232217	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE233063	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE233900	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE234122	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE234592	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE234594	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE234713	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE234736	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE234981	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE234982	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE235236	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE235663	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE235665	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE236055	Expression profiling by array			mRNA	bulk-array		False
+GSE236655	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE236924	Expression profiling by array			mRNA	bulk-array		False
+GSE237034	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE237247	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE237248	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE237845	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE240441	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE242085	Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE242086	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE242087	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE242140	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE242543	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE243443	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE243444	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE243445	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE243625	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE244831	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE244981	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE245764	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE245890	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE246493	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE246987	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE247146	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE247264	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE247742	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE248009	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE248578	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE248806	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE249870	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE249872	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE250063	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE250487	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE250488	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE250490	Expression profiling by high throughput sequencing; Other	mRNA	spatial	mRNA	spatial	False	True
+GSE250498	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE253006	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE253719	Other	other	other	other	other	False	True
+GSE253720	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE253721	Other	other	other	other	other	False	True
+GSE254954	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE255243	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE255720	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE255722	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE256497	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE259353	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE260833	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE260842	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE261040	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE261086	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE261205	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE261334	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE264073	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE266208	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE266325	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE266546	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE266616	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE266963	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE266974	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE267324	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE267465	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE268626	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE268929	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE269175	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE269578	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE270624	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE270661	Expression profiling by high throughput sequencing			ncRNA	ncRNA		False
+GSE270663	Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing			ncRNA	ncRNA		False
+GSE272870	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE272890	Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE273276	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE275144	Other	other	other	other	other	False	True
+GSE275145	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE276170	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE276395	Expression profiling by array			mRNA	bulk-array		False
+GSE276541	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE276745	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE276837	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE277154	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE277348	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE277387	Expression profiling by high throughput sequencing; Other	mRNA	spatial	mRNA	spatial	False	True
+GSE277415	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE277496	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE277891	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE277964	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE278661	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE279302	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE279626	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE281635	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE282122	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE282165	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE282383	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE282444	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE282580	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE283311	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE283625	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE283945	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE284191	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE284230	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE284232	Expression profiling by high throughput sequencing; Other	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE284677	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE284775	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE285037	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE285272	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE285449	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE285956	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE288179	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE288517	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE288617	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE288974	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE289057	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE289058	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE289072	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE289496	Expression profiling by high throughput sequencing; Other	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE290006	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE290220	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE290417	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE290418	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE290695	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE291014	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE291125	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE293539	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE294501	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE294920	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE296331	Other	other	other	other	other	False	True
+GSE296485	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE296724	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE296969	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE297101	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE298464	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE298981	Expression profiling by array	mRNA	single-cell	mRNA	single-cell	False	True
+GSE299477	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE300848	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE300850	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE301689	Expression profiling by high throughput sequencing; Other	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE302569	Other	other	other	other	other	False	True
+GSE302696	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE302709	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE302712	Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False	True
+GSE304649	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE305528	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE305631	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE306154	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE306374	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE306845	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE306881	Other	other	other	other	other	False	True
+GSE307632	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE307670	Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing			chromatin	chromatin		False
+GSE307944	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE308911	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE308912	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE308913	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE309210	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE309239	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE310282	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE310603	Expression profiling by array	chromatin	chromatin	chromatin	chromatin	False	True
+GSE310845	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE311585	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE311636	Other	other	other	other	other	False	True
+GSE311760	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE312415	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE312420	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE313368	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE314223	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE314446	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE314628	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE315114	Expression profiling by array	mRNA	bulk-array	mRNA	bulk-array	False	True
+GSE315214	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE315663	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE316069	Expression profiling by high throughput sequencing; Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE317503	Expression profiling by high throughput sequencing			ncRNA	ncRNA		False
+GSE319142	Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE319204	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE319270	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE325894	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE327417	Other; Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE327577	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE327665	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE329353	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True
+GSE329527	Expression profiling by high throughput sequencing			mRNA	bulk-seq		False
+GSE330122	Expression profiling by high throughput sequencing	mRNA	single-cell	mRNA	single-cell	False	True
+GSE330123	Other	mRNA	single-cell	mRNA	single-cell	False	True
+GSE330696	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE330953	Other	mRNA	spatial	mRNA	spatial	False	True
+GSE331003	Expression profiling by high throughput sequencing; Other			mRNA	bulk-seq		False
+GSE334803	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE335355	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE336853	Other	other	other	other	other	False	True
+GSE337193	Other	other	other	other	other	False	True
+GSE338317	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE338895	Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False	True
+GSE341409	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk-seq	False	True
+GSE346721	Expression profiling by high throughput sequencing	mRNA	spatial	mRNA	spatial	False	True

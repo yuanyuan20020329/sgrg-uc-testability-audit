@@ -1,0 +1,99 @@
+gse	n_samples	title	gdsType	series_type	molecule_true_rule	resolution_true_rule	molecule_old_rule	resolution_old_rule	disagree
+GSE3176	79	p53 In Inflamatory Stress Response		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE3365	127	Comparison of PBMCs in Inflammatory Bowel Disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE3629	121	Molecular Marker for predicting development of cancer in ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE11223	202	Colon biopsies from UC patients and healthy controls		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE14442	84	Gene expression analysis in gut biopsies of Crohn's Disease patients and patients with Spondylarthropathy		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE16879	133	Mucosal expression profiling in patients with inflammatory bowel disease before and after first infliximab treatment		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE20881	172	Colon biopsies from Crohns patients and healthy controls		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE24287	99	Differential early pathogenic changes in human ileal gene expression in Crohn's disease and ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE44248	96	Genetic, functional and molecular features of glucocorticoid receptor binding (expression)		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE45468	216	Gene Expression Profiles Predict Infliximab Treatment Response in Patients with Treatment-Resistant Depression		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE48634	171	Mucosal transcriptomics implicates under expression of FAM5C in the pathogenesis of ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE53351	301	Large-scale East-Asian eQTL mapping reveals novel candidate genes for LD mapping and the genomic landscape of transcriptional effects of sequence variants		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE59071	116	Mucosal gene expression profiling in patients with inflammatory bowel disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE65270	273	Associations between host gene expression, the mucosal microbiome, and clinical outcome in the pelvic pouch of patients with inflammatory bowel disease.		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE66407	368	Gut biopsies from patients with Crohn's Disease and Ulcerative Colitis and healthy controls		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE66824	66	Genomic and Clinical Effects Associated with a Relaxation Response Mind-Body Intervention in Patients with Irritable Bowel Syndrome and Inflammatory Bowel Disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE73661	178	The effect of vedolizumab (anti-α4β7-integrin) therapy on colonic mucosal gene expression in patients with ulcerative colitis (UC)		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE75214	194	Mucosal gene expression profiling in patients with inflammatory bowel disease study		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE84779	61	MicroRNAs Expression in the Ileal Pouch of Patients with Ulcerative Colitis is Robustly Up-Regulated and Correlates with Disease phenotypes		Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False
+GSE86434	251	Integrative Epigenome-Wide Analysis Shows That DNA Methylation May Mediate Genetic Risk In Inflammatory Bowel Disease [Expression profiling]		Expression profiling by array	chromatin	chromatin	chromatin	chromatin	False
+GSE87466	108	Gene expression profiling of mucosal biopsies from adult patients with moderately to severely active ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE87473	127	Gene expression profiling of mucosal biopsies from pediatric or adult patients with moderately to severely active ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE87650	875	Integrative Epigenome-Wide Analysis Shows That DNA Methylation May Mediate Genetic Risk In Inflammatory Bowel Disease		Expression profiling by array | Methylation profiling by genome tiling array	chromatin	chromatin	chromatin	chromatin	False
+GSE87847	93	A Putative Blood-Based Biomarker for Autism Spectrum Disorder-Associated Ileocolitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE88794	1231	Transcriptome as marker for nutrition-related health: added value of time course analyses during challenge tests before and after energy restriction		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE92415	183	Characterization of molecular response to Golimumab in Ulcerative Colitis by mucosal biopsy mRNA expression profiling: results from PURSUIT-SC induction study		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE94648	97	Expression data from peripheral whole blood of non-IBD controls, CD and UC patients		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE95459	480	Structural Remodeling of the Human Colonic Mesenchyme in Inflammatory Bowel Disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE97012	68	Integrated Analysis Of Biopsies From Inflammatory Bowel Disease Patients Identifies SAA1 As A Link Between Mucosal Microbes With TH17 And TH22 Cells		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE98820	80	Gene expression data from human intestinal biopsies		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE100833	1717	A functional genomics predictive network model identifies regulators of inflammatory bowel disease: Microarray Analysis of Human Blood and Intestinal Biopsy Samples from a Phase 2b, Double-blind, Placebo-controlled Study of Ustekinumab in Crohn's Disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE101794	304	Age-of-Onset Dependent Immune maturation in Pediatric Crohn Disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE102133	77	Mucosal gene expression profiling in ileum of patients with Crohn's disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE102134	120	Mucosal miRNA and gene expression profiling in ileum of patients with Crohn's disease		Expression profiling by array | Non-coding RNA profiling by array	ncRNA	ncRNA	ncRNA	ncRNA	False
+GSE107499	119	Expression data from Ulcerative Colitis subjects		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE107597	167	Ulcerative Colitis subjects		Expression profiling by array | Expression profiling by high throughput sequencing	mRNA	bulk-array	mRNA	bulk	True
+GSE112366	388	Intestinal epithelial microvilli are abnormal in Crohn's disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE117993	190	Transcription profiles of rectal biopsies obtained during diagnostic colonoscopy for pediatric inflammatory bowel diseases.		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE118754	65	Transcriptome Expression Data from Resected Operative Ileal Mucosa Specimens in a cohort of patients with Crohns Disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE119600	370	Common functional alterations identified in blood transcriptome of autoimmune cholestatic liver and inflammatory bowel diseases		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE120782	314	Microarray data generated from formalin-fixed, paraffin-embedded (FFPE) uninvolved small bowel (SB) ileal tissue.		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE123553	95	Expression data of butyrate stimulated epithelial organoid cultures generated from intestinal mucosa		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE126124	176	Concordance between gene expression in peripheral whole blood and colonic tissue in children with inflammatory bowel disease.		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE151911	130	Differential gene expression in inflamed mucosa of progressed UC patients compared to inflamed mucosa of non-progressed UC patients		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE152306	346	Individual sorted T cell profiling from healthy donor		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE152316	382	Etrolizumab treatment in Crohn's disease (Bergamot) cohort 1 RNA-seq		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE152321	748	Profiling intestinal T cell subsets and their dynamics in Crohn's disease after treatment with the anti-integrin therapeutic etrolizumab		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE165512	170	Characterization of the IL23-IL17 immune axis in IBD patients		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE166925	96	RNA-sequencing of whole tissue samples from patients with inflammatory bowel disease and colorectal cancer		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE166928	215	IL-1-driven stromal-neutrophil interactions define a subset of patients with inflammatory bowel disease that does not respond to therapies 		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE172116	99	Epigenomic analysis reveals a dynamic and context-specific macrophage enhancer landscape associated with innate immune activation and tolerance		Expression profiling by high throughput sequencing | Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False
+GSE175685	143	Transcriptomic profiling of THP-1 stable cell lines overexpressing genes associated with inflammatory bowel diseases (IBD)		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE176367	1994	CD45RA+CD62L- ILCs represent a quiescent local reservoir for the generation of mature ILC in human tissues		Expression profiling by high throughput sequencing | Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False
+GSE179285	254	Embark cross-sectional study of inactive and active lesions from the ileum and colon of inflammatory bowel disease patients		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE184593	172	Transcriptional behavior of regulatory T cells predicts IBD patient responses to vedolizumab therapy		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE186001	426	Functional screen of Inflammatory bowel disease genes reveals key epithelial functions: Agilent Targeted Dataset		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE186110	376	Functional screen of Inflammatory bowel disease genes reveals key epithelial functions: Illumina Whole Genome Dataset		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE186507	1030	Blood expression profiling of an adult inflammatory bowel disease cohort		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE186582	489	Expression data from intestinal mucosa of patients with Crohn disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE186963	72	Whole blood gene expression from infliximab treated Crohn's disease patients at three time points: pre-treatment, two weeks and fourteen weeks post first treatment		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE191328	201	Longitudinal multi-omics analysis identifies early blood-based predictors of anti-TNF therapy response in inflammatory bowel disease [RNA-Seq]		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE191331	286	Longitudinal multi-omics analysis identifies early blood-based predictors of anti-TNF therapy response in inflammatory bowel disease		Expression profiling by high throughput sequencing | Methylation profiling by genome tiling array	chromatin	chromatin	chromatin	chromatin	False
+GSE193677	2490	Biopsy expression profiling of an adult inflammatory bowel disease cohort		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE197698	211	Transcriptional and functional characterization of human intestinal organoid and monolayer models for IBD-therapeutic development		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE206171	152	Gene expression profiling of sigmoid colonic tissue form patients with ulcerative colitis and healthy controls		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE206285	568	Efficacy and safety of ustekinumab treatment in patients with ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE207022	148	Efficacy and safety of ustekinumab treatment in patients with Crohn's disease		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE208684	81	SARS-COV2 in intestinal organoids		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE210763	72	DNA methyltransferase 3A controls intestinal epithelial barrier function and regeneration in the colon		Expression profiling by high throughput sequencing | Methylation profiling by genome tiling array	chromatin	chromatin	chromatin	chromatin	False
+GSE212849	84	Prediction of Golimumab Response in the PROgECT Phase 2a Open-Label Trial of Patients With Ulcerative Colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE215285	61	Regional transcriptomics and proteomics of DMPK genes in human intestine		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE215924	79	Small bowel RNA-seq data from patients with Crohn's disease and patients with colon cancer (non-CD controls)		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE217352	265	A Blood-based Transcriptomic Signature Stratifies Severe Crohn's disease and Defines Potentially Targetable Therapeutic Pathways		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE221161	203	​​​Developing biomarkers incorporating high throughput RNA, DNA, small RNA sequencing and protein expression in Inflammatory Bowel Disease using formalin-fixed, paraffin-embedded (FFPE) tissue samples.​​ 		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE228122	115	Bulk RNA-seq of whole biopsies and enteroids/colonoids from terminal ileum and rectum of inflammatory bowel disease patients or control subjects		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE230569	253	Antigen-driven colonic inflammation is associated with development of dysplasia in primary sclerosing cholangitis		Expression profiling by high throughput sequencing | Other	mRNA	bulk-seq	mRNA	bulk	True
+GSE234736	96	Vedolizumab efficacy is associated with decreased intracolonic dendritic cells, not memory T cells [P430]		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE234981	346	Vedolizumab efficacy is associated with decreased intracolonic dendritic cells, not memory T cells [P444]		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE234982	442	Vedolizumab efficacy is associated with decreased intracolonic dendritic cells, not memory T cells		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE236055	143	Colonic mucosal gene expression profile associated with neoplastic progression in longstanding ulcerative colitis		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE236924	132	SIRPa agonist antibody treatment ameliorates experimental arthritis and colitis [array]		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE264073	152	Ileal Enterocyte Brush Border Abnormalities Associate with Progressive Disease Course in Pediatric Crohn’s Disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE266546	170	Identification and multimodal characterization of a specialized epithelial cell type associated with Crohn's Disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE270661	119	Characterisation of the regulatory landscape in Crohn’s disease reveals miRNA-associated alterations that shape anti-TNF response (CIBER-120)		Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False
+GSE270663	238	Characterisation of the regulatory landscape in Crohn’s disease reveals miRNA-associated alterations that shape anti-TNF response		Expression profiling by high throughput sequencing | Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False
+GSE276395	278	Gene expression dysregulation in whole blood of patients with C. difficile infection		Expression profiling by array	mRNA	bulk-array	mRNA	bulk	True
+GSE277964	66	Contribution of Stroma to Inflammatory Bowel Disease Progression Revealed in Patient-Derived Human Colon Chips		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE279302	191	eQTL in diseased colon tissue identifies novel target genes associated with IBD		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE279626	82	PGLYRP-1 mediated intracellular peptidoglycan detection promotes mucosal protection		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE282165	98	A necroptotic-to-apoptotic signaling axis underlies inflammatory bowel disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE285037	72	Faecalibacterium prausnitzii induces an anti-inflammatory response and a metabolic reprogramming in human monocytes		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE288179	105	Differential response of patient-derived intestinal organoids to site-specific mucosal bacteria in pediatric inflammatory bowel disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE305528	69	An epigenetic basis for sustained inflammatory epithelial progenitor cell states in Crohn’s disease		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE307670	148	Epigenetic reprogramming of stromal cell states underpins pathologic tissue niches in Crohn’s disease		Genome binding/occupancy profiling by high throughput sequencing | Expression profiling by high throughput sequencing	chromatin	chromatin	chromatin	chromatin	False
+GSE314628	73	Temporal Transcriptomic Profiling Identifies Core Regulators in Cytokine-Induced Gut Barrier Disruption in Differentiated Caco-2 Cells		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE317503	140	Reference-guided genome assembly of long non-coding RNA transcripts reveals target genes associated with Crohn’s disease		Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA	ncRNA	False
+GSE329527	81	Antigen-restricted Candida albicans Th17 cells link oral-gut immunity and adopt pathogenic features during intestinal inflammation		Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	bulk	True
+GSE331003	66	Intestinal T-bet+ plasmablasts mediate epithelial barrier dysfunction and inflammatory bowel disease		Expression profiling by high throughput sequencing | Other	mRNA	bulk-seq	mRNA	bulk	True
