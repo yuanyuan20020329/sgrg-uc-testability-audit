@@ -1,0 +1,61 @@
+gse	n_samples	pdat	series_type	molecule_soft	resolution_soft	molecule_esummary_proxy	pairing	n_paired_donors	n_paired_same_site	n_inflamed	n_noninflamed	n_healthy	diseases	sites	n_unknown_state	n_no_donor	n_no_site
+GSE57945	322	2014/07/24	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE62207	310	2015/10/01	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE62520	16	2015/09/15	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	8.0		colon	8.0	0.0	0.0
+GSE64801	14	2016/01/25	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	5.0		ileum	9.0	0.0	0.0
+GSE66207	33	2015/07/15	Expression profiling by high throughput sequencing	mRNA	bulk-seq	ncRNA		0.0	0.0	33.0	0.0	0.0	CD	colon;ileum	0.0	0.0	0.0
+GSE66209	74	2015/07/15	Expression profiling by high throughput sequencing | Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	other	not_parsed (n_samples>60)										
+GSE67250	12	2016/03/22	Methylation profiling by high throughput sequencing | Expression profiling by high throughput sequencing	chromatin	chromatin	mRNA		0.0	0.0	0.0	0.0	6.0	CD	colon	6.0	12.0	0.0
+GSE70517	38	2016/05/10	Expression profiling by high throughput sequencing | Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	chromatin		0.0	0.0	0.0	0.0	2.0	CD	colon	36.0	38.0	34.0
+GSE72819	73	2015/10/26	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE81266	77	2016/05/11	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE83687	134	2017/07/07	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE85499	53	2016/12/11	Expression profiling by high throughput sequencing | Genome binding/occupancy profiling by high throughput sequencing	chromatin	chromatin	other		0.0	0.0	0.0	0.0	11.0	CD	colon;ileum	42.0	53.0	0.0
+GSE92472	15	2017/04/11	Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA		0.0	0.0	0.0	0.0	1.0	CD;UC		14.0	15.0	15.0
+GSE93624	245	2017/06/20	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE93709	2	2018/01/17	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	0.0			2.0	2.0	2.0
+GSE94578	3	2018/04/24	Expression profiling by high throughput sequencing	ncRNA	ncRNA	ncRNA		0.0	0.0	0.0	0.0	3.0		colon	0.0	3.0	0.0
+GSE95437	94	2018/03/14	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE98884	18	2017/07/11	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	0.0			18.0	18.0	18.0
+GSE99816	21	2018/12/19	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		3.0	3.0	4.0	6.0	0.0	CD	ileum	11.0	0.0	0.0
+GSE102746	20	2018/07/15	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	10.0	UC	colon	10.0	0.0	0.0
+GSE107593	48	2018/04/01	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		6.0	3.0	24.0	24.0	0.0	UC	colon;rectum	0.0	21.0	0.0
+GSE108746	72	2019/01/18	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE109142	226	2018/11/27	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE111889	251	2018/03/17	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE112057	202	2018/05/29	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE112305	4	2018/12/31	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	0.0			4.0	4.0	4.0
+GSE114603	76	2018/11/06	Expression profiling by high throughput sequencing | Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	other	not_parsed (n_samples>60)										
+GSE115390	80	2019/01/23	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE116172	12	2018/07/26	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	0.0			12.0	12.0	12.0
+GSE124350	15	2018/12/26	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	0.0		colon	15.0	8.0	0.0
+GSE126299	24	2019/04/01	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	24.0	0.0	CD	ileum	0.0	24.0	0.0
+GSE128682	44	2020/01/18	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	14.0	16.0	UC	colon	14.0	0.0	0.0
+GSE129216	229	2019/09/06	Expression profiling by high throughput sequencing | Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	other	not_parsed (n_samples>60)										
+GSE130038	26	2020/04/18	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	0.0	UC	colon	26.0	0.0	0.0
+GSE131705	54	2020/04/10	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	54.0			0.0	54.0	54.0
+GSE132732	6	2019/12/16	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	0.0	3.0			3.0	6.0	6.0
+GSE135170	20	2021/01/27	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	12.0	0.0	8.0	IBD	colon	0.0	14.0	6.0
+GSE135223	18	2020/06/01	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	5.0	CD;UC		13.0	0.0	18.0
+GSE135751	366	2021/02/03	Expression profiling by high throughput sequencing | Genome binding/occupancy profiling by high throughput sequencing | Methylation profiling by high throughput sequencing	chromatin	chromatin	other	not_parsed (n_samples>60)										
+GSE137344	195	2020/04/15	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE138009	890	2020/08/01	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE138364	22	2019/10/04	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	0.0			22.0	0.0	22.0
+GSE139179	158	2020/10/22	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE149219	6	2021/02/13	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	0.0			6.0	0.0	6.0
+GSE150961	418	2021/05/20	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE153715	24	2020/07/03	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	12.0	CD	ileum	12.0	24.0	12.0
+GSE153974	96	2021/05/12	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE156044	8	2020/08/28	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	4.0	CD	ileum	4.0	0.0	4.0
+GSE156453	33	2021/04/30	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	0.0	26.0	0.0	UC	colon;ileum;rectum	7.0	0.0	8.0
+GSE157026	22	2020/08/28	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	7.0	0.0	11.0	CD;IBD;UC	ileum	4.0	12.0	18.0
+GSE158952	119	2020/10/08	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE159007	34	2021/05/03	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	17.0	8.0	0.0		colon	9.0	34.0	0.0
+GSE159008	44	2021/05/03	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	22.0	9.0	0.0	UC	colon	13.0	40.0	0.0
+GSE159010	78	2021/05/03	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA	not_parsed (n_samples>60)										
+GSE159034	24	2021/01/14	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other		0.0	0.0	24.0	0.0	0.0	IBD		0.0	0.0	24.0
+GSE160310	158	2021/04/19	Expression profiling by high throughput sequencing | Non-coding RNA profiling by high throughput sequencing	ncRNA	ncRNA	mRNA	not_parsed (n_samples>60)										
+GSE171244	20	2021/04/08	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	10.0	10.0	0.0	CD	ileum	0.0	20.0	0.0
+GSE171770	176	2021/04/10	Expression profiling by high throughput sequencing	mRNA	bulk-seq	other	not_parsed (n_samples>60)										
+GSE173294	24	2021/04/27	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	12.0	CD	ileum	12.0	21.0	14.0
+GSE173973	8	2021/05/07	Expression profiling by high throughput sequencing	mRNA	bulk-seq	mRNA		0.0	0.0	0.0	0.0	0.0	CD	colon	8.0	0.0	0.0
